@@ -1,0 +1,22 @@
+{
+  "zh-CN": [
+    {
+      "name": "基础组件",
+      "groups": [
+        {
+          "groupName": "Basic",
+          "list": [
+            {
+              "path": "/alert",
+              "title": "Alert 警告"
+            },
+            {
+              "path": "/button",
+              "title": "Button 按钮"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

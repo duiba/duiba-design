@@ -1,5 +1,5 @@
-import Tip from './components/Tip';
+import Alert from './components/Alert';
 
 module.exports = {
-  Tip
+  Alert
 };

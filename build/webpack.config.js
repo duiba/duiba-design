@@ -13,7 +13,10 @@ module.exports = {
   resolve: {
     root: path.resolve('./'),
     extensions: ['', '.js', '.vue'],
-    fallback: [path.join(__dirname, '../node_modules')]
+    fallback: [path.join(__dirname, '../node_modules')],
+    alias: {
+      'components': path.resolve(__dirname, '../src/components')
+    }
   },
   module: {
     preLoaders: [
@@ -49,6 +52,14 @@ module.exports = {
       {
         test: /\.less$/, 
         loader: 'style-loader!css-loader!less-loader'
+      },
+      {
+        test: /\.md/,
+        loader: 'vue-markdown-loader'
+      },
+      {
+        test: /\.json$/,
+        loader: 'json'
       }
     ]
   },
