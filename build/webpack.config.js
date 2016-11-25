@@ -1,16 +1,19 @@
 var webpack = require('webpack')
 var path = require('path')
-var utils = require('./utils')
 
 module.exports = {
-  entry: './docs/index.js',
+  entry: {
+    'build-docs': './docs/index.js'
+  },
   output: {
     path: './docs/build',
-    publicPath: './docs/build',
-    filename: 'build-docs.js'
+    publicPath: 'docs/build',
+    filename: '[name].js'
   },
   resolve: {
-    root: path.resolve('./')
+    root: path.resolve('./'),
+    extensions: ['', '.js', '.vue'],
+    fallback: [path.join(__dirname, '../node_modules')]
   },
   module: {
     preLoaders: [
@@ -34,8 +37,20 @@ module.exports = {
         test: /\.js$/,
         exclude: /node_modules|vue\/src|vue-router\/|vue-loader\/|vue-hot-reload-api\//,
         loader: 'babel'
+      },
+      {
+        test: /\.css$/,
+        loader: 'style-loader!css-loader?root=./docs/'
+      },
+      {
+        test: /\.scss$/,
+        loader: 'style!css!sass'
+      },
+      {
+        test: /\.less$/, 
+        loader: 'style-loader!css-loader!less-loader'
       }
-    ].concat(utils.styleLoaders())
+    ]
   },
   babel: {
     presets: ['es2015'],
@@ -44,12 +59,8 @@ module.exports = {
   eslint: {
     formatter: require('eslint-friendly-formatter')
   },
-  vue: {
-    loaders: utils.cssLoaders()
-  },
   devtool: 'source-map'
 };
-
 
 if (process.env.NODE_ENV === 'production') {
   delete module.exports.devtool;

@@ -1,7 +1,7 @@
 var config = require('./webpack.config.js')
 
 config.entry = {
-  'duiba-design': './src/index.js',
+  'duiba-design': './src/index.js'
 }
 
 config.output = {
@@ -9,6 +9,5 @@ config.output = {
   library: 'DuibaDesign',
   libraryTarget: 'umd'
 }
-
 
 module.exports = config

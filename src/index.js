@@ -1,4 +1,4 @@
-import Tip from './components/Tip.vue';
+import Tip from './components/Tip';
 
 module.exports = {
   Tip

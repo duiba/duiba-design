@@ -1,14 +1,4 @@
-(function webpackUniversalModuleDefinition(root, factory) {
-	if(typeof exports === 'object' && typeof module === 'object')
-		module.exports = factory();
-	else if(typeof define === 'function' && define.amd)
-		define([], factory);
-	else if(typeof exports === 'object')
-		exports["DuibaDesign"] = factory();
-	else
-		root["DuibaDesign"] = factory();
-})(this, function() {
-return /******/ (function(modules) { // webpackBootstrap
+/******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
 /******/
@@ -44,7 +34,7 @@ return /******/ (function(modules) { // webpackBootstrap
 /******/ 	__webpack_require__.c = installedModules;
 /******/
 /******/ 	// __webpack_public_path__
-/******/ 	__webpack_require__.p = "";
+/******/ 	__webpack_require__.p = "docs/build";
 /******/
 /******/ 	// Load entry module and return exports
 /******/ 	return __webpack_require__(0);
@@ -56,27 +46,89 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	'use strict';
 	
-	var _Tip = __webpack_require__(3);
+	var _bodyDocs = __webpack_require__(7);
+	
+	var _bodyDocs2 = _interopRequireDefault(_bodyDocs);
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+	
+	new Vue({
+	  el: 'body',
+	
+	  components: {
+	    bodyDocs: _bodyDocs2.default
+	  }
+	}); /* global Vue */
+	// import './assets/docs.less';
+
+/***/ },
+/* 1 */,
+/* 2 */,
+/* 3 */,
+/* 4 */,
+/* 5 */,
+/* 6 */,
+/* 7 */
+/***/ function(module, exports, __webpack_require__) {
+
+	module.exports = __webpack_require__(8)
+	
+	if (module.exports.__esModule) module.exports = module.exports.default
+	;(typeof module.exports === "function" ? module.exports.options : module.exports).template = __webpack_require__(20)
+	if (false) {
+	(function () {
+	var hotAPI = require("vue-hot-reload-api")
+	hotAPI.install(require("vue"))
+	if (!hotAPI.compatible) return
+	var id = "-!babel!./../node_modules/.npminstall/vue-loader/7.1.7/vue-loader/lib/selector.js?type=script&index=0!./../node_modules/.npminstall/eslint-loader/1.6.1/eslint-loader/index.js!./bodyDocs.vue"
+	hotAPI.createRecord(id, module.exports)
+	module.hot.accept(["-!babel!./../node_modules/.npminstall/vue-loader/7.1.7/vue-loader/lib/selector.js?type=script&index=0!./../node_modules/.npminstall/eslint-loader/1.6.1/eslint-loader/index.js!./bodyDocs.vue","-!vue-html-loader!./../node_modules/.npminstall/vue-loader/7.1.7/vue-loader/lib/selector.js?type=template&index=0!./../node_modules/.npminstall/eslint-loader/1.6.1/eslint-loader/index.js!./bodyDocs.vue"], function () {
+	var newOptions = require("-!babel!./../node_modules/.npminstall/vue-loader/7.1.7/vue-loader/lib/selector.js?type=script&index=0!./../node_modules/.npminstall/eslint-loader/1.6.1/eslint-loader/index.js!./bodyDocs.vue")
+	if (newOptions && newOptions.__esModule) newOptions = newOptions.default
+	var newTemplate = require("-!vue-html-loader!./../node_modules/.npminstall/vue-loader/7.1.7/vue-loader/lib/selector.js?type=template&index=0!./../node_modules/.npminstall/eslint-loader/1.6.1/eslint-loader/index.js!./bodyDocs.vue")
+	hotAPI.update(id, newOptions, newTemplate)
+	})
+	})()
+	}
+
+/***/ },
+/* 8 */
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+	
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	
+	var _Tip = __webpack_require__(9);
 	
 	var _Tip2 = _interopRequireDefault(_Tip);
 	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
-	module.exports = {
-	  Tip: _Tip2.default
+	exports.default = {
+	  components: {
+	    Tip: _Tip2.default
+	  }
 	};
+	// </script>
+	// <template>
+	//   <div id="container">
+	//     <tip></tip>
+	//   </div>
+	// </template>
+	
+	// <script>
 
 /***/ },
-/* 1 */,
-/* 2 */,
-/* 3 */
+/* 9 */
 /***/ function(module, exports, __webpack_require__) {
 
-	__webpack_require__(4)
-	module.exports = __webpack_require__(8)
+	module.exports = __webpack_require__(10)
 	
 	if (module.exports.__esModule) module.exports = module.exports.default
-	;(typeof module.exports === "function" ? module.exports.options : module.exports).template = __webpack_require__(10)
+	;(typeof module.exports === "function" ? module.exports.options : module.exports).template = __webpack_require__(19)
 	if (false) {
 	(function () {
 	var hotAPI = require("vue-hot-reload-api")
@@ -94,16 +146,76 @@ return /******/ (function(modules) { // webpackBootstrap
 	}
 
 /***/ },
-/* 4 */
+/* 10 */
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+	
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	
+	var _Tip = __webpack_require__(11);
+	
+	var _Tip2 = _interopRequireDefault(_Tip);
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+	
+	exports.default = {
+	  components: {
+	    Tip: _Tip2.default
+	  }
+	};
+	// </script>
+	// <template>
+	//   <div class="component-tip">
+	//     <tip>
+	//       This is a tip.
+	//     </tip>
+	//     <tip :dismissable="false">
+	//       This is a tip can not close.
+	//     </tip>
+	//   </div>
+	// </template>
+	
+	// <script>
+
+/***/ },
+/* 11 */
+/***/ function(module, exports, __webpack_require__) {
+
+	__webpack_require__(12)
+	module.exports = __webpack_require__(16)
+	
+	if (module.exports.__esModule) module.exports = module.exports.default
+	;(typeof module.exports === "function" ? module.exports.options : module.exports).template = __webpack_require__(18)
+	if (false) {
+	(function () {
+	var hotAPI = require("vue-hot-reload-api")
+	hotAPI.install(require("vue"))
+	if (!hotAPI.compatible) return
+	var id = "-!babel!./../../node_modules/.npminstall/vue-loader/7.1.7/vue-loader/lib/selector.js?type=script&index=0!./../../node_modules/.npminstall/eslint-loader/1.6.1/eslint-loader/index.js!./Tip.vue"
+	hotAPI.createRecord(id, module.exports)
+	module.hot.accept(["-!babel!./../../node_modules/.npminstall/vue-loader/7.1.7/vue-loader/lib/selector.js?type=script&index=0!./../../node_modules/.npminstall/eslint-loader/1.6.1/eslint-loader/index.js!./Tip.vue","-!vue-html-loader!./../../node_modules/.npminstall/vue-loader/7.1.7/vue-loader/lib/selector.js?type=template&index=0!./../../node_modules/.npminstall/eslint-loader/1.6.1/eslint-loader/index.js!./Tip.vue"], function () {
+	var newOptions = require("-!babel!./../../node_modules/.npminstall/vue-loader/7.1.7/vue-loader/lib/selector.js?type=script&index=0!./../../node_modules/.npminstall/eslint-loader/1.6.1/eslint-loader/index.js!./Tip.vue")
+	if (newOptions && newOptions.__esModule) newOptions = newOptions.default
+	var newTemplate = require("-!vue-html-loader!./../../node_modules/.npminstall/vue-loader/7.1.7/vue-loader/lib/selector.js?type=template&index=0!./../../node_modules/.npminstall/eslint-loader/1.6.1/eslint-loader/index.js!./Tip.vue")
+	hotAPI.update(id, newOptions, newTemplate)
+	})
+	})()
+	}
+
+/***/ },
+/* 12 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 	
 	// load the styles
-	var content = __webpack_require__(5);
+	var content = __webpack_require__(13);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
-	var update = __webpack_require__(7)(content, {});
+	var update = __webpack_require__(15)(content, {});
 	if(content.locals) module.exports = content.locals;
 	// Hot Module Replacement
 	if(false) {
@@ -120,10 +232,10 @@ return /******/ (function(modules) { // webpackBootstrap
 	}
 
 /***/ },
-/* 5 */
+/* 13 */
 /***/ function(module, exports, __webpack_require__) {
 
-	exports = module.exports = __webpack_require__(6)();
+	exports = module.exports = __webpack_require__(14)();
 	// imports
 	
 	
@@ -134,7 +246,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 
 /***/ },
-/* 6 */
+/* 14 */
 /***/ function(module, exports) {
 
 	/*
@@ -190,7 +302,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 
 /***/ },
-/* 7 */
+/* 15 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/*
@@ -442,7 +554,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 
 /***/ },
-/* 8 */
+/* 16 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -451,7 +563,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  value: true
 	});
 	
-	var _coerceBoolean = __webpack_require__(9);
+	var _coerceBoolean = __webpack_require__(17);
 	
 	var _coerceBoolean2 = _interopRequireDefault(_coerceBoolean);
 	
@@ -517,7 +629,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	// <script>
 
 /***/ },
-/* 9 */
+/* 17 */
 /***/ function(module, exports) {
 
 	'use strict';
@@ -533,13 +645,23 @@ return /******/ (function(modules) { // webpackBootstrap
 	};
 
 /***/ },
-/* 10 */
+/* 18 */
 /***/ function(module, exports) {
 
 	module.exports = "<div v-show=\"show\" class=\"tip\">\n    <i v-show=\"dismissable\" class=\"iconhandle close\" @click=\"close\">&#xe609;</i>\n    <slot></slot>\n  </div>";
 
+/***/ },
+/* 19 */
+/***/ function(module, exports) {
+
+	module.exports = "<div class=\"component-tip\">\n    <tip>\n      This is a tip.\n    </tip>\n    <tip :dismissable=\"false\">\n      This is a tip can not close.\n    </tip>\n  </div>";
+
+/***/ },
+/* 20 */
+/***/ function(module, exports) {
+
+	module.exports = "<div id=\"container\">\n    <tip></tip>\n  </div>";
+
 /***/ }
-/******/ ])
-});
-;
-//# sourceMappingURL=duiba-design.js.map
+/******/ ]);
+//# sourceMappingURL=build-docs.js.map
