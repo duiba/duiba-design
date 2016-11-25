@@ -8,7 +8,8 @@
 
 ::: demo Alert 组件提供四种主题，由`type`属性指定，默认值为`info`。
 ```html
-<template>
-</template>
+<alert>
+  这是一些提示信息
+</alert>
 ```
 :::

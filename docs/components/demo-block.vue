@@ -126,7 +126,8 @@
     }
 
     .highlight {
-      width: 100%;
+      width: 60%;
+      border-right: solid 1px #eaeefb;
 
       pre {
         margin: 0;

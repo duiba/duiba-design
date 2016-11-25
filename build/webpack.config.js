@@ -106,14 +106,11 @@ module.exports = {
             var html = convert(striptags.strip(content, ['script', 'style']));
             var script = striptags.fetch(content, 'script');
             var style = striptags.fetch(content, 'style');
-            var jsfiddle = { html: html, script: script, style: style };
             var descriptionHTML = description
               ? md.render(description)
               : '';
 
-            jsfiddle = md.utils.escapeHtml(JSON.stringify(jsfiddle));
-
-            return `<demo-block class="demo-box" :jsfiddle="${jsfiddle}">
+            return `<demo-block class="demo-box">
                       <div class="source" slot="source">${html}</div>
                       ${descriptionHTML}
                       <div class="highlight" slot="highlight">`;
