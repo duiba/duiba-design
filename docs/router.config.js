@@ -22,7 +22,7 @@ const registerRoute = (navConfig) => {
   function addRoute(page) {
     route['/component' + page.path] = {
       component: function(resolve) {
-        require([`./examples${page.path}.vue`], resolve);
+        require([`./examples${page.path}.md`], resolve);
       }
     };
   }

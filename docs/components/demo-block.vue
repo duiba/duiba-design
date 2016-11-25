@@ -6,8 +6,10 @@
     @mouseleave="hovering = false">
     <slot name="source"></slot>
     <div class="meta">
+      <div class="description">
+        <slot></slot>
+      </div>
       <slot name="highlight">
-        
       </slot>
     </div>
     <div class="demo-block-control" @click="isExpanded = !isExpanded">
@@ -40,7 +42,10 @@
       },
 
       codeAreaHeight() {
-        return this.$el.getElementsByClassName('highlight')[0] && this.$el.getElementsByClassName('highlight')[0].clientHeight;
+        if (this.$el.getElementsByClassName('description').length > 0) {
+          return Math.max(this.$el.getElementsByClassName('description')[0].clientHeight, this.$el.getElementsByClassName('highlight')[0].clientHeight);
+        }
+        return this.$el.getElementsByClassName('highlight')[0].clientHeight;
       }
     },
 
@@ -48,6 +53,16 @@
       isExpanded(val) {
         this.codeArea.style.height = val ? `${this.codeAreaHeight + 1}px` : '0';
       }
+    },
+
+    ready() {
+      this.$nextTick(() => {
+        let highlight = this.$el.getElementsByClassName('highlight')[0];
+        if (this.$el.getElementsByClassName('description').length === 0) {
+          highlight.style.width = '100%';
+          highlight.borderRight = 'none';
+        }
+      });
     }
   };
 </script>
@@ -81,6 +96,33 @@
       overflow: hidden;
       height: 0;
       transition: height .2s;
+    }
+
+    .description {
+      padding: 18px 24px;
+      width: 40%;
+      box-sizing: border-box;
+      border-left: solid 1px #eaeefb;
+      float: right;
+      font-size: 14px;
+      line-height: 1.8;
+      color: #5e6d82;
+      word-break: break-word;
+
+      p {
+        margin: 0 0 12px;
+      }
+
+      code {
+        color: #5e6d82;
+        background-color: #e6effb;
+        margin: 0 4px;
+        transform: translateY(-2px);
+        display: inline-block;
+        padding: 1px 5px;
+        font-size: 12px;
+        border-radius: 3px;
+      }
     }
 
     .highlight {
