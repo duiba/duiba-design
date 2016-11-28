@@ -6,20 +6,16 @@
 </template>
 
 <script>
-import coerceBoolean from '../utils/coerceBoolean';
-
 export default {
   name: 'd-alert',
 
   props: {
     closable: {
       type: Boolean,
-      coerce: coerceBoolean,
       default: true
     },
     show: {
       type: Boolean,
-      coerce: coerceBoolean,
       default: true,
       twoWay: true
     },
