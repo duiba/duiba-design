@@ -21,43 +21,6 @@ export default {
 </script>
 
 <style lang="less">
-html, body {
-  margin: 0;
-  padding: 0;
-  height: 100%;
-}
-
-body {
-  font-family: 'Helvetica Neue',Helvetica,'PingFang SC','Hiragino Sans GB','Microsoft YaHei',SimSun,sans-serif;
-  overflow: auto;
-  font-weight: 400;
-  -webkit-font-smoothing: antialiased;
-}
-
-a {
-  color: #4078c0;
-  text-decoration: none;
-}
-
-button, input, select, textarea {
-  font-family: inherit;
-  font-size: inherit;
-  line-height: inherit;
-  color: inherit;
-}
-
-.hljs {
-  line-height: 1.8;
-  font-family: Menlo, Monaco, Consolas, Courier, monospace;
-  font-size: 12px;
-  padding: 18px 24px;
-  background-color: #f9fafc;
-  border: solid 1px #eaeefb;
-  margin-bottom: 25px;
-  border-radius: 4px;
-  -webkit-font-smoothing: auto;
-}
-
 .page-container {
   width: 1140px;
   padding: 0 30px;
@@ -101,5 +64,31 @@ button, input, select, textarea {
 .page-content {
   width: 75%;
   float: left;
+}
+
+.table {
+  border-collapse: collapse;
+  width: 100%;
+  background-color: #fff;
+  color: #5e6d82;
+  font-size: 14px;
+  margin-bottom: 45px;
+
+  th:first-child {
+    padding-left: 10px;
+  }
+
+  th {
+    text-align: left;
+    border-top: 1px solid #eaeefb;
+    border-bottom: 1px solid #eaeefb;
+    background-color: #eff2f7;
+    padding: 10px;
+  }
+
+  td {
+    border-bottom: 1px solid #eaeefb;
+    padding: 10px;
+  }
 }
 </style>

@@ -1,6 +1,6 @@
 <template>
   <div v-show="show" class="tip">
-    <i v-show="dismissable" class="iconhandle close" @click="close">&#xe609;</i>
+    <i v-show="closable" class="iconhandle close" @click="close">&#xe609;</i>
     <slot></slot>
   </div>
 </template>
@@ -9,8 +9,10 @@
 import coerceBoolean from '../utils/coerceBoolean';
 
 export default {
+  name: 'd-alert',
+
   props: {
-    dismissable: {
+    closable: {
       type: Boolean,
       coerce: coerceBoolean,
       default: true
@@ -20,6 +22,10 @@ export default {
       coerce: coerceBoolean,
       default: true,
       twoWay: true
+    },
+    type: {
+      type: String,
+      default: 'info'
     }
   },
   methods: {

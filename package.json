@@ -51,6 +51,7 @@
     "sass-loader": "^3.2.3",
     "style-loader": "^0.13.1",
     "transliteration": "^1.1.11",
+    "url-loader": "^0.5.7",
     "vue-hot-reload-api": "^1.3.3",
     "vue-html-loader": "^1.2.3",
     "vue-loader": "8.0.0",
