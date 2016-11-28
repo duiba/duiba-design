@@ -50,36 +50,34 @@ export default {
   cursor: pointer;
 }
 
-// default btn color
-@btn-default-color:            #444;
-@btn-default-bg:               #fff;
-@btn-default-border:           #ccc;
-@btn-default-border-hover:     #888;
 .d-button--default {
-  background: @btn-default-bg;
-  color: @btn-default-color;
-  border: 1px solid @btn-default-border;
+  background: #fff;
+  color: #444;
+  border: 1px solid #ccc;
 
   &:hover {
-    border-color: @btn-default-border-hover;
+    border-color: #888;
   }
 }
 
-// greent btn color
-@btn-green-color:              #fff;
-@btn-green-bg:                 #29b6b0;
-@btn-green-border:             #29b6b0;
-@btn-green-bg-hover:           #15c8c0;
-@btn-green-border-hover:       #15c8c0;
-
 .d-button--primary {
-  background: @btn-green-bg;
-  border: 1px solid @btn-green-border;
-  color: @btn-green-color;
+  background: #29b6b0;
+  border: 1px solid #29b6b0;
+  color: #fff;
 
   &:hover {
-    background: @btn-green-bg-hover;
-    border: 1px solid @btn-green-border-hover;
+    background: #15c8c0;
+    border: 1px solid #15c8c0;
+  }
+}
+
+.d-button--text {
+  background: transparent;
+  border: 0;
+  color: #29b6b0;
+
+  &:hover {
+    color: #15c8c0;
   }
 }
 </style>
