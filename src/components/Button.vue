@@ -1,6 +1,5 @@
 <template>
   <button :disabled="disabled" class="d-button"
-    @click="handleClick"
     :class="[
       type ? 'd-button--' + type : '',
       size ? 'd-button--' + size : '',
@@ -29,12 +28,6 @@ export default {
       default: ''
     },
     disabled: Boolean
-  },
-
-  methods: {
-    handleClick(evt) {
-      // this.$emit('click', evt);
-    }
   }
 };
 </script>

@@ -13,6 +13,10 @@
             {
               "path": "/button",
               "title": "Button 按钮"
+            },
+            {
+              "path": "/modal",
+              "title": "Modal 弹框"
             }
           ]
         }

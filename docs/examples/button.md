@@ -1,3 +1,13 @@
+<script>
+export default {
+  methods: {
+    handleClick: function(evt) {
+      alert(evt);
+    }
+  }
+};
+</script>
+
 ## Button 按钮
 
 常用的操作按钮。
@@ -25,6 +35,7 @@
 <d-button :disabled="true">默认按钮</d-button>
 <d-button type="primary" :disabled="true">主要按钮</d-button>
 <d-button type="text" :disabled="true">文字按钮</d-button>
+<d-button icon="&#xe61d;" :disabled="true">批量删除</d-button>
 ```
 :::
 
@@ -63,7 +74,17 @@ Button组件提供除了默认值以外，还有一种大尺寸按钮，可以�
 ```
 :::
 
+### 按钮点击回调
+
+:::demo 可以设置一个按钮点击的回调函数。
+
+```html
+<d-button @click="handleClick">普通按钮</d-button>
+```
+:::
+
 ### Attributes
+
 | 参数      | 说明    | 类型      | 可选值       | 默认值   |
 |---------- |-------- |---------- |-------------  |-------- |
 | size     | 尺寸   | string  |   large            |    —     |

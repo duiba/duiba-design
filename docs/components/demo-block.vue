@@ -81,6 +81,10 @@
       font-family: Menlo, Monaco, Consolas, Courier, monospace;
     }
 
+    p {
+      margin: 0;
+    }
+
     .demo-button {
       float: right;
     }
