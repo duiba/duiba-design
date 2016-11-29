@@ -2,7 +2,8 @@
 export default {
   data() {
     return {
-      modal1Show: false
+      modal1Show: false,
+      modal2Show: false
     };
   }
 };
@@ -17,9 +18,31 @@ export default {
 
 :::demo `modal-header`、`modal-body`和`modal-footer`都可以利用内容分发去覆盖，当然你也可以使用默认的。
 ```html
-<d-button type="text" @click="modal1Show = true">文字按钮</d-button>
+<d-button type="text" @click="modal1Show = true">点击打开弹框</d-button>
 
-<d-modal title="modal标题" description="modal说明" :show.sync="modal1Show" width="400"></d-modal>
+<d-modal title="modal标题" description="modal说明" :show.sync="modal1Show" width="400">
+</d-modal>
+```
+:::
+
+### 二次封装
+
+:::demo 利用内容分发覆盖`modal-header`、`modal-body`和`modal-footer`。
+```html
+<d-button type="text" @click="modal2Show = true">点击打开弹框</d-button>
+
+<d-modal title="modal标题" :show.sync="modal2Show" width="400">
+  <template slot="modal-body">
+    <div class="modal-body">
+      <p>我是内容分发的内容。</p>
+    </div>
+  </template>
+  <template slot="modal-footer">
+    <div class="modal-footer">
+      <d-button type="primary" @click="modal2Show = false">确定</d-button>
+    </div>
+  </template>
+</d-modal>
 ```
 :::
 

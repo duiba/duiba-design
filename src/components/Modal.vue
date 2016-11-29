@@ -1,13 +1,14 @@
 <template>
   <div role="dialog"
     v-bind:class="{
-    'modal': true,
-    'fade': effect === 'fade'
+      'modal': true,
+      'fade': effect === 'fade',
+      'message-box': type === 'message',
     }"
   >
     <div class="modal-dialog" role="document" v-bind:style="{width: optionalWidth}">
       <div class="modal-content">
-        <slot name="modal-header">
+        <slot name="modal-header" v-if="type !== 'message'">
           <div class="modal-header">
             <i class="iconhandle close" @click="close">&#xe609;</i>
             <h4 class="modal-title">
@@ -19,10 +20,22 @@
         </slot>
         <slot name="modal-body">
           <div class="modal-body">
-            <p>{{{description}}}</p>
+            <template v-if="type === 'message'">
+              <p>
+                <i class="iconhandle success" v-if="messageType === 'success'">&#xe629;</i>
+                <i class="iconhandle error" v-if="messageType === 'error'">&#xe605;</i>
+                {{title}}
+              </p>
+              <p class="desc" v-if="messageDesc">
+                {{messageDesc}}
+              </p>
+            </template>
+            <template v-else>
+              <p>{{{description}}}</p>
+            </template>
           </div>
         </slot>
-        <slot name="modal-footer">
+        <slot name="modal-footer" v-if="type !== 'message'">
           <div class="modal-footer">
             <d-button type="primary" size="large" @click="onOk">{{ okText }}</d-button>
             <d-button size="large" @click="close">{{ cancelText }}</d-button>
@@ -59,6 +72,18 @@ export default {
       default: ''
     },
     description: {
+      type: String,
+      default: ''
+    },
+    type: {
+      type: String,
+      default: ''
+    },
+    messageType: {
+      type: String,
+      default: 'success'
+    },
+    messageDesc: {
       type: String,
       default: ''
     },
@@ -206,6 +231,45 @@ export default {
 
     .modal-dialog {
       transform: translate(0, 0);
+    }
+  }
+
+  &.message-box {
+    .modal-dialog {
+      width: auto !important;
+      max-width: 500px;
+      position: absolute;
+      left: 50%;
+    }
+
+    .modal-content {
+      border-top: 0;
+      box-shadow: none;
+    }
+
+    .iconhandle {
+      margin-right: 5px;
+    }
+
+    .success {
+      color: #59dfa3;
+    }
+
+    .error {
+      color: #f9431d;
+    }
+
+    p {
+      color: #444;
+      font-size: 14px;
+      padding: 0 5px 0 3px;
+      text-align: center;
+      margin: 5px 0;
+
+      &.desc {
+        color: #888;
+        font-size: 12px;
+      }
     }
   }
 }

@@ -14,7 +14,9 @@ Vue.component('side-nav', SideNav);
 // init components
 for (let i in DuibaDesign) {
   let module = DuibaDesign[i];
-  Vue.component(module.name, module);
+  if (!module.ignoreInit) {
+    Vue.component(module.name, module);
+  }
 }
 
 const AppContainer = Vue.extend(App);
