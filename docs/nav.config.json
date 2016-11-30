@@ -51,10 +51,6 @@
             {
               "path": "/tabs",
               "title": "Tabs 标签页"
-            },
-            {
-              "path": "/dropdown",
-              "title": "Dropdown 下拉菜单"
             }
           ]
         },

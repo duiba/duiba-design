@@ -29,11 +29,12 @@ export default {
   h2 {
     font-size: 28px;
     color: #1f2d3d;
-    margin: 0;
+    margin: 20px 0;
     line-height: 40px;
   }
   h3 {
     font-size: 22px;
+    margin: 23px 0;
   }
   h2, h3, h4, h5 {
     font-weight: normal;

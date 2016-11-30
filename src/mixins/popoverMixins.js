@@ -1,5 +1,4 @@
 import EventListener from '../utils/EventListener.js';
-import coerceBoolean from '../utils/coerceBoolean.js';
 
 export default {
   props: {
@@ -19,7 +18,6 @@ export default {
     },
     header: {
       type: Boolean,
-      coerce: coerceBoolean,
       default: true
     },
     placement: {
