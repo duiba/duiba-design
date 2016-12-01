@@ -38,6 +38,10 @@
             {
               "path": "/checkbox",
               "title": "Checkbox 多选框"
+            },
+            {
+              "path": "/datepicker",
+              "title": "DatePicker 日期选择器"
             }
           ]
         },

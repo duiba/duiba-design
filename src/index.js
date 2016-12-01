@@ -9,6 +9,10 @@ import Tabs from './components/Tabs';
 import Tab from './components/Tab';
 import Breadcrumb from './components/Breadcrumb';
 import BreadcrumbItem from './components/BreadcrumbItem';
+import Checkbox from './components/Checkbox';
+import CheckboxGroup from './components/CheckboxGroup';
+import Datepicker from './components/Datepicker';
+import Daterangepicker from './components/Daterangepicker';
 
 module.exports = {
   Alert,
@@ -21,5 +25,9 @@ module.exports = {
   Tabs,
   Tab,
   Breadcrumb,
-  BreadcrumbItem
+  BreadcrumbItem,
+  Checkbox,
+  CheckboxGroup,
+  Datepicker,
+  Daterangepicker
 };
