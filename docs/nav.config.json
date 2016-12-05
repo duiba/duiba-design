@@ -46,6 +46,14 @@
             {
               "path": "/select",
               "title": "Select 下拉框"
+            },
+            {
+              "path": "/fileupload",
+              "title": "FileUpload 文件上传"
+            },
+            {
+              "path": "/imageupload",
+              "title": "ImageUpload 图片上传"
             }
           ]
         },

@@ -14,6 +14,9 @@ import CheckboxGroup from './components/CheckboxGroup';
 import Datepicker from './components/Datepicker';
 import Daterangepicker from './components/Daterangepicker';
 import Select from './components/Select';
+import FileUpload from './components/FileUpload';
+import ImageUpload from './components/ImageUpload';
+import MultiImageUpload from './components/MultiImageUpload';
 
 module.exports = {
   Alert,
@@ -31,5 +34,8 @@ module.exports = {
   CheckboxGroup,
   Datepicker,
   Daterangepicker,
-  Select
+  Select,
+  FileUpload,
+  ImageUpload,
+  MultiImageUpload
 };
