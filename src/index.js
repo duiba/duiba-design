@@ -13,6 +13,7 @@ import Checkbox from './components/Checkbox';
 import CheckboxGroup from './components/CheckboxGroup';
 import Datepicker from './components/Datepicker';
 import Daterangepicker from './components/Daterangepicker';
+import Select from './components/Select';
 
 module.exports = {
   Alert,
@@ -29,5 +30,6 @@ module.exports = {
   Checkbox,
   CheckboxGroup,
   Datepicker,
-  Daterangepicker
+  Daterangepicker,
+  Select
 };
