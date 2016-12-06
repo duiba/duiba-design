@@ -17,6 +17,7 @@ import Select from './components/Select';
 import FileUpload from './components/FileUpload';
 import ImageUpload from './components/ImageUpload';
 import MultiImageUpload from './components/MultiImageUpload';
+import RichEditor from './components/RichEditor';
 
 module.exports = {
   Alert,
@@ -37,5 +38,6 @@ module.exports = {
   Select,
   FileUpload,
   ImageUpload,
-  MultiImageUpload
+  MultiImageUpload,
+  RichEditor
 };

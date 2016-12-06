@@ -7,6 +7,8 @@
 <script>
 /* eslint-disable */
 export default {
+  name: 'd-fileupload',
+
   props: {
     title: {
       type: String,

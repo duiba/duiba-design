@@ -89,8 +89,7 @@ export default {
     },
     show: {
       require: true,
-      type: Boolean,
-      twoWay: true
+      type: Boolean
     },
     width: {
       default: 300

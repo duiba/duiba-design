@@ -36,7 +36,7 @@ export default {
 
 :::demo 允许上传单张图片。
 ```html
-<d-imageupload upload-url="/upload/image" :value.sync="imageUrl" :width="640">
+<d-imageupload upload-url="/upload/image" :value.sync="imageUrl" :width="100">
   <p slot="upload-tip">
     尺寸为100*100像素，格式为jpg、png，图片大小不可大于1M。
   </p>
