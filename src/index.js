@@ -12,6 +12,7 @@ import BreadcrumbItem from './components/BreadcrumbItem';
 import Checkbox from './components/Checkbox';
 import CheckboxGroup from './components/CheckboxGroup';
 import Datepicker from './components/Datepicker';
+import Timepicker from './components/Timepicker';
 import Daterangepicker from './components/Daterangepicker';
 import Select from './components/Select';
 import FileUpload from './components/FileUpload';
@@ -34,6 +35,7 @@ module.exports = {
   Checkbox,
   CheckboxGroup,
   Datepicker,
+  Timepicker,
   Daterangepicker,
   Select,
   FileUpload,

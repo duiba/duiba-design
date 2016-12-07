@@ -44,6 +44,10 @@
               "title": "DatePicker 日期选择器"
             },
             {
+              "path": "/timepicker",
+              "title": "TimePicker 时间选择器"
+            },
+            {
               "path": "/select",
               "title": "Select 下拉框"
             },
