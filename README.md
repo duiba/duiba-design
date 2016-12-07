@@ -33,3 +33,9 @@ npm run lint
 ```
 npm run docs
 ```
+
+文档中心js打包：
+
+```
+npm run builddocs
+```
