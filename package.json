@@ -1,12 +1,8 @@
 {
   "name": "duiba-design",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "vue components in duiba",
   "main": "dist/duiba-design.js",
-  "repository": {
-    "type": "git",
-    "url": "git@gitlab2.dui88.com:frontend/duiba-design.git"
-  },
   "directories": {
     "src": "src/"
   },
