@@ -36,6 +36,10 @@ export default {
     max: {
       type: Number,
       default: 5
+    },
+    uploadUrl: {
+      type: String,
+      default: '/upload/image'
     }
   },
 
@@ -103,7 +107,7 @@ export default {
     position: absolute;
     top: 0;
     left: 0;
-    width: 214px;
+    min-width: 100px;
     height: 100px;
 
     input {
