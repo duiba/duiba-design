@@ -1,6 +1,6 @@
 {
   "name": "duiba-design",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "vue components in duiba",
   "main": "dist/duiba-design.js",
   "directories": {

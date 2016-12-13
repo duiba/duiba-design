@@ -181,7 +181,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  var hotAPI = require("vue-hot-reload-api")
 	  hotAPI.install(require("vue"), true)
 	  if (!hotAPI.compatible) return
-	  var id = "/Users/cookfront/Sites/work/duiba-design/src/components/Alert.vue"
+	  var id = "/Users/cookfront/Sites/workspace/study/duiba-design/src/components/Alert.vue"
 	  if (!module.hot.data) {
 	    hotAPI.createRecord(id, module.exports)
 	  } else {
@@ -205,8 +205,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	if(false) {
 		// When the styles change, update the <style> tags
 		if(!content.locals) {
-			module.hot.accept("!!./../../node_modules/.npminstall/css-loader/0.21.0/css-loader/index.js?sourceMap!./../../node_modules/.npminstall/vue-loader/8.0.0/vue-loader/lib/style-rewriter.js?id=_v-2f3c1674&file=Alert.vue!./../../node_modules/.npminstall/less-loader/2.2.3/less-loader/index.js!./../../node_modules/.npminstall/vue-loader/8.0.0/vue-loader/lib/selector.js?type=style&index=0!./../../node_modules/.npminstall/eslint-loader/1.6.1/eslint-loader/index.js!./../../node_modules/.npminstall/eslint-loader/1.6.1/eslint-loader/index.js!./Alert.vue", function() {
-				var newContent = require("!!./../../node_modules/.npminstall/css-loader/0.21.0/css-loader/index.js?sourceMap!./../../node_modules/.npminstall/vue-loader/8.0.0/vue-loader/lib/style-rewriter.js?id=_v-2f3c1674&file=Alert.vue!./../../node_modules/.npminstall/less-loader/2.2.3/less-loader/index.js!./../../node_modules/.npminstall/vue-loader/8.0.0/vue-loader/lib/selector.js?type=style&index=0!./../../node_modules/.npminstall/eslint-loader/1.6.1/eslint-loader/index.js!./../../node_modules/.npminstall/eslint-loader/1.6.1/eslint-loader/index.js!./Alert.vue");
+			module.hot.accept("!!./../../node_modules/.npminstall/css-loader/0.21.0/css-loader/index.js?sourceMap!./../../node_modules/.npminstall/vue-loader/8.0.0/vue-loader/lib/style-rewriter.js?id=_v-3b34dc30&file=Alert.vue!./../../node_modules/.npminstall/less-loader/2.2.3/less-loader/index.js!./../../node_modules/.npminstall/vue-loader/8.0.0/vue-loader/lib/selector.js?type=style&index=0!./../../node_modules/.npminstall/eslint-loader/1.6.1/eslint-loader/index.js!./../../node_modules/.npminstall/eslint-loader/1.6.1/eslint-loader/index.js!./Alert.vue", function() {
+				var newContent = require("!!./../../node_modules/.npminstall/css-loader/0.21.0/css-loader/index.js?sourceMap!./../../node_modules/.npminstall/vue-loader/8.0.0/vue-loader/lib/style-rewriter.js?id=_v-3b34dc30&file=Alert.vue!./../../node_modules/.npminstall/less-loader/2.2.3/less-loader/index.js!./../../node_modules/.npminstall/vue-loader/8.0.0/vue-loader/lib/selector.js?type=style&index=0!./../../node_modules/.npminstall/eslint-loader/1.6.1/eslint-loader/index.js!./../../node_modules/.npminstall/eslint-loader/1.6.1/eslint-loader/index.js!./Alert.vue");
 				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 				update(newContent);
 			});
@@ -224,7 +224,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	
 	// module
-	exports.push([module.id, ".tip {\n  border: 1px solid #d2f0f0;\n  line-height: 1.5;\n  background: #f6fdfd;\n  position: relative;\n  padding: 6px 30px 6px 15px;\n  box-sizing: border-box;\n  font-size: 14px;\n}\n.tip .close {\n  position: absolute;\n  right: 10px;\n  cursor: pointer;\n  font-size: 12px;\n  color: #d8d8d8;\n}\n.tip .close:hover {\n  color: #444;\n}\n.tip a {\n  color: #29b6b0;\n  text-decoration: underline;\n}\n", "", {"version":3,"sources":["/./src/components/Alert.vue"],"names":[],"mappings":"AAAA;EACE,0BAA0B;EAC1B,iBAAiB;EACjB,oBAAoB;EACpB,mBAAmB;EACnB,2BAA2B;EAC3B,uBAAuB;EACvB,gBAAgB;CACjB;AACD;EACE,mBAAmB;EACnB,YAAY;EACZ,gBAAgB;EAChB,gBAAgB;EAChB,eAAe;CAChB;AACD;EACE,YAAY;CACb;AACD;EACE,eAAe;EACf,2BAA2B;CAC5B","file":"Alert.vue","sourcesContent":[".tip {\n  border: 1px solid #d2f0f0;\n  line-height: 1.5;\n  background: #f6fdfd;\n  position: relative;\n  padding: 6px 30px 6px 15px;\n  box-sizing: border-box;\n  font-size: 14px;\n}\n.tip .close {\n  position: absolute;\n  right: 10px;\n  cursor: pointer;\n  font-size: 12px;\n  color: #d8d8d8;\n}\n.tip .close:hover {\n  color: #444;\n}\n.tip a {\n  color: #29b6b0;\n  text-decoration: underline;\n}\n"],"sourceRoot":"webpack://"}]);
+	exports.push([module.id, ".d-alert {\n  border: 1px solid #d2f0f0;\n  line-height: 1.5;\n  background: #f6fdfd;\n  position: relative;\n  padding: 6px 30px 6px 15px;\n  box-sizing: border-box;\n  font-size: 14px;\n}\n.d-alert .close {\n  position: absolute;\n  right: 10px;\n  cursor: pointer;\n  font-size: 12px;\n  color: #d8d8d8;\n}\n.d-alert .close:hover {\n  color: #444;\n}\n.d-alert a {\n  color: #29b6b0;\n  text-decoration: underline;\n}\n", "", {"version":3,"sources":["/./src/components/Alert.vue"],"names":[],"mappings":"AAAA;EACE,0BAA0B;EAC1B,iBAAiB;EACjB,oBAAoB;EACpB,mBAAmB;EACnB,2BAA2B;EAC3B,uBAAuB;EACvB,gBAAgB;CACjB;AACD;EACE,mBAAmB;EACnB,YAAY;EACZ,gBAAgB;EAChB,gBAAgB;EAChB,eAAe;CAChB;AACD;EACE,YAAY;CACb;AACD;EACE,eAAe;EACf,2BAA2B;CAC5B","file":"Alert.vue","sourcesContent":[".d-alert {\n  border: 1px solid #d2f0f0;\n  line-height: 1.5;\n  background: #f6fdfd;\n  position: relative;\n  padding: 6px 30px 6px 15px;\n  box-sizing: border-box;\n  font-size: 14px;\n}\n.d-alert .close {\n  position: absolute;\n  right: 10px;\n  cursor: pointer;\n  font-size: 12px;\n  color: #d8d8d8;\n}\n.d-alert .close:hover {\n  color: #444;\n}\n.d-alert a {\n  color: #29b6b0;\n  text-decoration: underline;\n}\n"],"sourceRoot":"webpack://"}]);
 	
 	// exports
 
@@ -517,7 +517,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  value: true
 	});
 	// <template>
-	//   <div v-show="show" class="tip">
+	//   <div v-show="show" class="d-alert">
 	//     <i v-show="closable" class="iconhandle close" @click="close">&#xe609;</i>
 	//     <slot></slot>
 	//   </div>
@@ -551,7 +551,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	// </script>
 	
 	// <style lang="less">
-	// .tip {
+	// .d-alert {
 	//   border: 1px solid #d2f0f0;
 	//   line-height: 1.5;
 	//   background: #f6fdfd;
@@ -585,7 +585,7 @@ return /******/ (function(modules) { // webpackBootstrap
 /* 7 */
 /***/ function(module, exports) {
 
-	module.exports = "\n<div v-show=\"show\" class=\"tip\">\n  <i v-show=\"closable\" class=\"iconhandle close\" @click=\"close\">&#xe609;</i>\n  <slot></slot>\n</div>\n";
+	module.exports = "\n<div v-show=\"show\" class=\"d-alert\">\n  <i v-show=\"closable\" class=\"iconhandle close\" @click=\"close\">&#xe609;</i>\n  <slot></slot>\n</div>\n";
 
 /***/ },
 /* 8 */
@@ -602,7 +602,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  var hotAPI = require("vue-hot-reload-api")
 	  hotAPI.install(require("vue"), true)
 	  if (!hotAPI.compatible) return
-	  var id = "/Users/cookfront/Sites/work/duiba-design/src/components/Button.vue"
+	  var id = "/Users/cookfront/Sites/workspace/study/duiba-design/src/components/Button.vue"
 	  if (!module.hot.data) {
 	    hotAPI.createRecord(id, module.exports)
 	  } else {
@@ -626,8 +626,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	if(false) {
 		// When the styles change, update the <style> tags
 		if(!content.locals) {
-			module.hot.accept("!!./../../node_modules/.npminstall/css-loader/0.21.0/css-loader/index.js?sourceMap!./../../node_modules/.npminstall/vue-loader/8.0.0/vue-loader/lib/style-rewriter.js?id=_v-5dd3184a&file=Button.vue!./../../node_modules/.npminstall/less-loader/2.2.3/less-loader/index.js!./../../node_modules/.npminstall/vue-loader/8.0.0/vue-loader/lib/selector.js?type=style&index=0!./../../node_modules/.npminstall/eslint-loader/1.6.1/eslint-loader/index.js!./../../node_modules/.npminstall/eslint-loader/1.6.1/eslint-loader/index.js!./Button.vue", function() {
-				var newContent = require("!!./../../node_modules/.npminstall/css-loader/0.21.0/css-loader/index.js?sourceMap!./../../node_modules/.npminstall/vue-loader/8.0.0/vue-loader/lib/style-rewriter.js?id=_v-5dd3184a&file=Button.vue!./../../node_modules/.npminstall/less-loader/2.2.3/less-loader/index.js!./../../node_modules/.npminstall/vue-loader/8.0.0/vue-loader/lib/selector.js?type=style&index=0!./../../node_modules/.npminstall/eslint-loader/1.6.1/eslint-loader/index.js!./../../node_modules/.npminstall/eslint-loader/1.6.1/eslint-loader/index.js!./Button.vue");
+			module.hot.accept("!!./../../node_modules/.npminstall/css-loader/0.21.0/css-loader/index.js?sourceMap!./../../node_modules/.npminstall/vue-loader/8.0.0/vue-loader/lib/style-rewriter.js?id=_v-5e19ebe4&file=Button.vue!./../../node_modules/.npminstall/less-loader/2.2.3/less-loader/index.js!./../../node_modules/.npminstall/vue-loader/8.0.0/vue-loader/lib/selector.js?type=style&index=0!./../../node_modules/.npminstall/eslint-loader/1.6.1/eslint-loader/index.js!./../../node_modules/.npminstall/eslint-loader/1.6.1/eslint-loader/index.js!./Button.vue", function() {
+				var newContent = require("!!./../../node_modules/.npminstall/css-loader/0.21.0/css-loader/index.js?sourceMap!./../../node_modules/.npminstall/vue-loader/8.0.0/vue-loader/lib/style-rewriter.js?id=_v-5e19ebe4&file=Button.vue!./../../node_modules/.npminstall/less-loader/2.2.3/less-loader/index.js!./../../node_modules/.npminstall/vue-loader/8.0.0/vue-loader/lib/selector.js?type=style&index=0!./../../node_modules/.npminstall/eslint-loader/1.6.1/eslint-loader/index.js!./../../node_modules/.npminstall/eslint-loader/1.6.1/eslint-loader/index.js!./Button.vue");
 				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 				update(newContent);
 			});
@@ -660,7 +660,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  value: true
 	});
 	// <template>
-	//   <button :disabled="disabled" class="d-button"
+	//   <button :disabled="disabled" @click="clickHandle" class="d-button"
 	//     :class="[
 	//       type ? 'd-button--' + type : '',
 	//       size ? 'd-button--' + size : '',
@@ -689,6 +689,15 @@ return /******/ (function(modules) { // webpackBootstrap
 	      default: ''
 	    },
 	    disabled: Boolean
+	  },
+	
+	  methods: {
+	    clickHandle: function clickHandle(event) {
+	      if (this.disabled) {
+	        return;
+	      }
+	      this.$emit('click', event);
+	    }
 	  }
 	};
 	// </script>
@@ -783,14 +792,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	// }
 	// </style>
 	
-
 	/* generated by vue-loader */
 
 /***/ },
 /* 12 */
 /***/ function(module, exports) {
 
-	module.exports = "\n<button :disabled=\"disabled\" class=\"d-button\"\n  :class=\"[\n    type ? 'd-button--' + type : '',\n    size ? 'd-button--' + size : '',\n    {\n      'is-disabled': disabled\n    }\n  ]\"\n>\n  <i class=\"iconhandle\" v-if=\"icon\">{{{icon}}}</i>\n  <slot></slot>\n</button>\n";
+	module.exports = "\n<button :disabled=\"disabled\" @click=\"clickHandle\" class=\"d-button\"\n  :class=\"[\n    type ? 'd-button--' + type : '',\n    size ? 'd-button--' + size : '',\n    {\n      'is-disabled': disabled\n    }\n  ]\"\n>\n  <i class=\"iconhandle\" v-if=\"icon\">{{{icon}}}</i>\n  <slot></slot>\n</button>\n";
 
 /***/ },
 /* 13 */
@@ -807,7 +815,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  var hotAPI = require("vue-hot-reload-api")
 	  hotAPI.install(require("vue"), true)
 	  if (!hotAPI.compatible) return
-	  var id = "/Users/cookfront/Sites/work/duiba-design/src/components/Modal.vue"
+	  var id = "/Users/cookfront/Sites/workspace/study/duiba-design/src/components/Modal.vue"
 	  if (!module.hot.data) {
 	    hotAPI.createRecord(id, module.exports)
 	  } else {
@@ -831,8 +839,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	if(false) {
 		// When the styles change, update the <style> tags
 		if(!content.locals) {
-			module.hot.accept("!!./../../node_modules/.npminstall/css-loader/0.21.0/css-loader/index.js?sourceMap!./../../node_modules/.npminstall/vue-loader/8.0.0/vue-loader/lib/style-rewriter.js?id=_v-07bb7745&file=Modal.vue!./../../node_modules/.npminstall/less-loader/2.2.3/less-loader/index.js!./../../node_modules/.npminstall/vue-loader/8.0.0/vue-loader/lib/selector.js?type=style&index=0!./../../node_modules/.npminstall/eslint-loader/1.6.1/eslint-loader/index.js!./../../node_modules/.npminstall/eslint-loader/1.6.1/eslint-loader/index.js!./Modal.vue", function() {
-				var newContent = require("!!./../../node_modules/.npminstall/css-loader/0.21.0/css-loader/index.js?sourceMap!./../../node_modules/.npminstall/vue-loader/8.0.0/vue-loader/lib/style-rewriter.js?id=_v-07bb7745&file=Modal.vue!./../../node_modules/.npminstall/less-loader/2.2.3/less-loader/index.js!./../../node_modules/.npminstall/vue-loader/8.0.0/vue-loader/lib/selector.js?type=style&index=0!./../../node_modules/.npminstall/eslint-loader/1.6.1/eslint-loader/index.js!./../../node_modules/.npminstall/eslint-loader/1.6.1/eslint-loader/index.js!./Modal.vue");
+			module.hot.accept("!!./../../node_modules/.npminstall/css-loader/0.21.0/css-loader/index.js?sourceMap!./../../node_modules/.npminstall/vue-loader/8.0.0/vue-loader/lib/style-rewriter.js?id=_v-13b43d01&file=Modal.vue!./../../node_modules/.npminstall/less-loader/2.2.3/less-loader/index.js!./../../node_modules/.npminstall/vue-loader/8.0.0/vue-loader/lib/selector.js?type=style&index=0!./../../node_modules/.npminstall/eslint-loader/1.6.1/eslint-loader/index.js!./../../node_modules/.npminstall/eslint-loader/1.6.1/eslint-loader/index.js!./Modal.vue", function() {
+				var newContent = require("!!./../../node_modules/.npminstall/css-loader/0.21.0/css-loader/index.js?sourceMap!./../../node_modules/.npminstall/vue-loader/8.0.0/vue-loader/lib/style-rewriter.js?id=_v-13b43d01&file=Modal.vue!./../../node_modules/.npminstall/less-loader/2.2.3/less-loader/index.js!./../../node_modules/.npminstall/vue-loader/8.0.0/vue-loader/lib/selector.js?type=style&index=0!./../../node_modules/.npminstall/eslint-loader/1.6.1/eslint-loader/index.js!./../../node_modules/.npminstall/eslint-loader/1.6.1/eslint-loader/index.js!./Modal.vue");
 				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 				update(newContent);
 			});
@@ -850,7 +858,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	
 	// module
-	exports.push([module.id, ".modal-open {\n  overflow: hidden;\n}\n.modal-open .modal {\n  overflow-x: hidden;\n  overflow-y: auto;\n}\n.modal {\n  position: fixed;\n  top: 0;\n  right: 0;\n  bottom: 0;\n  left: 0;\n  z-index: 1050;\n  display: none;\n  overflow: hidden;\n  -webkit-overflow-scrolling: touch;\n  outline: 0;\n  -webkit-transition: all .5s ease;\n  transition: all .5s ease;\n}\n.modal.fade .modal-dialog {\n  -webkit-transition: -webkit-transform 0.5s ease-out;\n  transition: -webkit-transform 0.5s ease-out;\n  transition: transform 0.5s ease-out;\n  transition: transform 0.5s ease-out, -webkit-transform 0.5s ease-out;\n  -webkit-transform: translate(0, -25%);\n          transform: translate(0, -25%);\n}\n.modal.in {\n  background-color: rgba(0, 0, 0, 0.5);\n}\n.modal.in .modal-dialog {\n  -webkit-transform: translate(0, 0);\n          transform: translate(0, 0);\n}\n.modal.message-box .modal-dialog {\n  width: auto !important;\n  max-width: 500px;\n  position: absolute;\n  left: 50%;\n}\n.modal.message-box .modal-content {\n  border-top: 0;\n  box-shadow: none;\n}\n.modal.message-box .iconhandle {\n  margin-right: 5px;\n}\n.modal.message-box .success {\n  color: #59dfa3;\n}\n.modal.message-box .error {\n  color: #f9431d;\n}\n.modal.message-box p {\n  color: #444;\n  font-size: 14px;\n  padding: 0 5px 0 3px;\n  text-align: center;\n  margin: 5px 0;\n}\n.modal.message-box p.desc {\n  color: #888;\n  font-size: 12px;\n}\n.fade {\n  opacity: 0;\n  -webkit-transition: opacity .15s linear;\n  transition: opacity .15s linear;\n}\n.fade.in {\n  opacity: 1;\n}\n.modal-dialog {\n  position: absolute;\n  width: auto;\n}\n.modal-content {\n  position: relative;\n  background-color: #fff;\n  background-clip: padding-box;\n  border-radius: 5px;\n  outline: 0;\n  box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);\n  border-top: 8px solid #444;\n}\n.modal-content .close {\n  position: absolute;\n  right: 10px;\n  top: 8px;\n  cursor: pointer;\n  font-size: 12px;\n  color: #d8d8d8;\n}\n.modal-content .close:hover {\n  color: #444;\n}\n.modal-header {\n  padding: 24px 20px 0;\n  font-size: 15px;\n  line-height: 20px;\n}\n.modal-header .modal-title {\n  font-weight: 700;\n  font-size: 16px;\n  color: #444;\n  margin: 0;\n}\n.modal-body {\n  padding: 10px 20px;\n  font-size: 14px;\n  line-height: 1.5;\n  overflow: hidden;\n}\n.modal-footer {\n  padding: 10px 0 20px 20px;\n}\n", "", {"version":3,"sources":["/./src/components/Modal.vue"],"names":[],"mappings":"AAAA;EACE,iBAAiB;CAClB;AACD;EACE,mBAAmB;EACnB,iBAAiB;CAClB;AACD;EACE,gBAAgB;EAChB,OAAO;EACP,SAAS;EACT,UAAU;EACV,QAAQ;EACR,cAAc;EACd,cAAc;EACd,iBAAiB;EACjB,kCAAkC;EAClC,WAAW;EACX,iCAAyB;EAAzB,yBAAyB;CAC1B;AACD;EACE,oDAAoC;EAApC,4CAAoC;EAApC,oCAAoC;EAApC,qEAAoC;EACpC,sCAA8B;UAA9B,8BAA8B;CAC/B;AACD;EACE,qCAAqC;CACtC;AACD;EACE,mCAA2B;UAA3B,2BAA2B;CAC5B;AACD;EACE,uBAAuB;EACvB,iBAAiB;EACjB,mBAAmB;EACnB,UAAU;CACX;AACD;EACE,cAAc;EACd,iBAAiB;CAClB;AACD;EACE,kBAAkB;CACnB;AACD;EACE,eAAe;CAChB;AACD;EACE,eAAe;CAChB;AACD;EACE,YAAY;EACZ,gBAAgB;EAChB,qBAAqB;EACrB,mBAAmB;EACnB,cAAc;CACf;AACD;EACE,YAAY;EACZ,gBAAgB;CACjB;AACD;EACE,WAAW;EACX,wCAAgC;EAAhC,gCAAgC;CACjC;AACD;EACE,WAAW;CACZ;AACD;EACE,mBAAmB;EACnB,YAAY;CACb;AACD;EACE,mBAAmB;EACnB,uBAAuB;EACvB,6BAA6B;EAC7B,mBAAmB;EACnB,WAAW;EACX,yCAAyC;EACzC,2BAA2B;CAC5B;AACD;EACE,mBAAmB;EACnB,YAAY;EACZ,SAAS;EACT,gBAAgB;EAChB,gBAAgB;EAChB,eAAe;CAChB;AACD;EACE,YAAY;CACb;AACD;EACE,qBAAqB;EACrB,gBAAgB;EAChB,kBAAkB;CACnB;AACD;EACE,iBAAiB;EACjB,gBAAgB;EAChB,YAAY;EACZ,UAAU;CACX;AACD;EACE,mBAAmB;EACnB,gBAAgB;EAChB,iBAAiB;EACjB,iBAAiB;CAClB;AACD;EACE,0BAA0B;CAC3B","file":"Modal.vue","sourcesContent":[".modal-open {\n  overflow: hidden;\n}\n.modal-open .modal {\n  overflow-x: hidden;\n  overflow-y: auto;\n}\n.modal {\n  position: fixed;\n  top: 0;\n  right: 0;\n  bottom: 0;\n  left: 0;\n  z-index: 1050;\n  display: none;\n  overflow: hidden;\n  -webkit-overflow-scrolling: touch;\n  outline: 0;\n  transition: all .5s ease;\n}\n.modal.fade .modal-dialog {\n  transition: transform 0.5s ease-out;\n  transform: translate(0, -25%);\n}\n.modal.in {\n  background-color: rgba(0, 0, 0, 0.5);\n}\n.modal.in .modal-dialog {\n  transform: translate(0, 0);\n}\n.modal.message-box .modal-dialog {\n  width: auto !important;\n  max-width: 500px;\n  position: absolute;\n  left: 50%;\n}\n.modal.message-box .modal-content {\n  border-top: 0;\n  box-shadow: none;\n}\n.modal.message-box .iconhandle {\n  margin-right: 5px;\n}\n.modal.message-box .success {\n  color: #59dfa3;\n}\n.modal.message-box .error {\n  color: #f9431d;\n}\n.modal.message-box p {\n  color: #444;\n  font-size: 14px;\n  padding: 0 5px 0 3px;\n  text-align: center;\n  margin: 5px 0;\n}\n.modal.message-box p.desc {\n  color: #888;\n  font-size: 12px;\n}\n.fade {\n  opacity: 0;\n  transition: opacity .15s linear;\n}\n.fade.in {\n  opacity: 1;\n}\n.modal-dialog {\n  position: absolute;\n  width: auto;\n}\n.modal-content {\n  position: relative;\n  background-color: #fff;\n  background-clip: padding-box;\n  border-radius: 5px;\n  outline: 0;\n  box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);\n  border-top: 8px solid #444;\n}\n.modal-content .close {\n  position: absolute;\n  right: 10px;\n  top: 8px;\n  cursor: pointer;\n  font-size: 12px;\n  color: #d8d8d8;\n}\n.modal-content .close:hover {\n  color: #444;\n}\n.modal-header {\n  padding: 24px 20px 0;\n  font-size: 15px;\n  line-height: 20px;\n}\n.modal-header .modal-title {\n  font-weight: 700;\n  font-size: 16px;\n  color: #444;\n  margin: 0;\n}\n.modal-body {\n  padding: 10px 20px;\n  font-size: 14px;\n  line-height: 1.5;\n  overflow: hidden;\n}\n.modal-footer {\n  padding: 10px 0 20px 20px;\n}\n"],"sourceRoot":"webpack://"}]);
+	exports.push([module.id, ".modal-open {\n  overflow: hidden;\n}\n.modal-open .modal {\n  overflow-x: hidden;\n  overflow-y: auto;\n}\n.d-modal {\n  position: fixed;\n  top: 0;\n  right: 0;\n  bottom: 0;\n  left: 0;\n  z-index: 1050;\n  display: none;\n  overflow: hidden;\n  -webkit-overflow-scrolling: touch;\n  outline: 0;\n  -webkit-transition: all .5s ease;\n  transition: all .5s ease;\n}\n.d-modal.fade .modal-dialog {\n  -webkit-transition: -webkit-transform 0.5s ease-out;\n  transition: -webkit-transform 0.5s ease-out;\n  transition: transform 0.5s ease-out;\n  transition: transform 0.5s ease-out, -webkit-transform 0.5s ease-out;\n  -webkit-transform: translate(0, -25%);\n          transform: translate(0, -25%);\n}\n.d-modal.in {\n  background-color: rgba(0, 0, 0, 0.5);\n}\n.d-modal.in .modal-dialog {\n  -webkit-transform: translate(0, 0);\n          transform: translate(0, 0);\n}\n.d-modal.d-message-box .modal-dialog {\n  width: auto !important;\n  max-width: 500px;\n  position: absolute;\n  left: 50%;\n}\n.d-modal.d-message-box .modal-content {\n  border-top: 0;\n  box-shadow: none;\n}\n.d-modal.d-message-box .iconhandle {\n  margin-right: 5px;\n}\n.d-modal.d-message-box .success {\n  color: #59dfa3;\n}\n.d-modal.d-message-box .error {\n  color: #f9431d;\n}\n.d-modal.d-message-box p {\n  color: #444;\n  font-size: 14px;\n  padding: 0 5px 0 3px;\n  text-align: center;\n  margin: 5px 0;\n}\n.d-modal.d-message-box p.desc {\n  color: #888;\n  font-size: 12px;\n}\n.fade {\n  opacity: 0;\n  -webkit-transition: opacity .15s linear;\n  transition: opacity .15s linear;\n}\n.fade.in {\n  opacity: 1;\n}\n.modal-dialog {\n  position: absolute;\n  width: auto;\n}\n.modal-content {\n  position: relative;\n  background-color: #fff;\n  background-clip: padding-box;\n  border-radius: 5px;\n  outline: 0;\n  box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);\n  border-top: 8px solid #444;\n}\n.modal-content .close {\n  position: absolute;\n  right: 10px;\n  top: 8px;\n  cursor: pointer;\n  font-size: 12px;\n  color: #d8d8d8;\n}\n.modal-content .close:hover {\n  color: #444;\n}\n.modal-header {\n  padding: 24px 20px 0;\n  font-size: 15px;\n  line-height: 20px;\n}\n.modal-header .modal-title {\n  font-weight: 700;\n  font-size: 16px;\n  color: #444;\n  margin: 0;\n}\n.modal-body {\n  padding: 10px 20px;\n  font-size: 14px;\n  line-height: 1.5;\n  overflow: hidden;\n}\n.modal-footer {\n  padding: 10px 0 20px 20px;\n}\n", "", {"version":3,"sources":["/./src/components/Modal.vue"],"names":[],"mappings":"AAAA;EACE,iBAAiB;CAClB;AACD;EACE,mBAAmB;EACnB,iBAAiB;CAClB;AACD;EACE,gBAAgB;EAChB,OAAO;EACP,SAAS;EACT,UAAU;EACV,QAAQ;EACR,cAAc;EACd,cAAc;EACd,iBAAiB;EACjB,kCAAkC;EAClC,WAAW;EACX,iCAAyB;EAAzB,yBAAyB;CAC1B;AACD;EACE,oDAAoC;EAApC,4CAAoC;EAApC,oCAAoC;EAApC,qEAAoC;EACpC,sCAA8B;UAA9B,8BAA8B;CAC/B;AACD;EACE,qCAAqC;CACtC;AACD;EACE,mCAA2B;UAA3B,2BAA2B;CAC5B;AACD;EACE,uBAAuB;EACvB,iBAAiB;EACjB,mBAAmB;EACnB,UAAU;CACX;AACD;EACE,cAAc;EACd,iBAAiB;CAClB;AACD;EACE,kBAAkB;CACnB;AACD;EACE,eAAe;CAChB;AACD;EACE,eAAe;CAChB;AACD;EACE,YAAY;EACZ,gBAAgB;EAChB,qBAAqB;EACrB,mBAAmB;EACnB,cAAc;CACf;AACD;EACE,YAAY;EACZ,gBAAgB;CACjB;AACD;EACE,WAAW;EACX,wCAAgC;EAAhC,gCAAgC;CACjC;AACD;EACE,WAAW;CACZ;AACD;EACE,mBAAmB;EACnB,YAAY;CACb;AACD;EACE,mBAAmB;EACnB,uBAAuB;EACvB,6BAA6B;EAC7B,mBAAmB;EACnB,WAAW;EACX,yCAAyC;EACzC,2BAA2B;CAC5B;AACD;EACE,mBAAmB;EACnB,YAAY;EACZ,SAAS;EACT,gBAAgB;EAChB,gBAAgB;EAChB,eAAe;CAChB;AACD;EACE,YAAY;CACb;AACD;EACE,qBAAqB;EACrB,gBAAgB;EAChB,kBAAkB;CACnB;AACD;EACE,iBAAiB;EACjB,gBAAgB;EAChB,YAAY;EACZ,UAAU;CACX;AACD;EACE,mBAAmB;EACnB,gBAAgB;EAChB,iBAAiB;EACjB,iBAAiB;CAClB;AACD;EACE,0BAA0B;CAC3B","file":"Modal.vue","sourcesContent":[".modal-open {\n  overflow: hidden;\n}\n.modal-open .modal {\n  overflow-x: hidden;\n  overflow-y: auto;\n}\n.d-modal {\n  position: fixed;\n  top: 0;\n  right: 0;\n  bottom: 0;\n  left: 0;\n  z-index: 1050;\n  display: none;\n  overflow: hidden;\n  -webkit-overflow-scrolling: touch;\n  outline: 0;\n  transition: all .5s ease;\n}\n.d-modal.fade .modal-dialog {\n  transition: transform 0.5s ease-out;\n  transform: translate(0, -25%);\n}\n.d-modal.in {\n  background-color: rgba(0, 0, 0, 0.5);\n}\n.d-modal.in .modal-dialog {\n  transform: translate(0, 0);\n}\n.d-modal.d-message-box .modal-dialog {\n  width: auto !important;\n  max-width: 500px;\n  position: absolute;\n  left: 50%;\n}\n.d-modal.d-message-box .modal-content {\n  border-top: 0;\n  box-shadow: none;\n}\n.d-modal.d-message-box .iconhandle {\n  margin-right: 5px;\n}\n.d-modal.d-message-box .success {\n  color: #59dfa3;\n}\n.d-modal.d-message-box .error {\n  color: #f9431d;\n}\n.d-modal.d-message-box p {\n  color: #444;\n  font-size: 14px;\n  padding: 0 5px 0 3px;\n  text-align: center;\n  margin: 5px 0;\n}\n.d-modal.d-message-box p.desc {\n  color: #888;\n  font-size: 12px;\n}\n.fade {\n  opacity: 0;\n  transition: opacity .15s linear;\n}\n.fade.in {\n  opacity: 1;\n}\n.modal-dialog {\n  position: absolute;\n  width: auto;\n}\n.modal-content {\n  position: relative;\n  background-color: #fff;\n  background-clip: padding-box;\n  border-radius: 5px;\n  outline: 0;\n  box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);\n  border-top: 8px solid #444;\n}\n.modal-content .close {\n  position: absolute;\n  right: 10px;\n  top: 8px;\n  cursor: pointer;\n  font-size: 12px;\n  color: #d8d8d8;\n}\n.modal-content .close:hover {\n  color: #444;\n}\n.modal-header {\n  padding: 24px 20px 0;\n  font-size: 15px;\n  line-height: 20px;\n}\n.modal-header .modal-title {\n  font-weight: 700;\n  font-size: 16px;\n  color: #444;\n  margin: 0;\n}\n.modal-body {\n  padding: 10px 20px;\n  font-size: 14px;\n  line-height: 1.5;\n  overflow: hidden;\n}\n.modal-footer {\n  padding: 10px 0 20px 20px;\n}\n"],"sourceRoot":"webpack://"}]);
 	
 	// exports
 
@@ -1040,7 +1048,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	//   }
 	// }
 	
-	// .modal {
+	// .d-modal {
 	//   position: fixed;
 	//   top: 0;
 	//   right: 0;
@@ -1068,7 +1076,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	//     }
 	//   }
 	
-	//   &.message-box {
+	//   &.d-message-box {
 	//     .modal-dialog {
 	//       width: auto !important;
 	//       max-width: 500px;
@@ -1175,9 +1183,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	// <template>
 	//   <div role="dialog"
 	//     v-bind:class="{
-	//       'modal': true,
+	//       'd-modal': true,
 	//       'fade': effect === 'fade',
-	//       'message-box': type === 'message',
+	//       'd-message-box': type === 'message',
 	//     }"
 	//   >
 	//     <div class="modal-dialog" role="document" v-bind:style="{width: optionalWidth}">
@@ -1576,7 +1584,7 @@ return /******/ (function(modules) { // webpackBootstrap
 /* 38 */
 /***/ function(module, exports) {
 
-	module.exports = "\n<div role=\"dialog\"\n  v-bind:class=\"{\n    'modal': true,\n    'fade': effect === 'fade',\n    'message-box': type === 'message',\n  }\"\n>\n  <div class=\"modal-dialog\" role=\"document\" v-bind:style=\"{width: optionalWidth}\">\n    <div class=\"modal-content\">\n      <slot name=\"modal-header\" v-if=\"type !== 'message'\">\n        <div class=\"modal-header\">\n          <i class=\"iconhandle close\" @click=\"close\">&#xe609;</i>\n          <h4 class=\"modal-title\">\n            <slot name=\"title\">\n              {{title}}\n            </slot>\n          </h4>\n        </div>\n      </slot>\n      <slot name=\"modal-body\">\n        <div class=\"modal-body\">\n          <template v-if=\"type === 'message'\">\n            <p>\n              <i class=\"iconhandle success\" v-if=\"messageType === 'success'\">&#xe629;</i>\n              <i class=\"iconhandle error\" v-if=\"messageType === 'error'\">&#xe605;</i>\n              {{title}}\n            </p>\n            <p class=\"desc\" v-if=\"messageDesc\">\n              {{messageDesc}}\n            </p>\n          </template>\n          <template v-else>\n            <p>{{{description}}}</p>\n          </template>\n        </div>\n      </slot>\n      <slot name=\"modal-footer\" v-if=\"type !== 'message'\">\n        <div class=\"modal-footer\">\n          <d-button type=\"primary\" size=\"large\" @click=\"onOk\">{{ okText }}</d-button>\n          <d-button size=\"large\" @click=\"close\">{{ cancelText }}</d-button>\n        </div>\n      </slot>\n    </div>\n  </div>\n</div>\n";
+	module.exports = "\n<div role=\"dialog\"\n  v-bind:class=\"{\n    'd-modal': true,\n    'fade': effect === 'fade',\n    'd-message-box': type === 'message',\n  }\"\n>\n  <div class=\"modal-dialog\" role=\"document\" v-bind:style=\"{width: optionalWidth}\">\n    <div class=\"modal-content\">\n      <slot name=\"modal-header\" v-if=\"type !== 'message'\">\n        <div class=\"modal-header\">\n          <i class=\"iconhandle close\" @click=\"close\">&#xe609;</i>\n          <h4 class=\"modal-title\">\n            <slot name=\"title\">\n              {{title}}\n            </slot>\n          </h4>\n        </div>\n      </slot>\n      <slot name=\"modal-body\">\n        <div class=\"modal-body\">\n          <template v-if=\"type === 'message'\">\n            <p>\n              <i class=\"iconhandle success\" v-if=\"messageType === 'success'\">&#xe629;</i>\n              <i class=\"iconhandle error\" v-if=\"messageType === 'error'\">&#xe605;</i>\n              {{title}}\n            </p>\n            <p class=\"desc\" v-if=\"messageDesc\">\n              {{messageDesc}}\n            </p>\n          </template>\n          <template v-else>\n            <p>{{{description}}}</p>\n          </template>\n        </div>\n      </slot>\n      <slot name=\"modal-footer\" v-if=\"type !== 'message'\">\n        <div class=\"modal-footer\">\n          <d-button type=\"primary\" size=\"large\" @click=\"onOk\">{{ okText }}</d-button>\n          <d-button size=\"large\" @click=\"close\">{{ cancelText }}</d-button>\n        </div>\n      </slot>\n    </div>\n  </div>\n</div>\n";
 
 /***/ },
 /* 39 */
@@ -12087,7 +12095,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  var hotAPI = require("vue-hot-reload-api")
 	  hotAPI.install(require("vue"), true)
 	  if (!hotAPI.compatible) return
-	  var id = "/Users/cookfront/Sites/work/duiba-design/src/components/Switch.vue"
+	  var id = "/Users/cookfront/Sites/workspace/study/duiba-design/src/components/Switch.vue"
 	  if (!module.hot.data) {
 	    hotAPI.createRecord(id, module.exports)
 	  } else {
@@ -12111,8 +12119,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	if(false) {
 		// When the styles change, update the <style> tags
 		if(!content.locals) {
-			module.hot.accept("!!./../../node_modules/.npminstall/css-loader/0.21.0/css-loader/index.js?sourceMap!./../../node_modules/.npminstall/vue-loader/8.0.0/vue-loader/lib/style-rewriter.js?id=_v-33c0d74c&file=Switch.vue!./../../node_modules/.npminstall/less-loader/2.2.3/less-loader/index.js!./../../node_modules/.npminstall/vue-loader/8.0.0/vue-loader/lib/selector.js?type=style&index=0!./../../node_modules/.npminstall/eslint-loader/1.6.1/eslint-loader/index.js!./../../node_modules/.npminstall/eslint-loader/1.6.1/eslint-loader/index.js!./Switch.vue", function() {
-				var newContent = require("!!./../../node_modules/.npminstall/css-loader/0.21.0/css-loader/index.js?sourceMap!./../../node_modules/.npminstall/vue-loader/8.0.0/vue-loader/lib/style-rewriter.js?id=_v-33c0d74c&file=Switch.vue!./../../node_modules/.npminstall/less-loader/2.2.3/less-loader/index.js!./../../node_modules/.npminstall/vue-loader/8.0.0/vue-loader/lib/selector.js?type=style&index=0!./../../node_modules/.npminstall/eslint-loader/1.6.1/eslint-loader/index.js!./../../node_modules/.npminstall/eslint-loader/1.6.1/eslint-loader/index.js!./Switch.vue");
+			module.hot.accept("!!./../../node_modules/.npminstall/css-loader/0.21.0/css-loader/index.js?sourceMap!./../../node_modules/.npminstall/vue-loader/8.0.0/vue-loader/lib/style-rewriter.js?id=_v-b23e6de0&file=Switch.vue!./../../node_modules/.npminstall/less-loader/2.2.3/less-loader/index.js!./../../node_modules/.npminstall/vue-loader/8.0.0/vue-loader/lib/selector.js?type=style&index=0!./../../node_modules/.npminstall/eslint-loader/1.6.1/eslint-loader/index.js!./../../node_modules/.npminstall/eslint-loader/1.6.1/eslint-loader/index.js!./Switch.vue", function() {
+				var newContent = require("!!./../../node_modules/.npminstall/css-loader/0.21.0/css-loader/index.js?sourceMap!./../../node_modules/.npminstall/vue-loader/8.0.0/vue-loader/lib/style-rewriter.js?id=_v-b23e6de0&file=Switch.vue!./../../node_modules/.npminstall/less-loader/2.2.3/less-loader/index.js!./../../node_modules/.npminstall/vue-loader/8.0.0/vue-loader/lib/selector.js?type=style&index=0!./../../node_modules/.npminstall/eslint-loader/1.6.1/eslint-loader/index.js!./../../node_modules/.npminstall/eslint-loader/1.6.1/eslint-loader/index.js!./Switch.vue");
 				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 				update(newContent);
 			});
@@ -12130,7 +12138,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	
 	// module
-	exports.push([module.id, ".switch {\n  position: relative;\n  width: 44px;\n  -webkit-user-select: none;\n     -moz-user-select: none;\n      -ms-user-select: none;\n          user-select: none;\n}\n.switch-label {\n  display: block;\n  overflow: hidden;\n  cursor: pointer;\n  border-radius: 11px;\n}\n.switch-inner {\n  width: 200%;\n  margin-left: -100%;\n  -webkit-transition: margin 0.2s ease-in;\n  transition: margin 0.2s ease-in;\n}\n.switch-inner:before,\n.switch-inner:after {\n  float: left;\n  padding: 0;\n  width: 50%;\n  height: 22px;\n  line-height: 22px;\n  color: white;\n  box-sizing: border-box;\n}\n.switch-inner:before {\n  content: \"\\5F00\";\n  padding-left: 7px;\n  font-size: 12px;\n  color: #fff;\n  background-color: #444;\n}\n.switch-inner:after {\n  content: \"\\5173\";\n  padding-right: 7px;\n  color: #fff;\n  font-size: 12px;\n  background-color: #bbb;\n  text-align: right;\n}\n.switch-switch {\n  position: absolute;\n  top: 0;\n  bottom: 0;\n  right: 22px;\n  width: 14px;\n  margin: 4px;\n  background: white;\n  border-radius: 11px;\n  -webkit-transition: right 0.2s ease-in, box-shadow 0.2s ease-in;\n  transition: right 0.2s ease-in, box-shadow 0.2s ease-in;\n}\n.on .switch-inner {\n  margin-left: 0;\n}\n.on .switch-switch {\n  right: 0;\n}\n.disable .switch-inner:before,\n.disable .switch-inner:after {\n  cursor: not-allowed;\n  background-color: #eee;\n}\n", "", {"version":3,"sources":["/./src/components/Switch.vue"],"names":[],"mappings":"AAAA;EACE,mBAAmB;EACnB,YAAY;EACZ,0BAAkB;KAAlB,uBAAkB;MAAlB,sBAAkB;UAAlB,kBAAkB;CACnB;AACD;EACE,eAAe;EACf,iBAAiB;EACjB,gBAAgB;EAChB,oBAAoB;CACrB;AACD;EACE,YAAY;EACZ,mBAAmB;EACnB,wCAAgC;EAAhC,gCAAgC;CACjC;AACD;;EAEE,YAAY;EACZ,WAAW;EACX,WAAW;EACX,aAAa;EACb,kBAAkB;EAClB,aAAa;EACb,uBAAuB;CACxB;AACD;EACE,iBAAa;EACb,kBAAkB;EAClB,gBAAgB;EAChB,YAAY;EACZ,uBAAuB;CACxB;AACD;EACE,iBAAa;EACb,mBAAmB;EACnB,YAAY;EACZ,gBAAgB;EAChB,uBAAuB;EACvB,kBAAkB;CACnB;AACD;EACE,mBAAmB;EACnB,OAAO;EACP,UAAU;EACV,YAAY;EACZ,YAAY;EACZ,YAAY;EACZ,kBAAkB;EAClB,oBAAoB;EACpB,gEAAwD;EAAxD,wDAAwD;CACzD;AACD;EACE,eAAe;CAChB;AACD;EACE,SAAS;CACV;AACD;;EAEE,oBAAoB;EACpB,uBAAuB;CACxB","file":"Switch.vue","sourcesContent":[".switch {\n  position: relative;\n  width: 44px;\n  user-select: none;\n}\n.switch-label {\n  display: block;\n  overflow: hidden;\n  cursor: pointer;\n  border-radius: 11px;\n}\n.switch-inner {\n  width: 200%;\n  margin-left: -100%;\n  transition: margin 0.2s ease-in;\n}\n.switch-inner:before,\n.switch-inner:after {\n  float: left;\n  padding: 0;\n  width: 50%;\n  height: 22px;\n  line-height: 22px;\n  color: white;\n  box-sizing: border-box;\n}\n.switch-inner:before {\n  content: \"开\";\n  padding-left: 7px;\n  font-size: 12px;\n  color: #fff;\n  background-color: #444;\n}\n.switch-inner:after {\n  content: \"关\";\n  padding-right: 7px;\n  color: #fff;\n  font-size: 12px;\n  background-color: #bbb;\n  text-align: right;\n}\n.switch-switch {\n  position: absolute;\n  top: 0;\n  bottom: 0;\n  right: 22px;\n  width: 14px;\n  margin: 4px;\n  background: white;\n  border-radius: 11px;\n  transition: right 0.2s ease-in, box-shadow 0.2s ease-in;\n}\n.on .switch-inner {\n  margin-left: 0;\n}\n.on .switch-switch {\n  right: 0;\n}\n.disable .switch-inner:before,\n.disable .switch-inner:after {\n  cursor: not-allowed;\n  background-color: #eee;\n}\n"],"sourceRoot":"webpack://"}]);
+	exports.push([module.id, ".d-switch {\n  position: relative;\n  width: 44px;\n  -webkit-user-select: none;\n     -moz-user-select: none;\n      -ms-user-select: none;\n          user-select: none;\n}\n.d-switch-label {\n  display: block;\n  overflow: hidden;\n  cursor: pointer;\n  border-radius: 11px;\n}\n.d-switch-inner {\n  width: 200%;\n  margin-left: -100%;\n  -webkit-transition: margin 0.2s ease-in;\n  transition: margin 0.2s ease-in;\n}\n.d-switch-inner:before,\n.d-switch-inner:after {\n  float: left;\n  padding: 0;\n  width: 50%;\n  height: 22px;\n  line-height: 22px;\n  color: white;\n  box-sizing: border-box;\n}\n.d-switch-inner:before {\n  content: \"\\5F00\";\n  padding-left: 7px;\n  font-size: 12px;\n  color: #fff;\n  background-color: #444;\n}\n.d-switch-inner:after {\n  content: \"\\5173\";\n  padding-right: 7px;\n  color: #fff;\n  font-size: 12px;\n  background-color: #bbb;\n  text-align: right;\n}\n.d-switch-switch {\n  position: absolute;\n  top: 0;\n  bottom: 0;\n  right: 22px;\n  width: 14px;\n  margin: 4px;\n  background: white;\n  border-radius: 11px;\n  -webkit-transition: right 0.2s ease-in, box-shadow 0.2s ease-in;\n  transition: right 0.2s ease-in, box-shadow 0.2s ease-in;\n}\n.on .d-switch-inner {\n  margin-left: 0;\n}\n.on .d-switch-switch {\n  right: 0;\n}\n.disable .d-switch-inner:before,\n.disable .d-switch-inner:after {\n  cursor: not-allowed;\n  background-color: #eee;\n}\n", "", {"version":3,"sources":["/./src/components/Switch.vue"],"names":[],"mappings":"AAAA;EACE,mBAAmB;EACnB,YAAY;EACZ,0BAAkB;KAAlB,uBAAkB;MAAlB,sBAAkB;UAAlB,kBAAkB;CACnB;AACD;EACE,eAAe;EACf,iBAAiB;EACjB,gBAAgB;EAChB,oBAAoB;CACrB;AACD;EACE,YAAY;EACZ,mBAAmB;EACnB,wCAAgC;EAAhC,gCAAgC;CACjC;AACD;;EAEE,YAAY;EACZ,WAAW;EACX,WAAW;EACX,aAAa;EACb,kBAAkB;EAClB,aAAa;EACb,uBAAuB;CACxB;AACD;EACE,iBAAa;EACb,kBAAkB;EAClB,gBAAgB;EAChB,YAAY;EACZ,uBAAuB;CACxB;AACD;EACE,iBAAa;EACb,mBAAmB;EACnB,YAAY;EACZ,gBAAgB;EAChB,uBAAuB;EACvB,kBAAkB;CACnB;AACD;EACE,mBAAmB;EACnB,OAAO;EACP,UAAU;EACV,YAAY;EACZ,YAAY;EACZ,YAAY;EACZ,kBAAkB;EAClB,oBAAoB;EACpB,gEAAwD;EAAxD,wDAAwD;CACzD;AACD;EACE,eAAe;CAChB;AACD;EACE,SAAS;CACV;AACD;;EAEE,oBAAoB;EACpB,uBAAuB;CACxB","file":"Switch.vue","sourcesContent":[".d-switch {\n  position: relative;\n  width: 44px;\n  user-select: none;\n}\n.d-switch-label {\n  display: block;\n  overflow: hidden;\n  cursor: pointer;\n  border-radius: 11px;\n}\n.d-switch-inner {\n  width: 200%;\n  margin-left: -100%;\n  transition: margin 0.2s ease-in;\n}\n.d-switch-inner:before,\n.d-switch-inner:after {\n  float: left;\n  padding: 0;\n  width: 50%;\n  height: 22px;\n  line-height: 22px;\n  color: white;\n  box-sizing: border-box;\n}\n.d-switch-inner:before {\n  content: \"开\";\n  padding-left: 7px;\n  font-size: 12px;\n  color: #fff;\n  background-color: #444;\n}\n.d-switch-inner:after {\n  content: \"关\";\n  padding-right: 7px;\n  color: #fff;\n  font-size: 12px;\n  background-color: #bbb;\n  text-align: right;\n}\n.d-switch-switch {\n  position: absolute;\n  top: 0;\n  bottom: 0;\n  right: 22px;\n  width: 14px;\n  margin: 4px;\n  background: white;\n  border-radius: 11px;\n  transition: right 0.2s ease-in, box-shadow 0.2s ease-in;\n}\n.on .d-switch-inner {\n  margin-left: 0;\n}\n.on .d-switch-switch {\n  right: 0;\n}\n.disable .d-switch-inner:before,\n.disable .d-switch-inner:after {\n  cursor: not-allowed;\n  background-color: #eee;\n}\n"],"sourceRoot":"webpack://"}]);
 	
 	// exports
 
@@ -12145,14 +12153,14 @@ return /******/ (function(modules) { // webpackBootstrap
 	  value: true
 	});
 	// <template>
-	//   <div class="switch" v-bind:class="{
+	//   <div class="d-switch" v-bind:class="{
 	//     'on': status,
 	//     'disable': disabled,
 	//     'off': !status
 	//   }" @click="toggleSwitch">
-	//     <label class="switch-label">
-	//       <div class="switch-inner"></div>
-	//       <div class="switch-switch"></div>
+	//     <label class="d-switch-label">
+	//       <div class="d-switch-inner"></div>
+	//       <div class="d-switch-switch"></div>
 	//     </label>
 	//   </div>
 	// </template>
@@ -12193,27 +12201,27 @@ return /******/ (function(modules) { // webpackBootstrap
 	// </script>
 	
 	// <style lang="less">
-	// .switch {
+	// .d-switch {
 	//   position: relative;
 	//   width: 44px;
 	//   user-select: none;
 	// }
 	
-	// .switch-label {
+	// .d-switch-label {
 	//   display: block;
 	//   overflow: hidden;
 	//   cursor: pointer;
 	//   border-radius: 11px;
 	// }
 	
-	// .switch-inner {
+	// .d-switch-inner {
 	//   width: 200%;
 	//   margin-left: -100%;
 	//   transition: margin 0.2s ease-in;
 	// }
 	
-	// .switch-inner:before,
-	// .switch-inner:after {
+	// .d-switch-inner:before,
+	// .d-switch-inner:after {
 	//   float: left;
 	//   padding: 0;
 	//   width: 50%;
@@ -12223,7 +12231,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	//   box-sizing: border-box;
 	// }
 	
-	// .switch-inner:before {
+	// .d-switch-inner:before {
 	//   content: "开";
 	//   padding-left: 7px;
 	//   font-size: 12px;
@@ -12231,7 +12239,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	//   background-color: #444;
 	// }
 	
-	// .switch-inner:after {
+	// .d-switch-inner:after {
 	//   content: "关";
 	//   padding-right: 7px;
 	//   color: #fff;
@@ -12240,7 +12248,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	//   text-align: right;
 	// }
 	
-	// .switch-switch {
+	// .d-switch-switch {
 	//   position: absolute;
 	//   top: 0;
 	//   bottom: 0;
@@ -12252,17 +12260,17 @@ return /******/ (function(modules) { // webpackBootstrap
 	//   transition: right 0.2s ease-in, box-shadow 0.2s ease-in;
 	// }
 	
-	// .on .switch-inner {
+	// .on .d-switch-inner {
 	//   margin-left: 0;
 	// }
 	
-	// .on .switch-switch {
+	// .on .d-switch-switch {
 	//   right: 0;
 	// }
 	
 	// .disable  {
-	//   .switch-inner:before,
-	//   .switch-inner:after {
+	//   .d-switch-inner:before,
+	//   .d-switch-inner:after {
 	//     cursor: not-allowed;
 	//     background-color: #eee;
 	//   }
@@ -12276,7 +12284,7 @@ return /******/ (function(modules) { // webpackBootstrap
 /* 46 */
 /***/ function(module, exports) {
 
-	module.exports = "\n<div class=\"switch\" v-bind:class=\"{\n  'on': status,\n  'disable': disabled,\n  'off': !status\n}\" @click=\"toggleSwitch\">\n  <label class=\"switch-label\">\n    <div class=\"switch-inner\"></div>\n    <div class=\"switch-switch\"></div>\n  </label>\n</div>\n";
+	module.exports = "\n<div class=\"d-switch\" v-bind:class=\"{\n  'on': status,\n  'disable': disabled,\n  'off': !status\n}\" @click=\"toggleSwitch\">\n  <label class=\"d-switch-label\">\n    <div class=\"d-switch-inner\"></div>\n    <div class=\"d-switch-switch\"></div>\n  </label>\n</div>\n";
 
 /***/ },
 /* 47 */
@@ -12293,7 +12301,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  var hotAPI = require("vue-hot-reload-api")
 	  hotAPI.install(require("vue"), true)
 	  if (!hotAPI.compatible) return
-	  var id = "/Users/cookfront/Sites/work/duiba-design/src/components/Pagination.vue"
+	  var id = "/Users/cookfront/Sites/workspace/study/duiba-design/src/components/Pagination.vue"
 	  if (!module.hot.data) {
 	    hotAPI.createRecord(id, module.exports)
 	  } else {
@@ -12317,8 +12325,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	if(false) {
 		// When the styles change, update the <style> tags
 		if(!content.locals) {
-			module.hot.accept("!!./../../node_modules/.npminstall/css-loader/0.21.0/css-loader/index.js?sourceMap!./../../node_modules/.npminstall/vue-loader/8.0.0/vue-loader/lib/style-rewriter.js?id=_v-99c8169c&file=Pagination.vue!./../../node_modules/.npminstall/less-loader/2.2.3/less-loader/index.js!./../../node_modules/.npminstall/vue-loader/8.0.0/vue-loader/lib/selector.js?type=style&index=0!./../../node_modules/.npminstall/eslint-loader/1.6.1/eslint-loader/index.js!./../../node_modules/.npminstall/eslint-loader/1.6.1/eslint-loader/index.js!./Pagination.vue", function() {
-				var newContent = require("!!./../../node_modules/.npminstall/css-loader/0.21.0/css-loader/index.js?sourceMap!./../../node_modules/.npminstall/vue-loader/8.0.0/vue-loader/lib/style-rewriter.js?id=_v-99c8169c&file=Pagination.vue!./../../node_modules/.npminstall/less-loader/2.2.3/less-loader/index.js!./../../node_modules/.npminstall/vue-loader/8.0.0/vue-loader/lib/selector.js?type=style&index=0!./../../node_modules/.npminstall/eslint-loader/1.6.1/eslint-loader/index.js!./../../node_modules/.npminstall/eslint-loader/1.6.1/eslint-loader/index.js!./Pagination.vue");
+			module.hot.accept("!!./../../node_modules/.npminstall/css-loader/0.21.0/css-loader/index.js?sourceMap!./../../node_modules/.npminstall/vue-loader/8.0.0/vue-loader/lib/style-rewriter.js?id=_v-64b53714&file=Pagination.vue!./../../node_modules/.npminstall/less-loader/2.2.3/less-loader/index.js!./../../node_modules/.npminstall/vue-loader/8.0.0/vue-loader/lib/selector.js?type=style&index=0!./../../node_modules/.npminstall/eslint-loader/1.6.1/eslint-loader/index.js!./../../node_modules/.npminstall/eslint-loader/1.6.1/eslint-loader/index.js!./Pagination.vue", function() {
+				var newContent = require("!!./../../node_modules/.npminstall/css-loader/0.21.0/css-loader/index.js?sourceMap!./../../node_modules/.npminstall/vue-loader/8.0.0/vue-loader/lib/style-rewriter.js?id=_v-64b53714&file=Pagination.vue!./../../node_modules/.npminstall/less-loader/2.2.3/less-loader/index.js!./../../node_modules/.npminstall/vue-loader/8.0.0/vue-loader/lib/selector.js?type=style&index=0!./../../node_modules/.npminstall/eslint-loader/1.6.1/eslint-loader/index.js!./../../node_modules/.npminstall/eslint-loader/1.6.1/eslint-loader/index.js!./Pagination.vue");
 				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 				update(newContent);
 			});
@@ -12580,7 +12588,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  var hotAPI = require("vue-hot-reload-api")
 	  hotAPI.install(require("vue"), true)
 	  if (!hotAPI.compatible) return
-	  var id = "/Users/cookfront/Sites/work/duiba-design/src/components/Tooltip.vue"
+	  var id = "/Users/cookfront/Sites/workspace/study/duiba-design/src/components/Tooltip.vue"
 	  if (!module.hot.data) {
 	    hotAPI.createRecord(id, module.exports)
 	  } else {
@@ -12604,8 +12612,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	if(false) {
 		// When the styles change, update the <style> tags
 		if(!content.locals) {
-			module.hot.accept("!!./../../node_modules/.npminstall/css-loader/0.21.0/css-loader/index.js?sourceMap!./../../node_modules/.npminstall/vue-loader/8.0.0/vue-loader/lib/style-rewriter.js?id=_v-0bf6dcca&file=Tooltip.vue!./../../node_modules/.npminstall/less-loader/2.2.3/less-loader/index.js!./../../node_modules/.npminstall/vue-loader/8.0.0/vue-loader/lib/selector.js?type=style&index=0!./../../node_modules/.npminstall/eslint-loader/1.6.1/eslint-loader/index.js!./../../node_modules/.npminstall/eslint-loader/1.6.1/eslint-loader/index.js!./Tooltip.vue", function() {
-				var newContent = require("!!./../../node_modules/.npminstall/css-loader/0.21.0/css-loader/index.js?sourceMap!./../../node_modules/.npminstall/vue-loader/8.0.0/vue-loader/lib/style-rewriter.js?id=_v-0bf6dcca&file=Tooltip.vue!./../../node_modules/.npminstall/less-loader/2.2.3/less-loader/index.js!./../../node_modules/.npminstall/vue-loader/8.0.0/vue-loader/lib/selector.js?type=style&index=0!./../../node_modules/.npminstall/eslint-loader/1.6.1/eslint-loader/index.js!./../../node_modules/.npminstall/eslint-loader/1.6.1/eslint-loader/index.js!./Tooltip.vue");
+			module.hot.accept("!!./../../node_modules/.npminstall/css-loader/0.21.0/css-loader/index.js?sourceMap!./../../node_modules/.npminstall/vue-loader/8.0.0/vue-loader/lib/style-rewriter.js?id=_v-2a3a4f52&file=Tooltip.vue!./../../node_modules/.npminstall/less-loader/2.2.3/less-loader/index.js!./../../node_modules/.npminstall/vue-loader/8.0.0/vue-loader/lib/selector.js?type=style&index=0!./../../node_modules/.npminstall/eslint-loader/1.6.1/eslint-loader/index.js!./../../node_modules/.npminstall/eslint-loader/1.6.1/eslint-loader/index.js!./Tooltip.vue", function() {
+				var newContent = require("!!./../../node_modules/.npminstall/css-loader/0.21.0/css-loader/index.js?sourceMap!./../../node_modules/.npminstall/vue-loader/8.0.0/vue-loader/lib/style-rewriter.js?id=_v-2a3a4f52&file=Tooltip.vue!./../../node_modules/.npminstall/less-loader/2.2.3/less-loader/index.js!./../../node_modules/.npminstall/vue-loader/8.0.0/vue-loader/lib/selector.js?type=style&index=0!./../../node_modules/.npminstall/eslint-loader/1.6.1/eslint-loader/index.js!./../../node_modules/.npminstall/eslint-loader/1.6.1/eslint-loader/index.js!./Tooltip.vue");
 				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 				update(newContent);
 			});
@@ -12623,7 +12631,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	
 	// module
-	exports.push([module.id, ".tooltip {\n  position: absolute;\n  z-index: 1070;\n  display: block;\n  font-family: \"Hiragino Sans GB\", \"Helvetica Neue\", Helvetica, \"Microsoft Yahei\", STHeiTi, Arial, sans-serif;\n  font-style: normal;\n  font-weight: normal;\n  letter-spacing: normal;\n  line-break: auto;\n  line-height: 1.42857143;\n  text-align: left;\n  text-align: start;\n  text-decoration: none;\n  text-shadow: none;\n  text-transform: none;\n  white-space: normal;\n  word-break: normal;\n  word-spacing: normal;\n  word-wrap: normal;\n  font-size: 12px;\n  opacity: 0.9;\n}\n.tooltip.top {\n  margin-top: -3px;\n  padding: 5px 0;\n}\n.tooltip.right {\n  margin-left: 3px;\n  padding: 0 5px;\n}\n.tooltip.bottom {\n  margin-top: 3px;\n  padding: 5px 0;\n}\n.tooltip.left {\n  margin-left: -3px;\n  padding: 0 5px;\n}\n.tooltip-inner {\n  max-width: 200px;\n  padding: 3px 8px;\n  color: #fff;\n  text-align: center;\n  background-color: #29B6B0;\n  border-radius: 20px;\n}\n.tooltip-arrow {\n  position: absolute;\n  width: 0;\n  height: 0;\n  border-color: transparent;\n  border-style: solid;\n}\n.tooltip.top .tooltip-arrow {\n  bottom: 0;\n  left: 50%;\n  margin-left: -5px;\n  border-width: 5px 5px 0;\n  border-top-color: #29B6B0;\n}\n.tooltip.right .tooltip-arrow {\n  top: 50%;\n  left: 0;\n  margin-top: -5px;\n  border-width: 5px 5px 5px 0;\n  border-right-color: #29B6B0;\n}\n.tooltip.left .tooltip-arrow {\n  top: 50%;\n  right: 0;\n  margin-top: -5px;\n  border-width: 5px 0 5px 5px;\n  border-left-color: #29B6B0;\n}\n.tooltip.bottom .tooltip-arrow {\n  top: 0;\n  left: 50%;\n  margin-left: -5px;\n  border-width: 0 5px 5px;\n  border-bottom-color: #29B6B0;\n}\n.delete.top .tooltip-inner {\n  background-color: #ff795c;\n}\n.delete.top .tooltip-arrow {\n  border-top-color: #ff795c;\n}\n.disable.top .tooltip-inner {\n  background-color: #eee;\n  border-radius: 6px;\n  color: #888;\n}\n.disable.top .tooltip-arrow {\n  border-top-color: #eee;\n}\n", "", {"version":3,"sources":["/./src/components/Tooltip.vue"],"names":[],"mappings":"AAAA;EACE,mBAAmB;EACnB,cAAc;EACd,eAAe;EACf,4GAA4G;EAC5G,mBAAmB;EACnB,oBAAoB;EACpB,uBAAuB;EACvB,iBAAiB;EACjB,wBAAwB;EACxB,iBAAiB;EACjB,kBAAkB;EAClB,sBAAsB;EACtB,kBAAkB;EAClB,qBAAqB;EACrB,oBAAoB;EACpB,mBAAmB;EACnB,qBAAqB;EACrB,kBAAkB;EAClB,gBAAgB;EAChB,aAAa;CACd;AACD;EACE,iBAAiB;EACjB,eAAe;CAChB;AACD;EACE,iBAAiB;EACjB,eAAe;CAChB;AACD;EACE,gBAAgB;EAChB,eAAe;CAChB;AACD;EACE,kBAAkB;EAClB,eAAe;CAChB;AACD;EACE,iBAAiB;EACjB,iBAAiB;EACjB,YAAY;EACZ,mBAAmB;EACnB,0BAA0B;EAC1B,oBAAoB;CACrB;AACD;EACE,mBAAmB;EACnB,SAAS;EACT,UAAU;EACV,0BAA0B;EAC1B,oBAAoB;CACrB;AACD;EACE,UAAU;EACV,UAAU;EACV,kBAAkB;EAClB,wBAAwB;EACxB,0BAA0B;CAC3B;AACD;EACE,SAAS;EACT,QAAQ;EACR,iBAAiB;EACjB,4BAA4B;EAC5B,4BAA4B;CAC7B;AACD;EACE,SAAS;EACT,SAAS;EACT,iBAAiB;EACjB,4BAA4B;EAC5B,2BAA2B;CAC5B;AACD;EACE,OAAO;EACP,UAAU;EACV,kBAAkB;EAClB,wBAAwB;EACxB,6BAA6B;CAC9B;AACD;EACE,0BAA0B;CAC3B;AACD;EACE,0BAA0B;CAC3B;AACD;EACE,uBAAuB;EACvB,mBAAmB;EACnB,YAAY;CACb;AACD;EACE,uBAAuB;CACxB","file":"Tooltip.vue","sourcesContent":[".tooltip {\n  position: absolute;\n  z-index: 1070;\n  display: block;\n  font-family: \"Hiragino Sans GB\", \"Helvetica Neue\", Helvetica, \"Microsoft Yahei\", STHeiTi, Arial, sans-serif;\n  font-style: normal;\n  font-weight: normal;\n  letter-spacing: normal;\n  line-break: auto;\n  line-height: 1.42857143;\n  text-align: left;\n  text-align: start;\n  text-decoration: none;\n  text-shadow: none;\n  text-transform: none;\n  white-space: normal;\n  word-break: normal;\n  word-spacing: normal;\n  word-wrap: normal;\n  font-size: 12px;\n  opacity: 0.9;\n}\n.tooltip.top {\n  margin-top: -3px;\n  padding: 5px 0;\n}\n.tooltip.right {\n  margin-left: 3px;\n  padding: 0 5px;\n}\n.tooltip.bottom {\n  margin-top: 3px;\n  padding: 5px 0;\n}\n.tooltip.left {\n  margin-left: -3px;\n  padding: 0 5px;\n}\n.tooltip-inner {\n  max-width: 200px;\n  padding: 3px 8px;\n  color: #fff;\n  text-align: center;\n  background-color: #29B6B0;\n  border-radius: 20px;\n}\n.tooltip-arrow {\n  position: absolute;\n  width: 0;\n  height: 0;\n  border-color: transparent;\n  border-style: solid;\n}\n.tooltip.top .tooltip-arrow {\n  bottom: 0;\n  left: 50%;\n  margin-left: -5px;\n  border-width: 5px 5px 0;\n  border-top-color: #29B6B0;\n}\n.tooltip.right .tooltip-arrow {\n  top: 50%;\n  left: 0;\n  margin-top: -5px;\n  border-width: 5px 5px 5px 0;\n  border-right-color: #29B6B0;\n}\n.tooltip.left .tooltip-arrow {\n  top: 50%;\n  right: 0;\n  margin-top: -5px;\n  border-width: 5px 0 5px 5px;\n  border-left-color: #29B6B0;\n}\n.tooltip.bottom .tooltip-arrow {\n  top: 0;\n  left: 50%;\n  margin-left: -5px;\n  border-width: 0 5px 5px;\n  border-bottom-color: #29B6B0;\n}\n.delete.top .tooltip-inner {\n  background-color: #ff795c;\n}\n.delete.top .tooltip-arrow {\n  border-top-color: #ff795c;\n}\n.disable.top .tooltip-inner {\n  background-color: #eee;\n  border-radius: 6px;\n  color: #888;\n}\n.disable.top .tooltip-arrow {\n  border-top-color: #eee;\n}\n"],"sourceRoot":"webpack://"}]);
+	exports.push([module.id, ".d-tooltip {\n  position: absolute;\n  z-index: 1070;\n  display: block;\n  font-family: \"Hiragino Sans GB\", \"Helvetica Neue\", Helvetica, \"Microsoft Yahei\", STHeiTi, Arial, sans-serif;\n  font-style: normal;\n  font-weight: normal;\n  letter-spacing: normal;\n  line-break: auto;\n  line-height: 1.42857143;\n  text-align: left;\n  text-align: start;\n  text-decoration: none;\n  text-shadow: none;\n  text-transform: none;\n  white-space: normal;\n  word-break: normal;\n  word-spacing: normal;\n  word-wrap: normal;\n  font-size: 12px;\n  opacity: 0.9;\n}\n.d-tooltip.top {\n  margin-top: -3px;\n  padding: 5px 0;\n}\n.d-tooltip.right {\n  margin-left: 3px;\n  padding: 0 5px;\n}\n.d-tooltip.bottom {\n  margin-top: 3px;\n  padding: 5px 0;\n}\n.d-tooltip.left {\n  margin-left: -3px;\n  padding: 0 5px;\n}\n.d-tooltip-inner {\n  max-width: 200px;\n  padding: 3px 8px;\n  color: #fff;\n  text-align: center;\n  background-color: #29B6B0;\n  border-radius: 20px;\n}\n.d-tooltip-arrow {\n  position: absolute;\n  width: 0;\n  height: 0;\n  border-color: transparent;\n  border-style: solid;\n}\n.d-tooltip.top .d-tooltip-arrow {\n  bottom: 0;\n  left: 50%;\n  margin-left: -5px;\n  border-width: 5px 5px 0;\n  border-top-color: #29B6B0;\n}\n.d-tooltip.right .d-tooltip-arrow {\n  top: 50%;\n  left: 0;\n  margin-top: -5px;\n  border-width: 5px 5px 5px 0;\n  border-right-color: #29B6B0;\n}\n.d-tooltip.left .d-tooltip-arrow {\n  top: 50%;\n  right: 0;\n  margin-top: -5px;\n  border-width: 5px 0 5px 5px;\n  border-left-color: #29B6B0;\n}\n.d-tooltip.bottom .d-tooltip-arrow {\n  top: 0;\n  left: 50%;\n  margin-left: -5px;\n  border-width: 0 5px 5px;\n  border-bottom-color: #29B6B0;\n}\n.delete.top .d-tooltip-inner {\n  background-color: #ff795c;\n}\n.delete.top .d-tooltip-arrow {\n  border-top-color: #ff795c;\n}\n.disable.top .d-tooltip-inner {\n  background-color: #eee;\n  border-radius: 6px;\n  color: #888;\n}\n.disable.top .d-tooltip-arrow {\n  border-top-color: #eee;\n}\n", "", {"version":3,"sources":["/./src/components/Tooltip.vue"],"names":[],"mappings":"AAAA;EACE,mBAAmB;EACnB,cAAc;EACd,eAAe;EACf,4GAA4G;EAC5G,mBAAmB;EACnB,oBAAoB;EACpB,uBAAuB;EACvB,iBAAiB;EACjB,wBAAwB;EACxB,iBAAiB;EACjB,kBAAkB;EAClB,sBAAsB;EACtB,kBAAkB;EAClB,qBAAqB;EACrB,oBAAoB;EACpB,mBAAmB;EACnB,qBAAqB;EACrB,kBAAkB;EAClB,gBAAgB;EAChB,aAAa;CACd;AACD;EACE,iBAAiB;EACjB,eAAe;CAChB;AACD;EACE,iBAAiB;EACjB,eAAe;CAChB;AACD;EACE,gBAAgB;EAChB,eAAe;CAChB;AACD;EACE,kBAAkB;EAClB,eAAe;CAChB;AACD;EACE,iBAAiB;EACjB,iBAAiB;EACjB,YAAY;EACZ,mBAAmB;EACnB,0BAA0B;EAC1B,oBAAoB;CACrB;AACD;EACE,mBAAmB;EACnB,SAAS;EACT,UAAU;EACV,0BAA0B;EAC1B,oBAAoB;CACrB;AACD;EACE,UAAU;EACV,UAAU;EACV,kBAAkB;EAClB,wBAAwB;EACxB,0BAA0B;CAC3B;AACD;EACE,SAAS;EACT,QAAQ;EACR,iBAAiB;EACjB,4BAA4B;EAC5B,4BAA4B;CAC7B;AACD;EACE,SAAS;EACT,SAAS;EACT,iBAAiB;EACjB,4BAA4B;EAC5B,2BAA2B;CAC5B;AACD;EACE,OAAO;EACP,UAAU;EACV,kBAAkB;EAClB,wBAAwB;EACxB,6BAA6B;CAC9B;AACD;EACE,0BAA0B;CAC3B;AACD;EACE,0BAA0B;CAC3B;AACD;EACE,uBAAuB;EACvB,mBAAmB;EACnB,YAAY;CACb;AACD;EACE,uBAAuB;CACxB","file":"Tooltip.vue","sourcesContent":[".d-tooltip {\n  position: absolute;\n  z-index: 1070;\n  display: block;\n  font-family: \"Hiragino Sans GB\", \"Helvetica Neue\", Helvetica, \"Microsoft Yahei\", STHeiTi, Arial, sans-serif;\n  font-style: normal;\n  font-weight: normal;\n  letter-spacing: normal;\n  line-break: auto;\n  line-height: 1.42857143;\n  text-align: left;\n  text-align: start;\n  text-decoration: none;\n  text-shadow: none;\n  text-transform: none;\n  white-space: normal;\n  word-break: normal;\n  word-spacing: normal;\n  word-wrap: normal;\n  font-size: 12px;\n  opacity: 0.9;\n}\n.d-tooltip.top {\n  margin-top: -3px;\n  padding: 5px 0;\n}\n.d-tooltip.right {\n  margin-left: 3px;\n  padding: 0 5px;\n}\n.d-tooltip.bottom {\n  margin-top: 3px;\n  padding: 5px 0;\n}\n.d-tooltip.left {\n  margin-left: -3px;\n  padding: 0 5px;\n}\n.d-tooltip-inner {\n  max-width: 200px;\n  padding: 3px 8px;\n  color: #fff;\n  text-align: center;\n  background-color: #29B6B0;\n  border-radius: 20px;\n}\n.d-tooltip-arrow {\n  position: absolute;\n  width: 0;\n  height: 0;\n  border-color: transparent;\n  border-style: solid;\n}\n.d-tooltip.top .d-tooltip-arrow {\n  bottom: 0;\n  left: 50%;\n  margin-left: -5px;\n  border-width: 5px 5px 0;\n  border-top-color: #29B6B0;\n}\n.d-tooltip.right .d-tooltip-arrow {\n  top: 50%;\n  left: 0;\n  margin-top: -5px;\n  border-width: 5px 5px 5px 0;\n  border-right-color: #29B6B0;\n}\n.d-tooltip.left .d-tooltip-arrow {\n  top: 50%;\n  right: 0;\n  margin-top: -5px;\n  border-width: 5px 0 5px 5px;\n  border-left-color: #29B6B0;\n}\n.d-tooltip.bottom .d-tooltip-arrow {\n  top: 0;\n  left: 50%;\n  margin-left: -5px;\n  border-width: 0 5px 5px;\n  border-bottom-color: #29B6B0;\n}\n.delete.top .d-tooltip-inner {\n  background-color: #ff795c;\n}\n.delete.top .d-tooltip-arrow {\n  border-top-color: #ff795c;\n}\n.disable.top .d-tooltip-inner {\n  background-color: #eee;\n  border-radius: 6px;\n  color: #888;\n}\n.disable.top .d-tooltip-arrow {\n  border-top-color: #eee;\n}\n"],"sourceRoot":"webpack://"}]);
 	
 	// exports
 
@@ -12686,7 +12694,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	// @line-height-base:             1.428571429; // 20/14
 	
 	// // Base class
-	// .tooltip {
+	// .d-tooltip {
 	//   position: absolute;
 	//   z-index: @zindex-tooltip;
 	//   display: block;
@@ -12718,7 +12726,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	// }
 	
 	// // Wrapper for the tooltip content
-	// .tooltip-inner {
+	// .d-tooltip-inner {
 	//   max-width: @tooltip-max-width;
 	//   padding: 3px 8px;
 	//   color: @tooltip-color;
@@ -12728,7 +12736,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	// }
 	
 	// // Arrows
-	// .tooltip-arrow {
+	// .d-tooltip-arrow {
 	//   position: absolute;
 	//   width: 0;
 	//   height: 0;
@@ -12736,29 +12744,29 @@ return /******/ (function(modules) { // webpackBootstrap
 	//   border-style: solid;
 	// }
 	
-	// .tooltip {
-	//   &.top .tooltip-arrow {
+	// .d-tooltip {
+	//   &.top .d-tooltip-arrow {
 	//     bottom: 0;
 	//     left: 50%;
 	//     margin-left: -@tooltip-arrow-width;
 	//     border-width: @tooltip-arrow-width @tooltip-arrow-width 0;
 	//     border-top-color: @tooltip-arrow-color;
 	//   }
-	//   &.right .tooltip-arrow {
+	//   &.right .d-tooltip-arrow {
 	//     top: 50%;
 	//     left: 0;
 	//     margin-top: -@tooltip-arrow-width;
 	//     border-width: @tooltip-arrow-width @tooltip-arrow-width @tooltip-arrow-width 0;
 	//     border-right-color: @tooltip-arrow-color;
 	//   }
-	//   &.left .tooltip-arrow {
+	//   &.left .d-tooltip-arrow {
 	//     top: 50%;
 	//     right: 0;
 	//     margin-top: -@tooltip-arrow-width;
 	//     border-width: @tooltip-arrow-width 0 @tooltip-arrow-width @tooltip-arrow-width;
 	//     border-left-color: @tooltip-arrow-color;
 	//   }
-	//   &.bottom .tooltip-arrow {
+	//   &.bottom .d-tooltip-arrow {
 	//     top: 0;
 	//     left: 50%;
 	//     margin-left: -@tooltip-arrow-width;
@@ -12768,23 +12776,23 @@ return /******/ (function(modules) { // webpackBootstrap
 	// }
 	
 	// .delete.top {
-	//   .tooltip-inner {
+	//   .d-tooltip-inner {
 	//     background-color: #ff795c;
 	//   }
 	
-	//   .tooltip-arrow {
+	//   .d-tooltip-arrow {
 	//     border-top-color: #ff795c;
 	//   }
 	// }
 	
 	// .disable.top {
-	//   .tooltip-inner {
+	//   .d-tooltip-inner {
 	//     background-color: #eee;
 	//     border-radius: 6px;
 	//     color: #888;
 	//   }
 	
-	//   .tooltip-arrow {
+	//   .d-tooltip-arrow {
 	//     border-top-color: #eee;
 	//   }
 	// }
@@ -12796,7 +12804,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	//     <slot>
 	//     </slot>
 	//   </span>
-	//   <div class="tooltip"
+	//   <div class="d-tooltip"
 	//     v-bind:class="{
 	//       'top':     placement === 'top',
 	//       'left':    placement === 'left',
@@ -12808,8 +12816,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	//     v-el:popover
 	//     v-show="show"
 	//     role="tooltip">
-	//     <div class="tooltip-arrow"></div>
-	//     <div class="tooltip-inner">
+	//     <div class="d-tooltip-arrow"></div>
+	//     <div class="d-tooltip-inner">
 	//       <slot name="content">
 	//         {{{content}}}
 	//       </slot>
@@ -12970,7 +12978,7 @@ return /******/ (function(modules) { // webpackBootstrap
 /* 57 */
 /***/ function(module, exports) {
 
-	module.exports = "\n<span v-el:trigger>\n  <slot>\n  </slot>\n</span>\n<div class=\"tooltip\"\n  v-bind:class=\"{\n    'top':     placement === 'top',\n    'left':    placement === 'left',\n    'right':   placement === 'right',\n    'bottom':  placement === 'bottom',\n    'disable': type === 'disable',\n    'delete':  type === 'delete'\n  }\"\n  v-el:popover\n  v-show=\"show\"\n  role=\"tooltip\">\n  <div class=\"tooltip-arrow\"></div>\n  <div class=\"tooltip-inner\">\n    <slot name=\"content\">\n      {{{content}}}\n    </slot>\n </div>\n</div>\n";
+	module.exports = "\n<span v-el:trigger>\n  <slot>\n  </slot>\n</span>\n<div class=\"d-tooltip\"\n  v-bind:class=\"{\n    'top':     placement === 'top',\n    'left':    placement === 'left',\n    'right':   placement === 'right',\n    'bottom':  placement === 'bottom',\n    'disable': type === 'disable',\n    'delete':  type === 'delete'\n  }\"\n  v-el:popover\n  v-show=\"show\"\n  role=\"tooltip\">\n  <div class=\"d-tooltip-arrow\"></div>\n  <div class=\"d-tooltip-inner\">\n    <slot name=\"content\">\n      {{{content}}}\n    </slot>\n </div>\n</div>\n";
 
 /***/ },
 /* 58 */
@@ -12987,7 +12995,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  var hotAPI = require("vue-hot-reload-api")
 	  hotAPI.install(require("vue"), true)
 	  if (!hotAPI.compatible) return
-	  var id = "/Users/cookfront/Sites/work/duiba-design/src/components/Tabs.vue"
+	  var id = "/Users/cookfront/Sites/workspace/study/duiba-design/src/components/Tabs.vue"
 	  if (!module.hot.data) {
 	    hotAPI.createRecord(id, module.exports)
 	  } else {
@@ -13011,8 +13019,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	if(false) {
 		// When the styles change, update the <style> tags
 		if(!content.locals) {
-			module.hot.accept("!!./../../node_modules/.npminstall/css-loader/0.21.0/css-loader/index.js?sourceMap!./../../node_modules/.npminstall/vue-loader/8.0.0/vue-loader/lib/style-rewriter.js?id=_v-1993fe96&file=Tabs.vue!./../../node_modules/.npminstall/less-loader/2.2.3/less-loader/index.js!./../../node_modules/.npminstall/vue-loader/8.0.0/vue-loader/lib/selector.js?type=style&index=0!./../../node_modules/.npminstall/eslint-loader/1.6.1/eslint-loader/index.js!./../../node_modules/.npminstall/eslint-loader/1.6.1/eslint-loader/index.js!./Tabs.vue", function() {
-				var newContent = require("!!./../../node_modules/.npminstall/css-loader/0.21.0/css-loader/index.js?sourceMap!./../../node_modules/.npminstall/vue-loader/8.0.0/vue-loader/lib/style-rewriter.js?id=_v-1993fe96&file=Tabs.vue!./../../node_modules/.npminstall/less-loader/2.2.3/less-loader/index.js!./../../node_modules/.npminstall/vue-loader/8.0.0/vue-loader/lib/selector.js?type=style&index=0!./../../node_modules/.npminstall/eslint-loader/1.6.1/eslint-loader/index.js!./../../node_modules/.npminstall/eslint-loader/1.6.1/eslint-loader/index.js!./Tabs.vue");
+			module.hot.accept("!!./../../node_modules/.npminstall/css-loader/0.21.0/css-loader/index.js?sourceMap!./../../node_modules/.npminstall/vue-loader/8.0.0/vue-loader/lib/style-rewriter.js?id=_v-74cd915a&file=Tabs.vue!./../../node_modules/.npminstall/less-loader/2.2.3/less-loader/index.js!./../../node_modules/.npminstall/vue-loader/8.0.0/vue-loader/lib/selector.js?type=style&index=0!./../../node_modules/.npminstall/eslint-loader/1.6.1/eslint-loader/index.js!./../../node_modules/.npminstall/eslint-loader/1.6.1/eslint-loader/index.js!./Tabs.vue", function() {
+				var newContent = require("!!./../../node_modules/.npminstall/css-loader/0.21.0/css-loader/index.js?sourceMap!./../../node_modules/.npminstall/vue-loader/8.0.0/vue-loader/lib/style-rewriter.js?id=_v-74cd915a&file=Tabs.vue!./../../node_modules/.npminstall/less-loader/2.2.3/less-loader/index.js!./../../node_modules/.npminstall/vue-loader/8.0.0/vue-loader/lib/selector.js?type=style&index=0!./../../node_modules/.npminstall/eslint-loader/1.6.1/eslint-loader/index.js!./../../node_modules/.npminstall/eslint-loader/1.6.1/eslint-loader/index.js!./Tabs.vue");
 				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 				update(newContent);
 			});
@@ -13030,7 +13038,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	
 	// module
-	exports.push([module.id, ".header-tabs {\n  border-bottom: 1px solid #e5e5e5;\n  overflow: hidden;\n}\n.header-tabs li {\n  font-size: 14px;\n  position: relative;\n  bottom: -1px;\n  margin: 0 10px;\n  float: left;\n  line-height: 34px;\n}\n.header-tabs li:first-child {\n  margin-left: 0;\n}\n.header-tabs li::before {\n  content: '';\n  position: absolute;\n  top: 9px;\n  right: -10px;\n  height: 16px;\n  border-right: 1px dashed #d8d8d8;\n}\n.header-tabs li:last-child::before {\n  display: none;\n}\n.header-tabs li a {\n  display: block;\n  border-bottom: 2px solid transparent;\n  padding: 0 25px 0 15px;\n  padding-right: 25px;\n  position: relative;\n  color: #888;\n}\n.header-tabs li a.active {\n  font-weight: normal;\n  border-bottom: 2px solid #29b6b0;\n  color: #444;\n}\n.header-tabs li .iconhandle {\n  font-size: 12px;\n  position: absolute;\n  top: -5px;\n  right: 8px;\n  color: #a5a5a5;\n}\n.header-tabs li .iconhandle.active {\n  color: #29b6b0;\n}\n.tab-content {\n  padding: 10px 0;\n}\n", "", {"version":3,"sources":["/./src/components/Tabs.vue"],"names":[],"mappings":"AAAA;EACE,iCAAiC;EACjC,iBAAiB;CAClB;AACD;EACE,gBAAgB;EAChB,mBAAmB;EACnB,aAAa;EACb,eAAe;EACf,YAAY;EACZ,kBAAkB;CACnB;AACD;EACE,eAAe;CAChB;AACD;EACE,YAAY;EACZ,mBAAmB;EACnB,SAAS;EACT,aAAa;EACb,aAAa;EACb,iCAAiC;CAClC;AACD;EACE,cAAc;CACf;AACD;EACE,eAAe;EACf,qCAAqC;EACrC,uBAAuB;EACvB,oBAAoB;EACpB,mBAAmB;EACnB,YAAY;CACb;AACD;EACE,oBAAoB;EACpB,iCAAiC;EACjC,YAAY;CACb;AACD;EACE,gBAAgB;EAChB,mBAAmB;EACnB,UAAU;EACV,WAAW;EACX,eAAe;CAChB;AACD;EACE,eAAe;CAChB;AACD;EACE,gBAAgB;CACjB","file":"Tabs.vue","sourcesContent":[".header-tabs {\n  border-bottom: 1px solid #e5e5e5;\n  overflow: hidden;\n}\n.header-tabs li {\n  font-size: 14px;\n  position: relative;\n  bottom: -1px;\n  margin: 0 10px;\n  float: left;\n  line-height: 34px;\n}\n.header-tabs li:first-child {\n  margin-left: 0;\n}\n.header-tabs li::before {\n  content: '';\n  position: absolute;\n  top: 9px;\n  right: -10px;\n  height: 16px;\n  border-right: 1px dashed #d8d8d8;\n}\n.header-tabs li:last-child::before {\n  display: none;\n}\n.header-tabs li a {\n  display: block;\n  border-bottom: 2px solid transparent;\n  padding: 0 25px 0 15px;\n  padding-right: 25px;\n  position: relative;\n  color: #888;\n}\n.header-tabs li a.active {\n  font-weight: normal;\n  border-bottom: 2px solid #29b6b0;\n  color: #444;\n}\n.header-tabs li .iconhandle {\n  font-size: 12px;\n  position: absolute;\n  top: -5px;\n  right: 8px;\n  color: #a5a5a5;\n}\n.header-tabs li .iconhandle.active {\n  color: #29b6b0;\n}\n.tab-content {\n  padding: 10px 0;\n}\n"],"sourceRoot":"webpack://"}]);
+	exports.push([module.id, ".d-tabs {\n  border-bottom: 1px solid #e5e5e5;\n  overflow: hidden;\n}\n.d-tabs li {\n  font-size: 14px;\n  position: relative;\n  bottom: -1px;\n  margin: 0 10px;\n  float: left;\n  line-height: 34px;\n}\n.d-tabs li:first-child {\n  margin-left: 0;\n}\n.d-tabs li::before {\n  content: '';\n  position: absolute;\n  top: 9px;\n  right: -10px;\n  height: 16px;\n  border-right: 1px dashed #d8d8d8;\n}\n.d-tabs li:last-child::before {\n  display: none;\n}\n.d-tabs li a {\n  display: block;\n  border-bottom: 2px solid transparent;\n  padding: 0 25px 0 15px;\n  padding-right: 25px;\n  position: relative;\n  color: #888;\n}\n.d-tabs li a.active {\n  font-weight: normal;\n  border-bottom: 2px solid #29b6b0;\n  color: #444;\n}\n.d-tabs li .iconhandle {\n  font-size: 12px;\n  position: absolute;\n  top: -5px;\n  right: 8px;\n  color: #a5a5a5;\n}\n.d-tabs li .iconhandle.active {\n  color: #29b6b0;\n}\n.d-tab-content {\n  padding: 10px 0;\n}\n", "", {"version":3,"sources":["/./src/components/Tabs.vue"],"names":[],"mappings":"AAAA;EACE,iCAAiC;EACjC,iBAAiB;CAClB;AACD;EACE,gBAAgB;EAChB,mBAAmB;EACnB,aAAa;EACb,eAAe;EACf,YAAY;EACZ,kBAAkB;CACnB;AACD;EACE,eAAe;CAChB;AACD;EACE,YAAY;EACZ,mBAAmB;EACnB,SAAS;EACT,aAAa;EACb,aAAa;EACb,iCAAiC;CAClC;AACD;EACE,cAAc;CACf;AACD;EACE,eAAe;EACf,qCAAqC;EACrC,uBAAuB;EACvB,oBAAoB;EACpB,mBAAmB;EACnB,YAAY;CACb;AACD;EACE,oBAAoB;EACpB,iCAAiC;EACjC,YAAY;CACb;AACD;EACE,gBAAgB;EAChB,mBAAmB;EACnB,UAAU;EACV,WAAW;EACX,eAAe;CAChB;AACD;EACE,eAAe;CAChB;AACD;EACE,gBAAgB;CACjB","file":"Tabs.vue","sourcesContent":[".d-tabs {\n  border-bottom: 1px solid #e5e5e5;\n  overflow: hidden;\n}\n.d-tabs li {\n  font-size: 14px;\n  position: relative;\n  bottom: -1px;\n  margin: 0 10px;\n  float: left;\n  line-height: 34px;\n}\n.d-tabs li:first-child {\n  margin-left: 0;\n}\n.d-tabs li::before {\n  content: '';\n  position: absolute;\n  top: 9px;\n  right: -10px;\n  height: 16px;\n  border-right: 1px dashed #d8d8d8;\n}\n.d-tabs li:last-child::before {\n  display: none;\n}\n.d-tabs li a {\n  display: block;\n  border-bottom: 2px solid transparent;\n  padding: 0 25px 0 15px;\n  padding-right: 25px;\n  position: relative;\n  color: #888;\n}\n.d-tabs li a.active {\n  font-weight: normal;\n  border-bottom: 2px solid #29b6b0;\n  color: #444;\n}\n.d-tabs li .iconhandle {\n  font-size: 12px;\n  position: absolute;\n  top: -5px;\n  right: 8px;\n  color: #a5a5a5;\n}\n.d-tabs li .iconhandle.active {\n  color: #29b6b0;\n}\n.d-tab-content {\n  padding: 10px 0;\n}\n"],"sourceRoot":"webpack://"}]);
 	
 	// exports
 
@@ -13046,7 +13054,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	});
 	// <template>
 	//   <!-- Nav tabs -->
-	//   <ul class="header-tabs cf" role="tablist">
+	//   <ul class="d-tabs cf" role="tablist">
 	//     <template v-for="t in tabs">
 	//       <li @click.prevent="select(t)">
 	//         <a :class="{active: t.active}" href="javascript:void(0)">
@@ -13055,7 +13063,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	//       </li>
 	//     </template>
 	//   </ul>
-	//   <div class="tab-content" v-el:tab-content>
+	//   <div class="d-tab-content" v-el:tab-content>
 	//     <slot></slot>
 	//   </div>
 	// </template>
@@ -13100,7 +13108,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	// </script>
 	
 	// <style lang="less">
-	// .header-tabs {
+	// .d-tabs {
 	//   border-bottom: 1px solid #e5e5e5;
 	//   overflow: hidden;
 	
@@ -13158,7 +13166,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	//   }
 	// }
 	
-	// .tab-content {
+	// .d-tab-content {
 	//   padding: 10px 0;
 	// }
 	// </style>
@@ -13170,7 +13178,7 @@ return /******/ (function(modules) { // webpackBootstrap
 /* 62 */
 /***/ function(module, exports) {
 
-	module.exports = "\n<!-- Nav tabs -->\n<ul class=\"header-tabs cf\" role=\"tablist\">\n  <template v-for=\"t in tabs\">\n    <li @click.prevent=\"select(t)\">\n      <a :class=\"{active: t.active}\" href=\"javascript:void(0)\">\n        {{{t.header}}}\n      </a>\n    </li>\n  </template>\n</ul>\n<div class=\"tab-content\" v-el:tab-content>\n  <slot></slot>\n</div>\n";
+	module.exports = "\n<!-- Nav tabs -->\n<ul class=\"d-tabs cf\" role=\"tablist\">\n  <template v-for=\"t in tabs\">\n    <li @click.prevent=\"select(t)\">\n      <a :class=\"{active: t.active}\" href=\"javascript:void(0)\">\n        {{{t.header}}}\n      </a>\n    </li>\n  </template>\n</ul>\n<div class=\"d-tab-content\" v-el:tab-content>\n  <slot></slot>\n</div>\n";
 
 /***/ },
 /* 63 */
@@ -13186,7 +13194,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  var hotAPI = require("vue-hot-reload-api")
 	  hotAPI.install(require("vue"), true)
 	  if (!hotAPI.compatible) return
-	  var id = "/Users/cookfront/Sites/work/duiba-design/src/components/Tab.vue"
+	  var id = "/Users/cookfront/Sites/workspace/study/duiba-design/src/components/Tab.vue"
 	  if (!module.hot.data) {
 	    hotAPI.createRecord(id, module.exports)
 	  } else {
@@ -13204,7 +13212,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  value: true
 	});
 	// <template>
-	//   <div role="tabpanel" class="tab-pane" v-show="active">
+	//   <div role="tabpanel" class="d-tab-pane" v-show="active">
 	//     <slot></slot>
 	//   </div>
 	// </template>
@@ -13260,7 +13268,7 @@ return /******/ (function(modules) { // webpackBootstrap
 /* 65 */
 /***/ function(module, exports) {
 
-	module.exports = "\n<div role=\"tabpanel\" class=\"tab-pane\" v-show=\"active\">\n  <slot></slot>\n</div>\n";
+	module.exports = "\n<div role=\"tabpanel\" class=\"d-tab-pane\" v-show=\"active\">\n  <slot></slot>\n</div>\n";
 
 /***/ },
 /* 66 */
@@ -13276,7 +13284,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  var hotAPI = require("vue-hot-reload-api")
 	  hotAPI.install(require("vue"), true)
 	  if (!hotAPI.compatible) return
-	  var id = "/Users/cookfront/Sites/work/duiba-design/src/components/Breadcrumb.vue"
+	  var id = "/Users/cookfront/Sites/workspace/study/duiba-design/src/components/Breadcrumb.vue"
 	  if (!module.hot.data) {
 	    hotAPI.createRecord(id, module.exports)
 	  } else {
@@ -13294,7 +13302,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  value: true
 	});
 	// <template>
-	//   <div class="breadcrumb">
+	//   <div class="d-breadcrumb">
 	//     <slot></slot>
 	//   </div>
 	// </template>
@@ -13318,7 +13326,7 @@ return /******/ (function(modules) { // webpackBootstrap
 /* 68 */
 /***/ function(module, exports) {
 
-	module.exports = "\n<div class=\"breadcrumb\">\n  <slot></slot>\n</div>\n";
+	module.exports = "\n<div class=\"d-breadcrumb\">\n  <slot></slot>\n</div>\n";
 
 /***/ },
 /* 69 */
@@ -13335,7 +13343,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  var hotAPI = require("vue-hot-reload-api")
 	  hotAPI.install(require("vue"), true)
 	  if (!hotAPI.compatible) return
-	  var id = "/Users/cookfront/Sites/work/duiba-design/src/components/BreadcrumbItem.vue"
+	  var id = "/Users/cookfront/Sites/workspace/study/duiba-design/src/components/BreadcrumbItem.vue"
 	  if (!module.hot.data) {
 	    hotAPI.createRecord(id, module.exports)
 	  } else {
@@ -13359,8 +13367,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	if(false) {
 		// When the styles change, update the <style> tags
 		if(!content.locals) {
-			module.hot.accept("!!./../../node_modules/.npminstall/css-loader/0.21.0/css-loader/index.js?sourceMap!./../../node_modules/.npminstall/vue-loader/8.0.0/vue-loader/lib/style-rewriter.js?id=_v-8d9a1664&file=BreadcrumbItem.vue!./../../node_modules/.npminstall/less-loader/2.2.3/less-loader/index.js!./../../node_modules/.npminstall/vue-loader/8.0.0/vue-loader/lib/selector.js?type=style&index=0!./../../node_modules/.npminstall/eslint-loader/1.6.1/eslint-loader/index.js!./../../node_modules/.npminstall/eslint-loader/1.6.1/eslint-loader/index.js!./BreadcrumbItem.vue", function() {
-				var newContent = require("!!./../../node_modules/.npminstall/css-loader/0.21.0/css-loader/index.js?sourceMap!./../../node_modules/.npminstall/vue-loader/8.0.0/vue-loader/lib/style-rewriter.js?id=_v-8d9a1664&file=BreadcrumbItem.vue!./../../node_modules/.npminstall/less-loader/2.2.3/less-loader/index.js!./../../node_modules/.npminstall/vue-loader/8.0.0/vue-loader/lib/selector.js?type=style&index=0!./../../node_modules/.npminstall/eslint-loader/1.6.1/eslint-loader/index.js!./../../node_modules/.npminstall/eslint-loader/1.6.1/eslint-loader/index.js!./BreadcrumbItem.vue");
+			module.hot.accept("!!./../../node_modules/.npminstall/css-loader/0.21.0/css-loader/index.js?sourceMap!./../../node_modules/.npminstall/vue-loader/8.0.0/vue-loader/lib/style-rewriter.js?id=_v-e3923adc&file=BreadcrumbItem.vue!./../../node_modules/.npminstall/less-loader/2.2.3/less-loader/index.js!./../../node_modules/.npminstall/vue-loader/8.0.0/vue-loader/lib/selector.js?type=style&index=0!./../../node_modules/.npminstall/eslint-loader/1.6.1/eslint-loader/index.js!./../../node_modules/.npminstall/eslint-loader/1.6.1/eslint-loader/index.js!./BreadcrumbItem.vue", function() {
+				var newContent = require("!!./../../node_modules/.npminstall/css-loader/0.21.0/css-loader/index.js?sourceMap!./../../node_modules/.npminstall/vue-loader/8.0.0/vue-loader/lib/style-rewriter.js?id=_v-e3923adc&file=BreadcrumbItem.vue!./../../node_modules/.npminstall/less-loader/2.2.3/less-loader/index.js!./../../node_modules/.npminstall/vue-loader/8.0.0/vue-loader/lib/selector.js?type=style&index=0!./../../node_modules/.npminstall/eslint-loader/1.6.1/eslint-loader/index.js!./../../node_modules/.npminstall/eslint-loader/1.6.1/eslint-loader/index.js!./BreadcrumbItem.vue");
 				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 				update(newContent);
 			});
@@ -13378,7 +13386,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	
 	// module
-	exports.push([module.id, ".breadcrumb {\n  line-height: 1;\n  font-size: 18px;\n}\n.breadcrumb__item {\n  color: #444;\n}\n.breadcrumb__item:last-child {\n  font-weight: bold;\n}\n.breadcrumb__item:last-child .breadcrumb__separator {\n  display: none;\n}\n.breadcrumb__item:last-child .breadcrumb__item__inner {\n  cursor: default;\n}\n.breadcrumb__separator {\n  font-family: handle;\n  font-size: 12px;\n  margin: 0 5px;\n  vertical-align: middle;\n}\n.breadcrumb__item__inner {\n  cursor: pointer;\n}\n", "", {"version":3,"sources":["/./src/components/BreadcrumbItem.vue"],"names":[],"mappings":"AAAA;EACE,eAAe;EACf,gBAAgB;CACjB;AACD;EACE,YAAY;CACb;AACD;EACE,kBAAkB;CACnB;AACD;EACE,cAAc;CACf;AACD;EACE,gBAAgB;CACjB;AACD;EACE,oBAAoB;EACpB,gBAAgB;EAChB,cAAc;EACd,uBAAuB;CACxB;AACD;EACE,gBAAgB;CACjB","file":"BreadcrumbItem.vue","sourcesContent":[".breadcrumb {\n  line-height: 1;\n  font-size: 18px;\n}\n.breadcrumb__item {\n  color: #444;\n}\n.breadcrumb__item:last-child {\n  font-weight: bold;\n}\n.breadcrumb__item:last-child .breadcrumb__separator {\n  display: none;\n}\n.breadcrumb__item:last-child .breadcrumb__item__inner {\n  cursor: default;\n}\n.breadcrumb__separator {\n  font-family: handle;\n  font-size: 12px;\n  margin: 0 5px;\n  vertical-align: middle;\n}\n.breadcrumb__item__inner {\n  cursor: pointer;\n}\n"],"sourceRoot":"webpack://"}]);
+	exports.push([module.id, ".d-breadcrumb {\n  line-height: 1;\n  font-size: 18px;\n}\n.d-breadcrumb__item {\n  color: #444;\n}\n.d-breadcrumb__item:last-child {\n  font-weight: bold;\n}\n.d-breadcrumb__item:last-child .d-breadcrumb__separator {\n  display: none;\n}\n.d-breadcrumb__item:last-child .d-breadcrumb__item__inner {\n  cursor: default;\n}\n.d-breadcrumb__separator {\n  font-family: handle;\n  font-size: 12px;\n  margin: 0 5px;\n  vertical-align: middle;\n}\n.d-breadcrumb__item__inner {\n  cursor: pointer;\n}\n", "", {"version":3,"sources":["/./src/components/BreadcrumbItem.vue"],"names":[],"mappings":"AAAA;EACE,eAAe;EACf,gBAAgB;CACjB;AACD;EACE,YAAY;CACb;AACD;EACE,kBAAkB;CACnB;AACD;EACE,cAAc;CACf;AACD;EACE,gBAAgB;CACjB;AACD;EACE,oBAAoB;EACpB,gBAAgB;EAChB,cAAc;EACd,uBAAuB;CACxB;AACD;EACE,gBAAgB;CACjB","file":"BreadcrumbItem.vue","sourcesContent":[".d-breadcrumb {\n  line-height: 1;\n  font-size: 18px;\n}\n.d-breadcrumb__item {\n  color: #444;\n}\n.d-breadcrumb__item:last-child {\n  font-weight: bold;\n}\n.d-breadcrumb__item:last-child .d-breadcrumb__separator {\n  display: none;\n}\n.d-breadcrumb__item:last-child .d-breadcrumb__item__inner {\n  cursor: default;\n}\n.d-breadcrumb__separator {\n  font-family: handle;\n  font-size: 12px;\n  margin: 0 5px;\n  vertical-align: middle;\n}\n.d-breadcrumb__item__inner {\n  cursor: pointer;\n}\n"],"sourceRoot":"webpack://"}]);
 	
 	// exports
 
@@ -13393,11 +13401,11 @@ return /******/ (function(modules) { // webpackBootstrap
 	  value: true
 	});
 	// <template>
-	//   <span class="breadcrumb__item">
-	//     <span class="breadcrumb__item__inner" v-el:link>
+	//   <span class="d-breadcrumb__item">
+	//     <span class="d-breadcrumb__item__inner" v-el:link>
 	//       <slot></slot>
 	//     </span>
-	//     <span class="breadcrumb__separator">{{{separator}}}</span>
+	//     <span class="d-breadcrumb__separator">{{{separator}}}</span>
 	//   </span>
 	// </template>
 	// <script>
@@ -13430,34 +13438,34 @@ return /******/ (function(modules) { // webpackBootstrap
 	// </script>
 	
 	// <style lang="less">
-	// .breadcrumb {
+	// .d-breadcrumb {
 	//   line-height: 1;
 	//   font-size: 18px;
 	// }
-	// .breadcrumb__item {
+	// .d-breadcrumb__item {
 	//   color: #444;
 	
 	//   &:last-child {
 	//     font-weight: bold;
 	
-	//     .breadcrumb__separator {
+	//     .d-breadcrumb__separator {
 	//       display: none;
 	//     }
 	
-	//     .breadcrumb__item__inner {
+	//     .d-breadcrumb__item__inner {
 	//       cursor: default;
 	//     }
 	//   }
 	// }
 	
-	// .breadcrumb__separator {
+	// .d-breadcrumb__separator {
 	//   font-family: handle;
 	//   font-size: 12px;
 	//   margin: 0 5px;
 	//   vertical-align: middle;
 	// }
 	
-	// .breadcrumb__item__inner {
+	// .d-breadcrumb__item__inner {
 	//   cursor: pointer;
 	// }
 	// </style>
@@ -13468,7 +13476,7 @@ return /******/ (function(modules) { // webpackBootstrap
 /* 73 */
 /***/ function(module, exports) {
 
-	module.exports = "\n<span class=\"breadcrumb__item\">\n  <span class=\"breadcrumb__item__inner\" v-el:link>\n    <slot></slot>\n  </span>\n  <span class=\"breadcrumb__separator\">{{{separator}}}</span>\n</span>\n";
+	module.exports = "\n<span class=\"d-breadcrumb__item\">\n  <span class=\"d-breadcrumb__item__inner\" v-el:link>\n    <slot></slot>\n  </span>\n  <span class=\"d-breadcrumb__separator\">{{{separator}}}</span>\n</span>\n";
 
 /***/ },
 /* 74 */
@@ -13485,7 +13493,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  var hotAPI = require("vue-hot-reload-api")
 	  hotAPI.install(require("vue"), true)
 	  if (!hotAPI.compatible) return
-	  var id = "/Users/cookfront/Sites/work/duiba-design/src/components/Checkbox.vue"
+	  var id = "/Users/cookfront/Sites/workspace/study/duiba-design/src/components/Checkbox.vue"
 	  if (!module.hot.data) {
 	    hotAPI.createRecord(id, module.exports)
 	  } else {
@@ -13509,8 +13517,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	if(false) {
 		// When the styles change, update the <style> tags
 		if(!content.locals) {
-			module.hot.accept("!!./../../node_modules/.npminstall/css-loader/0.21.0/css-loader/index.js?sourceMap!./../../node_modules/.npminstall/vue-loader/8.0.0/vue-loader/lib/style-rewriter.js?id=_v-4d7d074a&file=Checkbox.vue!./../../node_modules/.npminstall/less-loader/2.2.3/less-loader/index.js!./../../node_modules/.npminstall/vue-loader/8.0.0/vue-loader/lib/selector.js?type=style&index=0!./../../node_modules/.npminstall/eslint-loader/1.6.1/eslint-loader/index.js!./../../node_modules/.npminstall/eslint-loader/1.6.1/eslint-loader/index.js!./Checkbox.vue", function() {
-				var newContent = require("!!./../../node_modules/.npminstall/css-loader/0.21.0/css-loader/index.js?sourceMap!./../../node_modules/.npminstall/vue-loader/8.0.0/vue-loader/lib/style-rewriter.js?id=_v-4d7d074a&file=Checkbox.vue!./../../node_modules/.npminstall/less-loader/2.2.3/less-loader/index.js!./../../node_modules/.npminstall/vue-loader/8.0.0/vue-loader/lib/selector.js?type=style&index=0!./../../node_modules/.npminstall/eslint-loader/1.6.1/eslint-loader/index.js!./../../node_modules/.npminstall/eslint-loader/1.6.1/eslint-loader/index.js!./Checkbox.vue");
+			module.hot.accept("!!./../../node_modules/.npminstall/css-loader/0.21.0/css-loader/index.js?sourceMap!./../../node_modules/.npminstall/vue-loader/8.0.0/vue-loader/lib/style-rewriter.js?id=_v-042c0d1f&file=Checkbox.vue!./../../node_modules/.npminstall/less-loader/2.2.3/less-loader/index.js!./../../node_modules/.npminstall/vue-loader/8.0.0/vue-loader/lib/selector.js?type=style&index=0!./../../node_modules/.npminstall/eslint-loader/1.6.1/eslint-loader/index.js!./../../node_modules/.npminstall/eslint-loader/1.6.1/eslint-loader/index.js!./Checkbox.vue", function() {
+				var newContent = require("!!./../../node_modules/.npminstall/css-loader/0.21.0/css-loader/index.js?sourceMap!./../../node_modules/.npminstall/vue-loader/8.0.0/vue-loader/lib/style-rewriter.js?id=_v-042c0d1f&file=Checkbox.vue!./../../node_modules/.npminstall/less-loader/2.2.3/less-loader/index.js!./../../node_modules/.npminstall/vue-loader/8.0.0/vue-loader/lib/selector.js?type=style&index=0!./../../node_modules/.npminstall/eslint-loader/1.6.1/eslint-loader/index.js!./../../node_modules/.npminstall/eslint-loader/1.6.1/eslint-loader/index.js!./Checkbox.vue");
 				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 				update(newContent);
 			});
@@ -13528,7 +13536,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	
 	// module
-	exports.push([module.id, ".checkbox-control {\n  display: inline-block;\n  line-height: 34px;\n  height: 34px;\n  padding-left: 24px;\n  position: relative;\n  font-size: 14px;\n}\n.checkbox-control input {\n  opacity: 0;\n  position: absolute;\n  left: 0;\n  top: 10px;\n  z-index: -1;\n}\n.checkbox-control .icon {\n  position: absolute;\n  left: 0;\n  top: 10px;\n  width: 12px;\n  height: 12px;\n  line-height: 12px;\n  border: 1px solid #e4e3df;\n  font-size: 12px;\n  cursor: pointer;\n  border-radius: 1px;\n  background-color: #fff;\n}\n.checkbox-control .icon:hover {\n  border-color: #828282;\n}\n.checkbox-control .iconhandle {\n  background-color: #29b6b0;\n  border-color: #29b6b0;\n  color: #fff;\n}\n.checkbox-control .iconhandle span {\n  display: block;\n  -webkit-transform: scale(0.6, 0.6);\n          transform: scale(0.6, 0.6);\n  margin-top: 1px;\n}\n.checkbox-control .iconhandle:hover {\n  border-color: #29b6b0;\n}\n.checkbox-control.is-disabled .iconhandle,\n.checkbox-control.is-disabled .icon {\n  cursor: not-allowed;\n  background-color: #d3dce6;\n  border-color: #d3dce6;\n}\n.checkbox-control.is-disabled .icon {\n  border-color: #d3dce6;\n}\n", "", {"version":3,"sources":["/./src/components/Checkbox.vue"],"names":[],"mappings":"AAAA;EACE,sBAAsB;EACtB,kBAAkB;EAClB,aAAa;EACb,mBAAmB;EACnB,mBAAmB;EACnB,gBAAgB;CACjB;AACD;EACE,WAAW;EACX,mBAAmB;EACnB,QAAQ;EACR,UAAU;EACV,YAAY;CACb;AACD;EACE,mBAAmB;EACnB,QAAQ;EACR,UAAU;EACV,YAAY;EACZ,aAAa;EACb,kBAAkB;EAClB,0BAA0B;EAC1B,gBAAgB;EAChB,gBAAgB;EAChB,mBAAmB;EACnB,uBAAuB;CACxB;AACD;EACE,sBAAsB;CACvB;AACD;EACE,0BAA0B;EAC1B,sBAAsB;EACtB,YAAY;CACb;AACD;EACE,eAAe;EACf,mCAA2B;UAA3B,2BAA2B;EAC3B,gBAAgB;CACjB;AACD;EACE,sBAAsB;CACvB;AACD;;EAEE,oBAAoB;EACpB,0BAA0B;EAC1B,sBAAsB;CACvB;AACD;EACE,sBAAsB;CACvB","file":"Checkbox.vue","sourcesContent":[".checkbox-control {\n  display: inline-block;\n  line-height: 34px;\n  height: 34px;\n  padding-left: 24px;\n  position: relative;\n  font-size: 14px;\n}\n.checkbox-control input {\n  opacity: 0;\n  position: absolute;\n  left: 0;\n  top: 10px;\n  z-index: -1;\n}\n.checkbox-control .icon {\n  position: absolute;\n  left: 0;\n  top: 10px;\n  width: 12px;\n  height: 12px;\n  line-height: 12px;\n  border: 1px solid #e4e3df;\n  font-size: 12px;\n  cursor: pointer;\n  border-radius: 1px;\n  background-color: #fff;\n}\n.checkbox-control .icon:hover {\n  border-color: #828282;\n}\n.checkbox-control .iconhandle {\n  background-color: #29b6b0;\n  border-color: #29b6b0;\n  color: #fff;\n}\n.checkbox-control .iconhandle span {\n  display: block;\n  transform: scale(0.6, 0.6);\n  margin-top: 1px;\n}\n.checkbox-control .iconhandle:hover {\n  border-color: #29b6b0;\n}\n.checkbox-control.is-disabled .iconhandle,\n.checkbox-control.is-disabled .icon {\n  cursor: not-allowed;\n  background-color: #d3dce6;\n  border-color: #d3dce6;\n}\n.checkbox-control.is-disabled .icon {\n  border-color: #d3dce6;\n}\n"],"sourceRoot":"webpack://"}]);
+	exports.push([module.id, ".d-checkbox-control {\n  display: inline-block;\n  line-height: 34px;\n  height: 34px;\n  padding-left: 24px;\n  position: relative;\n  font-size: 14px;\n}\n.d-checkbox-control input {\n  opacity: 0;\n  position: absolute;\n  left: 0;\n  top: 10px;\n  z-index: -1;\n}\n.d-checkbox-control .icon {\n  position: absolute;\n  left: 0;\n  top: 10px;\n  width: 12px;\n  height: 12px;\n  line-height: 12px;\n  border: 1px solid #e4e3df;\n  font-size: 12px;\n  cursor: pointer;\n  border-radius: 1px;\n  background-color: #fff;\n}\n.d-checkbox-control .icon:hover {\n  border-color: #828282;\n}\n.d-checkbox-control .iconhandle {\n  background-color: #29b6b0;\n  border-color: #29b6b0;\n  color: #fff;\n}\n.d-checkbox-control .iconhandle span {\n  display: block;\n  -webkit-transform: scale(0.6, 0.6);\n          transform: scale(0.6, 0.6);\n  margin-top: 1px;\n}\n.d-checkbox-control .iconhandle:hover {\n  border-color: #29b6b0;\n}\n.d-checkbox-control.is-disabled .iconhandle,\n.d-checkbox-control.is-disabled .icon {\n  cursor: not-allowed;\n  background-color: #d3dce6;\n  border-color: #d3dce6;\n}\n.d-checkbox-control.is-disabled .icon {\n  border-color: #d3dce6;\n}\n", "", {"version":3,"sources":["/./src/components/Checkbox.vue"],"names":[],"mappings":"AAAA;EACE,sBAAsB;EACtB,kBAAkB;EAClB,aAAa;EACb,mBAAmB;EACnB,mBAAmB;EACnB,gBAAgB;CACjB;AACD;EACE,WAAW;EACX,mBAAmB;EACnB,QAAQ;EACR,UAAU;EACV,YAAY;CACb;AACD;EACE,mBAAmB;EACnB,QAAQ;EACR,UAAU;EACV,YAAY;EACZ,aAAa;EACb,kBAAkB;EAClB,0BAA0B;EAC1B,gBAAgB;EAChB,gBAAgB;EAChB,mBAAmB;EACnB,uBAAuB;CACxB;AACD;EACE,sBAAsB;CACvB;AACD;EACE,0BAA0B;EAC1B,sBAAsB;EACtB,YAAY;CACb;AACD;EACE,eAAe;EACf,mCAA2B;UAA3B,2BAA2B;EAC3B,gBAAgB;CACjB;AACD;EACE,sBAAsB;CACvB;AACD;;EAEE,oBAAoB;EACpB,0BAA0B;EAC1B,sBAAsB;CACvB;AACD;EACE,sBAAsB;CACvB","file":"Checkbox.vue","sourcesContent":[".d-checkbox-control {\n  display: inline-block;\n  line-height: 34px;\n  height: 34px;\n  padding-left: 24px;\n  position: relative;\n  font-size: 14px;\n}\n.d-checkbox-control input {\n  opacity: 0;\n  position: absolute;\n  left: 0;\n  top: 10px;\n  z-index: -1;\n}\n.d-checkbox-control .icon {\n  position: absolute;\n  left: 0;\n  top: 10px;\n  width: 12px;\n  height: 12px;\n  line-height: 12px;\n  border: 1px solid #e4e3df;\n  font-size: 12px;\n  cursor: pointer;\n  border-radius: 1px;\n  background-color: #fff;\n}\n.d-checkbox-control .icon:hover {\n  border-color: #828282;\n}\n.d-checkbox-control .iconhandle {\n  background-color: #29b6b0;\n  border-color: #29b6b0;\n  color: #fff;\n}\n.d-checkbox-control .iconhandle span {\n  display: block;\n  transform: scale(0.6, 0.6);\n  margin-top: 1px;\n}\n.d-checkbox-control .iconhandle:hover {\n  border-color: #29b6b0;\n}\n.d-checkbox-control.is-disabled .iconhandle,\n.d-checkbox-control.is-disabled .icon {\n  cursor: not-allowed;\n  background-color: #d3dce6;\n  border-color: #d3dce6;\n}\n.d-checkbox-control.is-disabled .icon {\n  border-color: #d3dce6;\n}\n"],"sourceRoot":"webpack://"}]);
 	
 	// exports
 
@@ -13543,7 +13551,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  value: true
 	});
 	// <template>
-	//   <label class="checkbox-control"
+	//   <label class="d-checkbox-control"
 	//     v-bind:class="{
 	//       'is-disabled': disabled
 	//     }"
@@ -13616,7 +13624,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	// </script>
 	
 	// <style lang="less">
-	// .checkbox-control {
+	// .d-checkbox-control {
 	//   display: inline-block;
 	//   line-height: 34px;
 	//   height: 34px;
@@ -13688,7 +13696,7 @@ return /******/ (function(modules) { // webpackBootstrap
 /* 78 */
 /***/ function(module, exports) {
 
-	module.exports = "\n<label class=\"checkbox-control\"\n  v-bind:class=\"{\n    'is-disabled': disabled\n  }\"\n>\n  <i class=\"icon\" v-bind:class=\"{'iconhandle': isChecked}\" @click=\"handleClick\">\n    <span>{{{isChecked ? '&#xe610;' : ''}}}</span>\n  </i>\n  <slot></slot>\n</label>\n";
+	module.exports = "\n<label class=\"d-checkbox-control\"\n  v-bind:class=\"{\n    'is-disabled': disabled\n  }\"\n>\n  <i class=\"icon\" v-bind:class=\"{'iconhandle': isChecked}\" @click=\"handleClick\">\n    <span>{{{isChecked ? '&#xe610;' : ''}}}</span>\n  </i>\n  <slot></slot>\n</label>\n";
 
 /***/ },
 /* 79 */
@@ -13704,7 +13712,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  var hotAPI = require("vue-hot-reload-api")
 	  hotAPI.install(require("vue"), true)
 	  if (!hotAPI.compatible) return
-	  var id = "/Users/cookfront/Sites/work/duiba-design/src/components/CheckboxGroup.vue"
+	  var id = "/Users/cookfront/Sites/workspace/study/duiba-design/src/components/CheckboxGroup.vue"
 	  if (!module.hot.data) {
 	    hotAPI.createRecord(id, module.exports)
 	  } else {
@@ -13722,7 +13730,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  value: true
 	});
 	// <template>
-	//   <div class="checkbox-group">
+	//   <div class="d-checkbox-group">
 	//     <slot></slot>
 	//   </div>
 	// </template>
@@ -13751,7 +13759,7 @@ return /******/ (function(modules) { // webpackBootstrap
 /* 81 */
 /***/ function(module, exports) {
 
-	module.exports = "\n<div class=\"checkbox-group\">\n  <slot></slot>\n</div>\n";
+	module.exports = "\n<div class=\"d-checkbox-group\">\n  <slot></slot>\n</div>\n";
 
 /***/ },
 /* 82 */
@@ -13768,7 +13776,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  var hotAPI = require("vue-hot-reload-api")
 	  hotAPI.install(require("vue"), true)
 	  if (!hotAPI.compatible) return
-	  var id = "/Users/cookfront/Sites/work/duiba-design/src/components/Datepicker.vue"
+	  var id = "/Users/cookfront/Sites/workspace/study/duiba-design/src/components/Datepicker.vue"
 	  if (!module.hot.data) {
 	    hotAPI.createRecord(id, module.exports)
 	  } else {
@@ -13792,8 +13800,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	if(false) {
 		// When the styles change, update the <style> tags
 		if(!content.locals) {
-			module.hot.accept("!!./../../node_modules/.npminstall/css-loader/0.21.0/css-loader/index.js?sourceMap!./../../node_modules/.npminstall/vue-loader/8.0.0/vue-loader/lib/style-rewriter.js?id=_v-2adfd9d4&file=Datepicker.vue!./../../node_modules/.npminstall/less-loader/2.2.3/less-loader/index.js!./../../node_modules/.npminstall/vue-loader/8.0.0/vue-loader/lib/selector.js?type=style&index=0!./../../node_modules/.npminstall/eslint-loader/1.6.1/eslint-loader/index.js!./../../node_modules/.npminstall/eslint-loader/1.6.1/eslint-loader/index.js!./Datepicker.vue", function() {
-				var newContent = require("!!./../../node_modules/.npminstall/css-loader/0.21.0/css-loader/index.js?sourceMap!./../../node_modules/.npminstall/vue-loader/8.0.0/vue-loader/lib/style-rewriter.js?id=_v-2adfd9d4&file=Datepicker.vue!./../../node_modules/.npminstall/less-loader/2.2.3/less-loader/index.js!./../../node_modules/.npminstall/vue-loader/8.0.0/vue-loader/lib/selector.js?type=style&index=0!./../../node_modules/.npminstall/eslint-loader/1.6.1/eslint-loader/index.js!./../../node_modules/.npminstall/eslint-loader/1.6.1/eslint-loader/index.js!./Datepicker.vue");
+			module.hot.accept("!!./../../node_modules/.npminstall/css-loader/0.21.0/css-loader/index.js?sourceMap!./../../node_modules/.npminstall/vue-loader/8.0.0/vue-loader/lib/style-rewriter.js?id=_v-45694998&file=Datepicker.vue!./../../node_modules/.npminstall/less-loader/2.2.3/less-loader/index.js!./../../node_modules/.npminstall/vue-loader/8.0.0/vue-loader/lib/selector.js?type=style&index=0!./../../node_modules/.npminstall/eslint-loader/1.6.1/eslint-loader/index.js!./../../node_modules/.npminstall/eslint-loader/1.6.1/eslint-loader/index.js!./Datepicker.vue", function() {
+				var newContent = require("!!./../../node_modules/.npminstall/css-loader/0.21.0/css-loader/index.js?sourceMap!./../../node_modules/.npminstall/vue-loader/8.0.0/vue-loader/lib/style-rewriter.js?id=_v-45694998&file=Datepicker.vue!./../../node_modules/.npminstall/less-loader/2.2.3/less-loader/index.js!./../../node_modules/.npminstall/vue-loader/8.0.0/vue-loader/lib/selector.js?type=style&index=0!./../../node_modules/.npminstall/eslint-loader/1.6.1/eslint-loader/index.js!./../../node_modules/.npminstall/eslint-loader/1.6.1/eslint-loader/index.js!./Datepicker.vue");
 				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 				update(newContent);
 			});
@@ -15840,7 +15848,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  var hotAPI = require("vue-hot-reload-api")
 	  hotAPI.install(require("vue"), true)
 	  if (!hotAPI.compatible) return
-	  var id = "/Users/cookfront/Sites/work/duiba-design/src/components/Timepicker.vue"
+	  var id = "/Users/cookfront/Sites/workspace/study/duiba-design/src/components/Timepicker.vue"
 	  if (!module.hot.data) {
 	    hotAPI.createRecord(id, module.exports)
 	  } else {
@@ -15864,8 +15872,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	if(false) {
 		// When the styles change, update the <style> tags
 		if(!content.locals) {
-			module.hot.accept("!!./../../node_modules/.npminstall/css-loader/0.21.0/css-loader/index.js?sourceMap!./../../node_modules/.npminstall/vue-loader/8.0.0/vue-loader/lib/style-rewriter.js?id=_v-f20dbb9a&file=Timepicker.vue!./../../node_modules/.npminstall/less-loader/2.2.3/less-loader/index.js!./../../node_modules/.npminstall/vue-loader/8.0.0/vue-loader/lib/selector.js?type=style&index=0!./../../node_modules/.npminstall/eslint-loader/1.6.1/eslint-loader/index.js!./../../node_modules/.npminstall/eslint-loader/1.6.1/eslint-loader/index.js!./Timepicker.vue", function() {
-				var newContent = require("!!./../../node_modules/.npminstall/css-loader/0.21.0/css-loader/index.js?sourceMap!./../../node_modules/.npminstall/vue-loader/8.0.0/vue-loader/lib/style-rewriter.js?id=_v-f20dbb9a&file=Timepicker.vue!./../../node_modules/.npminstall/less-loader/2.2.3/less-loader/index.js!./../../node_modules/.npminstall/vue-loader/8.0.0/vue-loader/lib/selector.js?type=style&index=0!./../../node_modules/.npminstall/eslint-loader/1.6.1/eslint-loader/index.js!./../../node_modules/.npminstall/eslint-loader/1.6.1/eslint-loader/index.js!./Timepicker.vue");
+			module.hot.accept("!!./../../node_modules/.npminstall/css-loader/0.21.0/css-loader/index.js?sourceMap!./../../node_modules/.npminstall/vue-loader/8.0.0/vue-loader/lib/style-rewriter.js?id=_v-bcfadc12&file=Timepicker.vue!./../../node_modules/.npminstall/less-loader/2.2.3/less-loader/index.js!./../../node_modules/.npminstall/vue-loader/8.0.0/vue-loader/lib/selector.js?type=style&index=0!./../../node_modules/.npminstall/eslint-loader/1.6.1/eslint-loader/index.js!./../../node_modules/.npminstall/eslint-loader/1.6.1/eslint-loader/index.js!./Timepicker.vue", function() {
+				var newContent = require("!!./../../node_modules/.npminstall/css-loader/0.21.0/css-loader/index.js?sourceMap!./../../node_modules/.npminstall/vue-loader/8.0.0/vue-loader/lib/style-rewriter.js?id=_v-bcfadc12&file=Timepicker.vue!./../../node_modules/.npminstall/less-loader/2.2.3/less-loader/index.js!./../../node_modules/.npminstall/vue-loader/8.0.0/vue-loader/lib/selector.js?type=style&index=0!./../../node_modules/.npminstall/eslint-loader/1.6.1/eslint-loader/index.js!./../../node_modules/.npminstall/eslint-loader/1.6.1/eslint-loader/index.js!./Timepicker.vue");
 				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 				update(newContent);
 			});
@@ -16495,7 +16503,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  var hotAPI = require("vue-hot-reload-api")
 	  hotAPI.install(require("vue"), true)
 	  if (!hotAPI.compatible) return
-	  var id = "/Users/cookfront/Sites/work/duiba-design/src/components/Daterangepicker.vue"
+	  var id = "/Users/cookfront/Sites/workspace/study/duiba-design/src/components/Daterangepicker.vue"
 	  if (!module.hot.data) {
 	    hotAPI.createRecord(id, module.exports)
 	  } else {
@@ -16519,8 +16527,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	if(false) {
 		// When the styles change, update the <style> tags
 		if(!content.locals) {
-			module.hot.accept("!!./../../node_modules/.npminstall/css-loader/0.21.0/css-loader/index.js?sourceMap!./../../node_modules/.npminstall/vue-loader/8.0.0/vue-loader/lib/style-rewriter.js?id=_v-733cc796&file=Daterangepicker.vue!./../../node_modules/.npminstall/less-loader/2.2.3/less-loader/index.js!./../../node_modules/.npminstall/vue-loader/8.0.0/vue-loader/lib/selector.js?type=style&index=0!./../../node_modules/.npminstall/eslint-loader/1.6.1/eslint-loader/index.js!./../../node_modules/.npminstall/eslint-loader/1.6.1/eslint-loader/index.js!./Daterangepicker.vue", function() {
-				var newContent = require("!!./../../node_modules/.npminstall/css-loader/0.21.0/css-loader/index.js?sourceMap!./../../node_modules/.npminstall/vue-loader/8.0.0/vue-loader/lib/style-rewriter.js?id=_v-733cc796&file=Daterangepicker.vue!./../../node_modules/.npminstall/less-loader/2.2.3/less-loader/index.js!./../../node_modules/.npminstall/vue-loader/8.0.0/vue-loader/lib/selector.js?type=style&index=0!./../../node_modules/.npminstall/eslint-loader/1.6.1/eslint-loader/index.js!./../../node_modules/.npminstall/eslint-loader/1.6.1/eslint-loader/index.js!./Daterangepicker.vue");
+			module.hot.accept("!!./../../node_modules/.npminstall/css-loader/0.21.0/css-loader/index.js?sourceMap!./../../node_modules/.npminstall/vue-loader/8.0.0/vue-loader/lib/style-rewriter.js?id=_v-dc49321e&file=Daterangepicker.vue!./../../node_modules/.npminstall/less-loader/2.2.3/less-loader/index.js!./../../node_modules/.npminstall/vue-loader/8.0.0/vue-loader/lib/selector.js?type=style&index=0!./../../node_modules/.npminstall/eslint-loader/1.6.1/eslint-loader/index.js!./../../node_modules/.npminstall/eslint-loader/1.6.1/eslint-loader/index.js!./Daterangepicker.vue", function() {
+				var newContent = require("!!./../../node_modules/.npminstall/css-loader/0.21.0/css-loader/index.js?sourceMap!./../../node_modules/.npminstall/vue-loader/8.0.0/vue-loader/lib/style-rewriter.js?id=_v-dc49321e&file=Daterangepicker.vue!./../../node_modules/.npminstall/less-loader/2.2.3/less-loader/index.js!./../../node_modules/.npminstall/vue-loader/8.0.0/vue-loader/lib/selector.js?type=style&index=0!./../../node_modules/.npminstall/eslint-loader/1.6.1/eslint-loader/index.js!./../../node_modules/.npminstall/eslint-loader/1.6.1/eslint-loader/index.js!./Daterangepicker.vue");
 				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 				update(newContent);
 			});
@@ -16727,7 +16735,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  var hotAPI = require("vue-hot-reload-api")
 	  hotAPI.install(require("vue"), true)
 	  if (!hotAPI.compatible) return
-	  var id = "/Users/cookfront/Sites/work/duiba-design/src/components/Select.vue"
+	  var id = "/Users/cookfront/Sites/workspace/study/duiba-design/src/components/Select.vue"
 	  if (!module.hot.data) {
 	    hotAPI.createRecord(id, module.exports)
 	  } else {
@@ -16751,8 +16759,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	if(false) {
 		// When the styles change, update the <style> tags
 		if(!content.locals) {
-			module.hot.accept("!!./../../node_modules/.npminstall/css-loader/0.21.0/css-loader/index.js?sourceMap!./../../node_modules/.npminstall/vue-loader/8.0.0/vue-loader/lib/style-rewriter.js?id=_v-347f9dd8&file=Select.vue!./../../node_modules/.npminstall/less-loader/2.2.3/less-loader/index.js!./../../node_modules/.npminstall/vue-loader/8.0.0/vue-loader/lib/selector.js?type=style&index=0!./../../node_modules/.npminstall/eslint-loader/1.6.1/eslint-loader/index.js!./../../node_modules/.npminstall/eslint-loader/1.6.1/eslint-loader/index.js!./Select.vue", function() {
-				var newContent = require("!!./../../node_modules/.npminstall/css-loader/0.21.0/css-loader/index.js?sourceMap!./../../node_modules/.npminstall/vue-loader/8.0.0/vue-loader/lib/style-rewriter.js?id=_v-347f9dd8&file=Select.vue!./../../node_modules/.npminstall/less-loader/2.2.3/less-loader/index.js!./../../node_modules/.npminstall/vue-loader/8.0.0/vue-loader/lib/selector.js?type=style&index=0!./../../node_modules/.npminstall/eslint-loader/1.6.1/eslint-loader/index.js!./../../node_modules/.npminstall/eslint-loader/1.6.1/eslint-loader/index.js!./Select.vue");
+			module.hot.accept("!!./../../node_modules/.npminstall/css-loader/0.21.0/css-loader/index.js?sourceMap!./../../node_modules/.npminstall/vue-loader/8.0.0/vue-loader/lib/style-rewriter.js?id=_v-58e022d8&file=Select.vue!./../../node_modules/.npminstall/less-loader/2.2.3/less-loader/index.js!./../../node_modules/.npminstall/vue-loader/8.0.0/vue-loader/lib/selector.js?type=style&index=0!./../../node_modules/.npminstall/eslint-loader/1.6.1/eslint-loader/index.js!./../../node_modules/.npminstall/eslint-loader/1.6.1/eslint-loader/index.js!./Select.vue", function() {
+				var newContent = require("!!./../../node_modules/.npminstall/css-loader/0.21.0/css-loader/index.js?sourceMap!./../../node_modules/.npminstall/vue-loader/8.0.0/vue-loader/lib/style-rewriter.js?id=_v-58e022d8&file=Select.vue!./../../node_modules/.npminstall/less-loader/2.2.3/less-loader/index.js!./../../node_modules/.npminstall/vue-loader/8.0.0/vue-loader/lib/selector.js?type=style&index=0!./../../node_modules/.npminstall/eslint-loader/1.6.1/eslint-loader/index.js!./../../node_modules/.npminstall/eslint-loader/1.6.1/eslint-loader/index.js!./Select.vue");
 				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 				update(newContent);
 			});
@@ -17042,7 +17050,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  var hotAPI = require("vue-hot-reload-api")
 	  hotAPI.install(require("vue"), true)
 	  if (!hotAPI.compatible) return
-	  var id = "/Users/cookfront/Sites/work/duiba-design/src/components/FileUpload.vue"
+	  var id = "/Users/cookfront/Sites/workspace/study/duiba-design/src/components/FileUpload.vue"
 	  if (!module.hot.data) {
 	    hotAPI.createRecord(id, module.exports)
 	  } else {
@@ -17752,7 +17760,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  var hotAPI = require("vue-hot-reload-api")
 	  hotAPI.install(require("vue"), true)
 	  if (!hotAPI.compatible) return
-	  var id = "/Users/cookfront/Sites/work/duiba-design/src/components/ImageUpload.vue"
+	  var id = "/Users/cookfront/Sites/workspace/study/duiba-design/src/components/ImageUpload.vue"
 	  if (!module.hot.data) {
 	    hotAPI.createRecord(id, module.exports)
 	  } else {
@@ -17776,8 +17784,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	if(false) {
 		// When the styles change, update the <style> tags
 		if(!content.locals) {
-			module.hot.accept("!!./../../node_modules/.npminstall/css-loader/0.21.0/css-loader/index.js?sourceMap!./../../node_modules/.npminstall/vue-loader/8.0.0/vue-loader/lib/style-rewriter.js?id=_v-4f123054&file=ImageUpload.vue!./../../node_modules/.npminstall/less-loader/2.2.3/less-loader/index.js!./../../node_modules/.npminstall/vue-loader/8.0.0/vue-loader/lib/selector.js?type=style&index=0!./../../node_modules/.npminstall/eslint-loader/1.6.1/eslint-loader/index.js!./../../node_modules/.npminstall/eslint-loader/1.6.1/eslint-loader/index.js!./ImageUpload.vue", function() {
-				var newContent = require("!!./../../node_modules/.npminstall/css-loader/0.21.0/css-loader/index.js?sourceMap!./../../node_modules/.npminstall/vue-loader/8.0.0/vue-loader/lib/style-rewriter.js?id=_v-4f123054&file=ImageUpload.vue!./../../node_modules/.npminstall/less-loader/2.2.3/less-loader/index.js!./../../node_modules/.npminstall/vue-loader/8.0.0/vue-loader/lib/selector.js?type=style&index=0!./../../node_modules/.npminstall/eslint-loader/1.6.1/eslint-loader/index.js!./../../node_modules/.npminstall/eslint-loader/1.6.1/eslint-loader/index.js!./ImageUpload.vue");
+			module.hot.accept("!!./../../node_modules/.npminstall/css-loader/0.21.0/css-loader/index.js?sourceMap!./../../node_modules/.npminstall/vue-loader/8.0.0/vue-loader/lib/style-rewriter.js?id=_v-f4928de0&file=ImageUpload.vue!./../../node_modules/.npminstall/less-loader/2.2.3/less-loader/index.js!./../../node_modules/.npminstall/vue-loader/8.0.0/vue-loader/lib/selector.js?type=style&index=0!./../../node_modules/.npminstall/eslint-loader/1.6.1/eslint-loader/index.js!./../../node_modules/.npminstall/eslint-loader/1.6.1/eslint-loader/index.js!./ImageUpload.vue", function() {
+				var newContent = require("!!./../../node_modules/.npminstall/css-loader/0.21.0/css-loader/index.js?sourceMap!./../../node_modules/.npminstall/vue-loader/8.0.0/vue-loader/lib/style-rewriter.js?id=_v-f4928de0&file=ImageUpload.vue!./../../node_modules/.npminstall/less-loader/2.2.3/less-loader/index.js!./../../node_modules/.npminstall/vue-loader/8.0.0/vue-loader/lib/selector.js?type=style&index=0!./../../node_modules/.npminstall/eslint-loader/1.6.1/eslint-loader/index.js!./../../node_modules/.npminstall/eslint-loader/1.6.1/eslint-loader/index.js!./ImageUpload.vue");
 				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 				update(newContent);
 			});
@@ -17795,7 +17803,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	
 	// module
-	exports.push([module.id, ".image-upload-container .img {\n  padding: 5px;\n  border: 1px solid #e5e5e5;\n  display: inline-block;\n  float: left;\n}\n.image-upload-container .img img {\n  opacity: 0;\n}\n.image-upload-container .img p {\n  min-width: 100px;\n  min-height: 100px;\n  background: #d8d8d8 url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEYAAAAuCAMAAACiV5+BAAAAgVBMVEUAAAD///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////9d3yJTAAAAKnRSTlMAS/Di+/hZBYSSRSIczMb06+coct3QuqegmV06Lg99T7uxnH53aGc4EgzK062bAAABXklEQVRIx63V2W6DMBBA0SnYsc0OgbAlzb7N/39gFbeKRAkDBt+nPB1NNCMMZI/mFCaMJeGpecDctiXHd7zczkKeNf6rfpordxd7uXdTxYvxQ7FnqHD8GDdyggQHSgIDJsLBounKDYluUxXhUowrJjIrJFtNZI40c4SR/EbWlTrHNBOfVVXLxh9YsszRqFz2l79THI3jatdVvBRnlXaues2QKCSuka3h3YVC2LeANfGPL5PuJNRfqywavSM/pkfREQPFv6vfkKPo6IE2eknjo4wN5FHDMLl6Bbr966fkg+MEDMkc0LnkMgO44nIGr1DaYEoobDAFODYYB5gNhgG3wXBIbTApRDaYCJQNRsHeBrMH4SxnHAGgcHEKAAK+VOH6oZFLGQmvRLFMKQTo/GSJkvjwV5bOV9IM3vn5XCX3O094NU+pdtCtPZgjhxb6ZTJk0wkWygwGEu3XxNruE/YD6t9ijjcy+L4AAAAASUVORK5CYII=) no-repeat 50%;\n}\n.image-upload-container .img-uploaded img {\n  display: block;\n  width: 100%;\n  opacity: 1;\n}\n.image-upload-container .upload-area {\n  display: table;\n  padding-left: 20px;\n  min-height: 112px;\n}\n.image-upload-container .upload-area p {\n  font-size: 14px;\n  margin-bottom: 15px;\n  color: #888;\n}\n.image-upload-container .upload-cell {\n  display: table-cell;\n  vertical-align: middle;\n}\n.image-upload-container .upload-btn {\n  position: relative;\n}\n.image-upload-container .file-upload {\n  width: 78px;\n  height: 30px;\n  position: absolute;\n  top: 0;\n  left: 0;\n}\n.image-upload-container .file-upload input {\n  z-index: 1;\n  opacity: 0;\n  font-size: 20em;\n  top: 0;\n  left: 0;\n  right: 0;\n  bottom: 0;\n  position: absolute;\n  width: 100%;\n  height: 100%;\n  cursor: pointer;\n}\n.image-upload-container .invalid {\n  color: #ffc4b8;\n  font-size: 12px;\n  margin: 10px 0 0;\n}\n", "", {"version":3,"sources":["/./src/components/ImageUpload.vue"],"names":[],"mappings":"AAAA;EACE,aAAa;EACb,0BAA0B;EAC1B,sBAAsB;EACtB,YAAY;CACb;AACD;EACE,WAAW;CACZ;AACD;EACE,iBAAiB;EACjB,kBAAkB;EAClB,k2BAAk2B;CACn2B;AACD;EACE,eAAe;EACf,YAAY;EACZ,WAAW;CACZ;AACD;EACE,eAAe;EACf,mBAAmB;EACnB,kBAAkB;CACnB;AACD;EACE,gBAAgB;EAChB,oBAAoB;EACpB,YAAY;CACb;AACD;EACE,oBAAoB;EACpB,uBAAuB;CACxB;AACD;EACE,mBAAmB;CACpB;AACD;EACE,YAAY;EACZ,aAAa;EACb,mBAAmB;EACnB,OAAO;EACP,QAAQ;CACT;AACD;EACE,WAAW;EACX,WAAW;EACX,gBAAgB;EAChB,OAAO;EACP,QAAQ;EACR,SAAS;EACT,UAAU;EACV,mBAAmB;EACnB,YAAY;EACZ,aAAa;EACb,gBAAgB;CACjB;AACD;EACE,eAAe;EACf,gBAAgB;EAChB,iBAAiB;CAClB","file":"ImageUpload.vue","sourcesContent":[".image-upload-container .img {\n  padding: 5px;\n  border: 1px solid #e5e5e5;\n  display: inline-block;\n  float: left;\n}\n.image-upload-container .img img {\n  opacity: 0;\n}\n.image-upload-container .img p {\n  min-width: 100px;\n  min-height: 100px;\n  background: #d8d8d8 url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEYAAAAuCAMAAACiV5+BAAAAgVBMVEUAAAD///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////9d3yJTAAAAKnRSTlMAS/Di+/hZBYSSRSIczMb06+coct3QuqegmV06Lg99T7uxnH53aGc4EgzK062bAAABXklEQVRIx63V2W6DMBBA0SnYsc0OgbAlzb7N/39gFbeKRAkDBt+nPB1NNCMMZI/mFCaMJeGpecDctiXHd7zczkKeNf6rfpordxd7uXdTxYvxQ7FnqHD8GDdyggQHSgIDJsLBounKDYluUxXhUowrJjIrJFtNZI40c4SR/EbWlTrHNBOfVVXLxh9YsszRqFz2l79THI3jatdVvBRnlXaues2QKCSuka3h3YVC2LeANfGPL5PuJNRfqywavSM/pkfREQPFv6vfkKPo6IE2eknjo4wN5FHDMLl6Bbr966fkg+MEDMkc0LnkMgO44nIGr1DaYEoobDAFODYYB5gNhgG3wXBIbTApRDaYCJQNRsHeBrMH4SxnHAGgcHEKAAK+VOH6oZFLGQmvRLFMKQTo/GSJkvjwV5bOV9IM3vn5XCX3O094NU+pdtCtPZgjhxb6ZTJk0wkWygwGEu3XxNruE/YD6t9ijjcy+L4AAAAASUVORK5CYII=) no-repeat 50%;\n}\n.image-upload-container .img-uploaded img {\n  display: block;\n  width: 100%;\n  opacity: 1;\n}\n.image-upload-container .upload-area {\n  display: table;\n  padding-left: 20px;\n  min-height: 112px;\n}\n.image-upload-container .upload-area p {\n  font-size: 14px;\n  margin-bottom: 15px;\n  color: #888;\n}\n.image-upload-container .upload-cell {\n  display: table-cell;\n  vertical-align: middle;\n}\n.image-upload-container .upload-btn {\n  position: relative;\n}\n.image-upload-container .file-upload {\n  width: 78px;\n  height: 30px;\n  position: absolute;\n  top: 0;\n  left: 0;\n}\n.image-upload-container .file-upload input {\n  z-index: 1;\n  opacity: 0;\n  font-size: 20em;\n  top: 0;\n  left: 0;\n  right: 0;\n  bottom: 0;\n  position: absolute;\n  width: 100%;\n  height: 100%;\n  cursor: pointer;\n}\n.image-upload-container .invalid {\n  color: #ffc4b8;\n  font-size: 12px;\n  margin: 10px 0 0;\n}\n"],"sourceRoot":"webpack://"}]);
+	exports.push([module.id, ".d-image-upload-container .img {\n  padding: 5px;\n  border: 1px solid #e5e5e5;\n  display: inline-block;\n  float: left;\n}\n.d-image-upload-container .img img {\n  opacity: 0;\n}\n.d-image-upload-container .img p {\n  min-width: 100px;\n  min-height: 100px;\n  background: #d8d8d8 url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEYAAAAuCAMAAACiV5+BAAAAgVBMVEUAAAD///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////9d3yJTAAAAKnRSTlMAS/Di+/hZBYSSRSIczMb06+coct3QuqegmV06Lg99T7uxnH53aGc4EgzK062bAAABXklEQVRIx63V2W6DMBBA0SnYsc0OgbAlzb7N/39gFbeKRAkDBt+nPB1NNCMMZI/mFCaMJeGpecDctiXHd7zczkKeNf6rfpordxd7uXdTxYvxQ7FnqHD8GDdyggQHSgIDJsLBounKDYluUxXhUowrJjIrJFtNZI40c4SR/EbWlTrHNBOfVVXLxh9YsszRqFz2l79THI3jatdVvBRnlXaues2QKCSuka3h3YVC2LeANfGPL5PuJNRfqywavSM/pkfREQPFv6vfkKPo6IE2eknjo4wN5FHDMLl6Bbr966fkg+MEDMkc0LnkMgO44nIGr1DaYEoobDAFODYYB5gNhgG3wXBIbTApRDaYCJQNRsHeBrMH4SxnHAGgcHEKAAK+VOH6oZFLGQmvRLFMKQTo/GSJkvjwV5bOV9IM3vn5XCX3O094NU+pdtCtPZgjhxb6ZTJk0wkWygwGEu3XxNruE/YD6t9ijjcy+L4AAAAASUVORK5CYII=) no-repeat 50%;\n}\n.d-image-upload-container .img-uploaded img {\n  display: block;\n  width: 100%;\n  opacity: 1;\n}\n.d-image-upload-container .upload-area {\n  display: table;\n  padding-left: 20px;\n  min-height: 112px;\n}\n.d-image-upload-container .upload-area p {\n  font-size: 14px;\n  margin-bottom: 15px;\n  color: #888;\n}\n.d-image-upload-container .upload-cell {\n  display: table-cell;\n  vertical-align: middle;\n}\n.d-image-upload-container .upload-btn {\n  position: relative;\n}\n.d-image-upload-container .file-upload {\n  width: 78px;\n  height: 30px;\n  position: absolute;\n  top: 0;\n  left: 0;\n}\n.d-image-upload-container .file-upload input {\n  z-index: 1;\n  opacity: 0;\n  font-size: 20em;\n  top: 0;\n  left: 0;\n  right: 0;\n  bottom: 0;\n  position: absolute;\n  width: 100%;\n  height: 100%;\n  cursor: pointer;\n}\n.d-image-upload-container .invalid {\n  color: #ffc4b8;\n  font-size: 12px;\n  margin: 10px 0 0;\n}\n", "", {"version":3,"sources":["/./src/components/ImageUpload.vue"],"names":[],"mappings":"AAAA;EACE,aAAa;EACb,0BAA0B;EAC1B,sBAAsB;EACtB,YAAY;CACb;AACD;EACE,WAAW;CACZ;AACD;EACE,iBAAiB;EACjB,kBAAkB;EAClB,k2BAAk2B;CACn2B;AACD;EACE,eAAe;EACf,YAAY;EACZ,WAAW;CACZ;AACD;EACE,eAAe;EACf,mBAAmB;EACnB,kBAAkB;CACnB;AACD;EACE,gBAAgB;EAChB,oBAAoB;EACpB,YAAY;CACb;AACD;EACE,oBAAoB;EACpB,uBAAuB;CACxB;AACD;EACE,mBAAmB;CACpB;AACD;EACE,YAAY;EACZ,aAAa;EACb,mBAAmB;EACnB,OAAO;EACP,QAAQ;CACT;AACD;EACE,WAAW;EACX,WAAW;EACX,gBAAgB;EAChB,OAAO;EACP,QAAQ;EACR,SAAS;EACT,UAAU;EACV,mBAAmB;EACnB,YAAY;EACZ,aAAa;EACb,gBAAgB;CACjB;AACD;EACE,eAAe;EACf,gBAAgB;EAChB,iBAAiB;CAClB","file":"ImageUpload.vue","sourcesContent":[".d-image-upload-container .img {\n  padding: 5px;\n  border: 1px solid #e5e5e5;\n  display: inline-block;\n  float: left;\n}\n.d-image-upload-container .img img {\n  opacity: 0;\n}\n.d-image-upload-container .img p {\n  min-width: 100px;\n  min-height: 100px;\n  background: #d8d8d8 url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEYAAAAuCAMAAACiV5+BAAAAgVBMVEUAAAD///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////9d3yJTAAAAKnRSTlMAS/Di+/hZBYSSRSIczMb06+coct3QuqegmV06Lg99T7uxnH53aGc4EgzK062bAAABXklEQVRIx63V2W6DMBBA0SnYsc0OgbAlzb7N/39gFbeKRAkDBt+nPB1NNCMMZI/mFCaMJeGpecDctiXHd7zczkKeNf6rfpordxd7uXdTxYvxQ7FnqHD8GDdyggQHSgIDJsLBounKDYluUxXhUowrJjIrJFtNZI40c4SR/EbWlTrHNBOfVVXLxh9YsszRqFz2l79THI3jatdVvBRnlXaues2QKCSuka3h3YVC2LeANfGPL5PuJNRfqywavSM/pkfREQPFv6vfkKPo6IE2eknjo4wN5FHDMLl6Bbr966fkg+MEDMkc0LnkMgO44nIGr1DaYEoobDAFODYYB5gNhgG3wXBIbTApRDaYCJQNRsHeBrMH4SxnHAGgcHEKAAK+VOH6oZFLGQmvRLFMKQTo/GSJkvjwV5bOV9IM3vn5XCX3O094NU+pdtCtPZgjhxb6ZTJk0wkWygwGEu3XxNruE/YD6t9ijjcy+L4AAAAASUVORK5CYII=) no-repeat 50%;\n}\n.d-image-upload-container .img-uploaded img {\n  display: block;\n  width: 100%;\n  opacity: 1;\n}\n.d-image-upload-container .upload-area {\n  display: table;\n  padding-left: 20px;\n  min-height: 112px;\n}\n.d-image-upload-container .upload-area p {\n  font-size: 14px;\n  margin-bottom: 15px;\n  color: #888;\n}\n.d-image-upload-container .upload-cell {\n  display: table-cell;\n  vertical-align: middle;\n}\n.d-image-upload-container .upload-btn {\n  position: relative;\n}\n.d-image-upload-container .file-upload {\n  width: 78px;\n  height: 30px;\n  position: absolute;\n  top: 0;\n  left: 0;\n}\n.d-image-upload-container .file-upload input {\n  z-index: 1;\n  opacity: 0;\n  font-size: 20em;\n  top: 0;\n  left: 0;\n  right: 0;\n  bottom: 0;\n  position: absolute;\n  width: 100%;\n  height: 100%;\n  cursor: pointer;\n}\n.d-image-upload-container .invalid {\n  color: #ffc4b8;\n  font-size: 12px;\n  margin: 10px 0 0;\n}\n"],"sourceRoot":"webpack://"}]);
 	
 	// exports
 
@@ -17821,7 +17829,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
 	// <template>
-	//   <div class="image-upload-container">
+	//   <div class="d-image-upload-container">
 	//     <div class="img" v-bind:class="{
 	//       'img-uploaded': !!value
 	//     }">
@@ -17878,7 +17886,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	// </script>
 	
 	// <style lang="less">
-	// .image-upload-container {
+	// .d-image-upload-container {
 	//   .img {
 	//     padding: 5px;
 	//     border: 1px solid #e5e5e5;
@@ -18057,7 +18065,7 @@ return /******/ (function(modules) { // webpackBootstrap
 /* 169 */
 /***/ function(module, exports) {
 
-	module.exports = "\n<div class=\"image-upload-container\">\n  <div class=\"img\" v-bind:class=\"{\n    'img-uploaded': !!value\n  }\">\n    <p>\n      <img :src=\"value\" alt=\"\">\n    </p>\n  </div>\n  <div class=\"upload-area\">\n    <div class=\"upload-cell\">\n      <slot name=\"upload-tip\">\n      </slot>\n      <div class=\"upload-btn\">\n        <fileupload class=\"file-upload\" name=\"file\" :post-action=\"uploadUrl\" :put-action=\"uploadUrl\" :extensions=\"extensions\" :accept=\"accept\" :size=\"size\"></fileupload>\n        <d-button>选择上传</d-button>\n      </div>\n    </div>\n  </div>\n  <p class=\"invalid\" v-show=\"errorTip\">\n    <i class=\"iconhandle\">&#xe62a;</i>\n    {{errorTip}}\n  </p>\n</div>\n";
+	module.exports = "\n<div class=\"d-image-upload-container\">\n  <div class=\"img\" v-bind:class=\"{\n    'img-uploaded': !!value\n  }\">\n    <p>\n      <img :src=\"value\" alt=\"\">\n    </p>\n  </div>\n  <div class=\"upload-area\">\n    <div class=\"upload-cell\">\n      <slot name=\"upload-tip\">\n      </slot>\n      <div class=\"upload-btn\">\n        <fileupload class=\"file-upload\" name=\"file\" :post-action=\"uploadUrl\" :put-action=\"uploadUrl\" :extensions=\"extensions\" :accept=\"accept\" :size=\"size\"></fileupload>\n        <d-button>选择上传</d-button>\n      </div>\n    </div>\n  </div>\n  <p class=\"invalid\" v-show=\"errorTip\">\n    <i class=\"iconhandle\">&#xe62a;</i>\n    {{errorTip}}\n  </p>\n</div>\n";
 
 /***/ },
 /* 170 */
@@ -18074,7 +18082,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  var hotAPI = require("vue-hot-reload-api")
 	  hotAPI.install(require("vue"), true)
 	  if (!hotAPI.compatible) return
-	  var id = "/Users/cookfront/Sites/work/duiba-design/src/components/MultiImageUpload.vue"
+	  var id = "/Users/cookfront/Sites/workspace/study/duiba-design/src/components/MultiImageUpload.vue"
 	  if (!module.hot.data) {
 	    hotAPI.createRecord(id, module.exports)
 	  } else {
@@ -18098,8 +18106,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	if(false) {
 		// When the styles change, update the <style> tags
 		if(!content.locals) {
-			module.hot.accept("!!./../../node_modules/.npminstall/css-loader/0.21.0/css-loader/index.js?sourceMap!./../../node_modules/.npminstall/vue-loader/8.0.0/vue-loader/lib/style-rewriter.js?id=_v-779618db&file=MultiImageUpload.vue!./../../node_modules/.npminstall/less-loader/2.2.3/less-loader/index.js!./../../node_modules/.npminstall/vue-loader/8.0.0/vue-loader/lib/selector.js?type=style&index=0!./../../node_modules/.npminstall/eslint-loader/1.6.1/eslint-loader/index.js!./../../node_modules/.npminstall/eslint-loader/1.6.1/eslint-loader/index.js!./MultiImageUpload.vue", function() {
-				var newContent = require("!!./../../node_modules/.npminstall/css-loader/0.21.0/css-loader/index.js?sourceMap!./../../node_modules/.npminstall/vue-loader/8.0.0/vue-loader/lib/style-rewriter.js?id=_v-779618db&file=MultiImageUpload.vue!./../../node_modules/.npminstall/less-loader/2.2.3/less-loader/index.js!./../../node_modules/.npminstall/vue-loader/8.0.0/vue-loader/lib/selector.js?type=style&index=0!./../../node_modules/.npminstall/eslint-loader/1.6.1/eslint-loader/index.js!./../../node_modules/.npminstall/eslint-loader/1.6.1/eslint-loader/index.js!./MultiImageUpload.vue");
+			module.hot.accept("!!./../../node_modules/.npminstall/css-loader/0.21.0/css-loader/index.js?sourceMap!./../../node_modules/.npminstall/vue-loader/8.0.0/vue-loader/lib/style-rewriter.js?id=_v-1b55a59f&file=MultiImageUpload.vue!./../../node_modules/.npminstall/less-loader/2.2.3/less-loader/index.js!./../../node_modules/.npminstall/vue-loader/8.0.0/vue-loader/lib/selector.js?type=style&index=0!./../../node_modules/.npminstall/eslint-loader/1.6.1/eslint-loader/index.js!./../../node_modules/.npminstall/eslint-loader/1.6.1/eslint-loader/index.js!./MultiImageUpload.vue", function() {
+				var newContent = require("!!./../../node_modules/.npminstall/css-loader/0.21.0/css-loader/index.js?sourceMap!./../../node_modules/.npminstall/vue-loader/8.0.0/vue-loader/lib/style-rewriter.js?id=_v-1b55a59f&file=MultiImageUpload.vue!./../../node_modules/.npminstall/less-loader/2.2.3/less-loader/index.js!./../../node_modules/.npminstall/vue-loader/8.0.0/vue-loader/lib/selector.js?type=style&index=0!./../../node_modules/.npminstall/eslint-loader/1.6.1/eslint-loader/index.js!./../../node_modules/.npminstall/eslint-loader/1.6.1/eslint-loader/index.js!./MultiImageUpload.vue");
 				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 				update(newContent);
 			});
@@ -18117,7 +18125,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	
 	// module
-	exports.push([module.id, ".multi-image-upload .uploaded-image,\n.multi-image-upload .add-image-container {\n  float: left;\n}\n.multi-image-upload li {\n  float: left;\n  padding: 3px;\n  position: relative;\n  background-color: #fff;\n  border: 1px solid #e5e5e5;\n  margin-right: 15px;\n  margin-bottom: 15px;\n}\n.multi-image-upload img {\n  display: block;\n}\n.multi-image-upload .remove-icon {\n  position: absolute;\n  top: -8px;\n  right: -8px;\n  color: #ccc;\n  cursor: pointer;\n}\n.multi-image-upload .add-image-container {\n  padding: 3px;\n  border: 1px solid #e5e5e5;\n  position: relative;\n}\n.multi-image-upload .add-image-btn {\n  display: block;\n  background-color: #d8d8d8;\n  text-align: center;\n  color: #fff;\n  min-width: 100px;\n}\n.multi-image-upload .file-upload {\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 214px;\n  height: 100px;\n}\n.multi-image-upload .file-upload input {\n  z-index: 1;\n  opacity: 0;\n  font-size: 20em;\n  top: 0;\n  left: 0;\n  right: 0;\n  bottom: 0;\n  position: absolute;\n  width: 100%;\n  height: 100%;\n  cursor: pointer;\n}\n.multi-image-upload .invalid {\n  clear: both;\n  font-size: 14px;\n  color: #ff795c;\n  padding-top: 10px;\n}\n", "", {"version":3,"sources":["/./src/components/MultiImageUpload.vue"],"names":[],"mappings":"AAAA;;EAEE,YAAY;CACb;AACD;EACE,YAAY;EACZ,aAAa;EACb,mBAAmB;EACnB,uBAAuB;EACvB,0BAA0B;EAC1B,mBAAmB;EACnB,oBAAoB;CACrB;AACD;EACE,eAAe;CAChB;AACD;EACE,mBAAmB;EACnB,UAAU;EACV,YAAY;EACZ,YAAY;EACZ,gBAAgB;CACjB;AACD;EACE,aAAa;EACb,0BAA0B;EAC1B,mBAAmB;CACpB;AACD;EACE,eAAe;EACf,0BAA0B;EAC1B,mBAAmB;EACnB,YAAY;EACZ,iBAAiB;CAClB;AACD;EACE,mBAAmB;EACnB,OAAO;EACP,QAAQ;EACR,aAAa;EACb,cAAc;CACf;AACD;EACE,WAAW;EACX,WAAW;EACX,gBAAgB;EAChB,OAAO;EACP,QAAQ;EACR,SAAS;EACT,UAAU;EACV,mBAAmB;EACnB,YAAY;EACZ,aAAa;EACb,gBAAgB;CACjB;AACD;EACE,YAAY;EACZ,gBAAgB;EAChB,eAAe;EACf,kBAAkB;CACnB","file":"MultiImageUpload.vue","sourcesContent":[".multi-image-upload .uploaded-image,\n.multi-image-upload .add-image-container {\n  float: left;\n}\n.multi-image-upload li {\n  float: left;\n  padding: 3px;\n  position: relative;\n  background-color: #fff;\n  border: 1px solid #e5e5e5;\n  margin-right: 15px;\n  margin-bottom: 15px;\n}\n.multi-image-upload img {\n  display: block;\n}\n.multi-image-upload .remove-icon {\n  position: absolute;\n  top: -8px;\n  right: -8px;\n  color: #ccc;\n  cursor: pointer;\n}\n.multi-image-upload .add-image-container {\n  padding: 3px;\n  border: 1px solid #e5e5e5;\n  position: relative;\n}\n.multi-image-upload .add-image-btn {\n  display: block;\n  background-color: #d8d8d8;\n  text-align: center;\n  color: #fff;\n  min-width: 100px;\n}\n.multi-image-upload .file-upload {\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 214px;\n  height: 100px;\n}\n.multi-image-upload .file-upload input {\n  z-index: 1;\n  opacity: 0;\n  font-size: 20em;\n  top: 0;\n  left: 0;\n  right: 0;\n  bottom: 0;\n  position: absolute;\n  width: 100%;\n  height: 100%;\n  cursor: pointer;\n}\n.multi-image-upload .invalid {\n  clear: both;\n  font-size: 14px;\n  color: #ff795c;\n  padding-top: 10px;\n}\n"],"sourceRoot":"webpack://"}]);
+	exports.push([module.id, ".multi-image-upload .uploaded-image,\n.multi-image-upload .add-image-container {\n  float: left;\n}\n.multi-image-upload li {\n  float: left;\n  padding: 3px;\n  position: relative;\n  background-color: #fff;\n  border: 1px solid #e5e5e5;\n  margin-right: 15px;\n  margin-bottom: 15px;\n}\n.multi-image-upload img {\n  display: block;\n}\n.multi-image-upload .remove-icon {\n  position: absolute;\n  top: -8px;\n  right: -8px;\n  color: #ccc;\n  cursor: pointer;\n}\n.multi-image-upload .add-image-container {\n  padding: 3px;\n  border: 1px solid #e5e5e5;\n  position: relative;\n}\n.multi-image-upload .add-image-btn {\n  display: block;\n  background-color: #d8d8d8;\n  text-align: center;\n  color: #fff;\n  min-width: 100px;\n}\n.multi-image-upload .file-upload {\n  position: absolute;\n  top: 0;\n  left: 0;\n  min-width: 100px;\n  height: 100px;\n}\n.multi-image-upload .file-upload input {\n  z-index: 1;\n  opacity: 0;\n  font-size: 20em;\n  top: 0;\n  left: 0;\n  right: 0;\n  bottom: 0;\n  position: absolute;\n  width: 100%;\n  height: 100%;\n  cursor: pointer;\n}\n.multi-image-upload .invalid {\n  clear: both;\n  font-size: 14px;\n  color: #ff795c;\n  padding-top: 10px;\n}\n", "", {"version":3,"sources":["/./src/components/MultiImageUpload.vue"],"names":[],"mappings":"AAAA;;EAEE,YAAY;CACb;AACD;EACE,YAAY;EACZ,aAAa;EACb,mBAAmB;EACnB,uBAAuB;EACvB,0BAA0B;EAC1B,mBAAmB;EACnB,oBAAoB;CACrB;AACD;EACE,eAAe;CAChB;AACD;EACE,mBAAmB;EACnB,UAAU;EACV,YAAY;EACZ,YAAY;EACZ,gBAAgB;CACjB;AACD;EACE,aAAa;EACb,0BAA0B;EAC1B,mBAAmB;CACpB;AACD;EACE,eAAe;EACf,0BAA0B;EAC1B,mBAAmB;EACnB,YAAY;EACZ,iBAAiB;CAClB;AACD;EACE,mBAAmB;EACnB,OAAO;EACP,QAAQ;EACR,iBAAiB;EACjB,cAAc;CACf;AACD;EACE,WAAW;EACX,WAAW;EACX,gBAAgB;EAChB,OAAO;EACP,QAAQ;EACR,SAAS;EACT,UAAU;EACV,mBAAmB;EACnB,YAAY;EACZ,aAAa;EACb,gBAAgB;CACjB;AACD;EACE,YAAY;EACZ,gBAAgB;EAChB,eAAe;EACf,kBAAkB;CACnB","file":"MultiImageUpload.vue","sourcesContent":[".multi-image-upload .uploaded-image,\n.multi-image-upload .add-image-container {\n  float: left;\n}\n.multi-image-upload li {\n  float: left;\n  padding: 3px;\n  position: relative;\n  background-color: #fff;\n  border: 1px solid #e5e5e5;\n  margin-right: 15px;\n  margin-bottom: 15px;\n}\n.multi-image-upload img {\n  display: block;\n}\n.multi-image-upload .remove-icon {\n  position: absolute;\n  top: -8px;\n  right: -8px;\n  color: #ccc;\n  cursor: pointer;\n}\n.multi-image-upload .add-image-container {\n  padding: 3px;\n  border: 1px solid #e5e5e5;\n  position: relative;\n}\n.multi-image-upload .add-image-btn {\n  display: block;\n  background-color: #d8d8d8;\n  text-align: center;\n  color: #fff;\n  min-width: 100px;\n}\n.multi-image-upload .file-upload {\n  position: absolute;\n  top: 0;\n  left: 0;\n  min-width: 100px;\n  height: 100px;\n}\n.multi-image-upload .file-upload input {\n  z-index: 1;\n  opacity: 0;\n  font-size: 20em;\n  top: 0;\n  left: 0;\n  right: 0;\n  bottom: 0;\n  position: absolute;\n  width: 100%;\n  height: 100%;\n  cursor: pointer;\n}\n.multi-image-upload .invalid {\n  clear: both;\n  font-size: 14px;\n  color: #ff795c;\n  padding-top: 10px;\n}\n"],"sourceRoot":"webpack://"}]);
 	
 	// exports
 
@@ -18154,6 +18162,10 @@ return /******/ (function(modules) { // webpackBootstrap
 	    max: {
 	      type: Number,
 	      default: 5
+	    },
+	    uploadUrl: {
+	      type: String,
+	      default: '/upload/image'
 	    }
 	  },
 	
@@ -18221,7 +18233,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	//     position: absolute;
 	//     top: 0;
 	//     left: 0;
-	//     width: 214px;
+	//     min-width: 100px;
 	//     height: 100px;
 	
 	//     input {
@@ -18291,7 +18303,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  var hotAPI = require("vue-hot-reload-api")
 	  hotAPI.install(require("vue"), true)
 	  if (!hotAPI.compatible) return
-	  var id = "/Users/cookfront/Sites/work/duiba-design/src/components/RichEditor.vue"
+	  var id = "/Users/cookfront/Sites/workspace/study/duiba-design/src/components/RichEditor.vue"
 	  if (!module.hot.data) {
 	    hotAPI.createRecord(id, module.exports)
 	  } else {
@@ -18315,8 +18327,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	if(false) {
 		// When the styles change, update the <style> tags
 		if(!content.locals) {
-			module.hot.accept("!!./../../node_modules/.npminstall/css-loader/0.21.0/css-loader/index.js?sourceMap!./../../node_modules/.npminstall/vue-loader/8.0.0/vue-loader/lib/style-rewriter.js?id=_v-b882c1fe&file=RichEditor.vue!./../../node_modules/.npminstall/less-loader/2.2.3/less-loader/index.js!./../../node_modules/.npminstall/vue-loader/8.0.0/vue-loader/lib/selector.js?type=style&index=0!./../../node_modules/.npminstall/eslint-loader/1.6.1/eslint-loader/index.js!./../../node_modules/.npminstall/eslint-loader/1.6.1/eslint-loader/index.js!./RichEditor.vue", function() {
-				var newContent = require("!!./../../node_modules/.npminstall/css-loader/0.21.0/css-loader/index.js?sourceMap!./../../node_modules/.npminstall/vue-loader/8.0.0/vue-loader/lib/style-rewriter.js?id=_v-b882c1fe&file=RichEditor.vue!./../../node_modules/.npminstall/less-loader/2.2.3/less-loader/index.js!./../../node_modules/.npminstall/vue-loader/8.0.0/vue-loader/lib/selector.js?type=style&index=0!./../../node_modules/.npminstall/eslint-loader/1.6.1/eslint-loader/index.js!./../../node_modules/.npminstall/eslint-loader/1.6.1/eslint-loader/index.js!./RichEditor.vue");
+			module.hot.accept("!!./../../node_modules/.npminstall/css-loader/0.21.0/css-loader/index.js?sourceMap!./../../node_modules/.npminstall/vue-loader/8.0.0/vue-loader/lib/style-rewriter.js?id=_v-836fe276&file=RichEditor.vue!./../../node_modules/.npminstall/less-loader/2.2.3/less-loader/index.js!./../../node_modules/.npminstall/vue-loader/8.0.0/vue-loader/lib/selector.js?type=style&index=0!./../../node_modules/.npminstall/eslint-loader/1.6.1/eslint-loader/index.js!./../../node_modules/.npminstall/eslint-loader/1.6.1/eslint-loader/index.js!./RichEditor.vue", function() {
+				var newContent = require("!!./../../node_modules/.npminstall/css-loader/0.21.0/css-loader/index.js?sourceMap!./../../node_modules/.npminstall/vue-loader/8.0.0/vue-loader/lib/style-rewriter.js?id=_v-836fe276&file=RichEditor.vue!./../../node_modules/.npminstall/less-loader/2.2.3/less-loader/index.js!./../../node_modules/.npminstall/vue-loader/8.0.0/vue-loader/lib/selector.js?type=style&index=0!./../../node_modules/.npminstall/eslint-loader/1.6.1/eslint-loader/index.js!./../../node_modules/.npminstall/eslint-loader/1.6.1/eslint-loader/index.js!./RichEditor.vue");
 				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 				update(newContent);
 			});
