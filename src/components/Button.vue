@@ -1,5 +1,5 @@
 <template>
-  <button :disabled="disabled" class="d-button"
+  <button :disabled="disabled" @click="clickHandle" class="d-button"
     :class="[
       type ? 'd-button--' + type : '',
       size ? 'd-button--' + size : '',
@@ -28,6 +28,15 @@ export default {
       default: ''
     },
     disabled: Boolean
+  },
+
+  methods: {
+    clickHandle: function(event) {
+      if (this.disabled) {
+        return;
+      }
+      this.$emit('click', event);
+    }
   }
 };
 </script>
@@ -121,4 +130,3 @@ export default {
   padding: 0 15px;
 }
 </style>
-
