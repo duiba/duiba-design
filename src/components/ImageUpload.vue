@@ -1,5 +1,5 @@
 <template>
-  <div class="image-upload-container">
+  <div class="d-image-upload-container">
     <div class="img" v-bind:class="{
       'img-uploaded': !!value
     }">
@@ -59,7 +59,7 @@ export default {
 </script>
 
 <style lang="less">
-.image-upload-container {
+.d-image-upload-container {
   .img {
     padding: 5px;
     border: 1px solid #e5e5e5;

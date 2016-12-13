@@ -1,5 +1,5 @@
 <template>
-  <label class="checkbox-control"
+  <label class="d-checkbox-control"
     v-bind:class="{
       'is-disabled': disabled
     }"
@@ -71,7 +71,7 @@ export default {
 </script>
 
 <style lang="less">
-.checkbox-control {
+.d-checkbox-control {
   display: inline-block;
   line-height: 34px;
   height: 34px;

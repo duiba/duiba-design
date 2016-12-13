@@ -1,5 +1,5 @@
 <template>
-  <div v-show="show" class="alert">
+  <div v-show="show" class="d-alert">
     <i v-show="closable" class="iconhandle close" @click="close">&#xe609;</i>
     <slot></slot>
   </div>
@@ -33,7 +33,7 @@ export default {
 </script>
 
 <style lang="less">
-.alert {
+.d-alert {
   border: 1px solid #d2f0f0;
   line-height: 1.5;
   background: #f6fdfd;

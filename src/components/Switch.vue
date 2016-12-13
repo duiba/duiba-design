@@ -1,12 +1,12 @@
 <template>
-  <div class="switch" v-bind:class="{
+  <div class="d-switch" v-bind:class="{
     'on': status,
     'disable': disabled,
     'off': !status
   }" @click="toggleSwitch">
-    <label class="switch-label">
-      <div class="switch-inner"></div>
-      <div class="switch-switch"></div>
+    <label class="d-switch-label">
+      <div class="d-switch-inner"></div>
+      <div class="d-switch-switch"></div>
     </label>
   </div>
 </template>
@@ -47,27 +47,27 @@ export default {
 </script>
 
 <style lang="less">
-.switch {
+.d-switch {
   position: relative;
   width: 44px;
   user-select: none;
 }
 
-.switch-label {
+.d-switch-label {
   display: block;
   overflow: hidden;
   cursor: pointer;
   border-radius: 11px;
 }
 
-.switch-inner {
+.d-switch-inner {
   width: 200%;
   margin-left: -100%;
   transition: margin 0.2s ease-in;
 }
 
-.switch-inner:before,
-.switch-inner:after {
+.d-switch-inner:before,
+.d-switch-inner:after {
   float: left;
   padding: 0;
   width: 50%;
@@ -77,7 +77,7 @@ export default {
   box-sizing: border-box;
 }
 
-.switch-inner:before {
+.d-switch-inner:before {
   content: "开";
   padding-left: 7px;
   font-size: 12px;
@@ -85,7 +85,7 @@ export default {
   background-color: #444;
 }
 
-.switch-inner:after {
+.d-switch-inner:after {
   content: "关";
   padding-right: 7px;
   color: #fff;
@@ -94,7 +94,7 @@ export default {
   text-align: right;
 }
 
-.switch-switch {
+.d-switch-switch {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -106,17 +106,17 @@ export default {
   transition: right 0.2s ease-in, box-shadow 0.2s ease-in;
 }
 
-.on .switch-inner {
+.on .d-switch-inner {
   margin-left: 0;
 }
 
-.on .switch-switch {
+.on .d-switch-switch {
   right: 0;
 }
 
 .disable  {
-  .switch-inner:before,
-  .switch-inner:after {
+  .d-switch-inner:before,
+  .d-switch-inner:after {
     cursor: not-allowed;
     background-color: #eee;
   }

@@ -1,9 +1,9 @@
 <template>
-  <span class="breadcrumb__item">
-    <span class="breadcrumb__item__inner" v-el:link>
+  <span class="d-breadcrumb__item">
+    <span class="d-breadcrumb__item__inner" v-el:link>
       <slot></slot>
     </span>
-    <span class="breadcrumb__separator">{{{separator}}}</span>
+    <span class="d-breadcrumb__separator">{{{separator}}}</span>
   </span>
 </template>
 <script>
@@ -35,34 +35,34 @@
 </script>
 
 <style lang="less">
-.breadcrumb {
+.d-breadcrumb {
   line-height: 1;
   font-size: 18px;
 }
-.breadcrumb__item {
+.d-breadcrumb__item {
   color: #444;
 
   &:last-child {
     font-weight: bold;
 
-    .breadcrumb__separator {
+    .d-breadcrumb__separator {
       display: none;
     }
 
-    .breadcrumb__item__inner {
+    .d-breadcrumb__item__inner {
       cursor: default;
     }
   }
 }
 
-.breadcrumb__separator {
+.d-breadcrumb__separator {
   font-family: handle;
   font-size: 12px;
   margin: 0 5px;
   vertical-align: middle;
 }
 
-.breadcrumb__item__inner {
+.d-breadcrumb__item__inner {
   cursor: pointer;
 }
 </style>

@@ -1,5 +1,5 @@
 <template>
-  <div class="breadcrumb">
+  <div class="d-breadcrumb">
     <slot></slot>
   </div>
 </template>

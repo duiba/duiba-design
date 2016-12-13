@@ -1,5 +1,5 @@
 <template>
-  <div role="tabpanel" class="tab-pane" v-show="active">
+  <div role="tabpanel" class="d-tab-pane" v-show="active">
     <slot></slot>
   </div>
 </template>

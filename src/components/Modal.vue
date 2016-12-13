@@ -1,9 +1,9 @@
 <template>
   <div role="dialog"
     v-bind:class="{
-      'modal': true,
+      'd-modal': true,
       'fade': effect === 'fade',
-      'message-box': type === 'message',
+      'd-message-box': type === 'message',
     }"
   >
     <div class="modal-dialog" role="document" v-bind:style="{width: optionalWidth}">
@@ -205,7 +205,7 @@ export default {
   }
 }
 
-.modal {
+.d-modal {
   position: fixed;
   top: 0;
   right: 0;
@@ -233,7 +233,7 @@ export default {
     }
   }
 
-  &.message-box {
+  &.d-message-box {
     .modal-dialog {
       width: auto !important;
       max-width: 500px;

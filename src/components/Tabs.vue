@@ -1,6 +1,6 @@
 <template>
   <!-- Nav tabs -->
-  <ul class="header-tabs cf" role="tablist">
+  <ul class="d-tabs cf" role="tablist">
     <template v-for="t in tabs">
       <li @click.prevent="select(t)">
         <a :class="{active: t.active}" href="javascript:void(0)">
@@ -9,7 +9,7 @@
       </li>
     </template>
   </ul>
-  <div class="tab-content" v-el:tab-content>
+  <div class="d-tab-content" v-el:tab-content>
     <slot></slot>
   </div>
 </template>
@@ -52,7 +52,7 @@ export default {
 </script>
 
 <style lang="less">
-.header-tabs {
+.d-tabs {
   border-bottom: 1px solid #e5e5e5;
   overflow: hidden;
 
@@ -110,7 +110,7 @@ export default {
   }
 }
 
-.tab-content {
+.d-tab-content {
   padding: 10px 0;
 }
 </style>

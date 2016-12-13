@@ -3,7 +3,7 @@
     <slot>
     </slot>
   </span>
-  <div class="tooltip"
+  <div class="d-tooltip"
     v-bind:class="{
       'top':     placement === 'top',
       'left':    placement === 'left',
@@ -15,8 +15,8 @@
     v-el:popover
     v-show="show"
     role="tooltip">
-    <div class="tooltip-arrow"></div>
-    <div class="tooltip-inner">
+    <div class="d-tooltip-arrow"></div>
+    <div class="d-tooltip-inner">
       <slot name="content">
         {{{content}}}
       </slot>
@@ -69,7 +69,7 @@ export default {
 @line-height-base:             1.428571429; // 20/14
 
 // Base class
-.tooltip {
+.d-tooltip {
   position: absolute;
   z-index: @zindex-tooltip;
   display: block;
@@ -101,7 +101,7 @@ export default {
 }
 
 // Wrapper for the tooltip content
-.tooltip-inner {
+.d-tooltip-inner {
   max-width: @tooltip-max-width;
   padding: 3px 8px;
   color: @tooltip-color;
@@ -111,7 +111,7 @@ export default {
 }
 
 // Arrows
-.tooltip-arrow {
+.d-tooltip-arrow {
   position: absolute;
   width: 0;
   height: 0;
@@ -119,29 +119,29 @@ export default {
   border-style: solid;
 }
 
-.tooltip {
-  &.top .tooltip-arrow {
+.d-tooltip {
+  &.top .d-tooltip-arrow {
     bottom: 0;
     left: 50%;
     margin-left: -@tooltip-arrow-width;
     border-width: @tooltip-arrow-width @tooltip-arrow-width 0;
     border-top-color: @tooltip-arrow-color;
   }
-  &.right .tooltip-arrow {
+  &.right .d-tooltip-arrow {
     top: 50%;
     left: 0;
     margin-top: -@tooltip-arrow-width;
     border-width: @tooltip-arrow-width @tooltip-arrow-width @tooltip-arrow-width 0;
     border-right-color: @tooltip-arrow-color;
   }
-  &.left .tooltip-arrow {
+  &.left .d-tooltip-arrow {
     top: 50%;
     right: 0;
     margin-top: -@tooltip-arrow-width;
     border-width: @tooltip-arrow-width 0 @tooltip-arrow-width @tooltip-arrow-width;
     border-left-color: @tooltip-arrow-color;
   }
-  &.bottom .tooltip-arrow {
+  &.bottom .d-tooltip-arrow {
     top: 0;
     left: 50%;
     margin-left: -@tooltip-arrow-width;
@@ -151,23 +151,23 @@ export default {
 }
 
 .delete.top {
-  .tooltip-inner {
+  .d-tooltip-inner {
     background-color: #ff795c;
   }
 
-  .tooltip-arrow {
+  .d-tooltip-arrow {
     border-top-color: #ff795c;
   }
 }
 
 .disable.top {
-  .tooltip-inner {
+  .d-tooltip-inner {
     background-color: #eee;
     border-radius: 6px;
     color: #888;
   }
 
-  .tooltip-arrow {
+  .d-tooltip-arrow {
     border-top-color: #eee;
   }
 }
