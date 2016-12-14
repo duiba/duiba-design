@@ -35,7 +35,6 @@ export default {
       if (this.disabled) {
         return;
       }
-      this.$emit('click', event);
     }
   }
 };
