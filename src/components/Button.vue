@@ -27,12 +27,17 @@ export default {
       type: String,
       default: ''
     },
-    disabled: Boolean
+    disabled: Boolean,
+    to: Object
   },
 
   methods: {
     clickHandle: function(event) {
       if (this.disabled) {
+        return;
+      }
+      if (this.to) {
+        this.$router.go(this.to);
         return;
       }
     }

@@ -74,6 +74,16 @@ Button组件提供除了默认值以外，还有一种大尺寸按钮，可以�
 ```
 :::
 
+### 路由跳转
+
+Button组件可以设置一个`to`属性，用于设置点击时跳转的路由路径。
+
+:::demo 设置`to`为你需要跳转的路由。
+```html
+<d-button type="primary" :to="{ path: '/'}">按钮</d-button>
+```
+:::
+
 ### 按钮点击回调
 
 :::demo 可以设置一个按钮点击的回调函数。
@@ -91,4 +101,5 @@ Button组件提供除了默认值以外，还有一种大尺寸按钮，可以�
 | type     | 类型   | string    |   primary,warning,text |     —    |
 | disabled  | 禁用    | boolean   | true, false   | false   |
 | icon  | 图标，已有的图标库中的图标名 | string   |  —  |  —  |
+| to  | 路由跳转路径 | Object   |  —  |  —  |
 

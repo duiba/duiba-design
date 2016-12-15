@@ -22,10 +22,8 @@
 
     ready() {
       this.separator = this.$parent.separator;
-      console.log(this.separator);
       if (this.to) {
         let link = this.$els.link;
-        console.log(link);
         link.addEventListener('click', _ => {
           this.$router.go(this.to);
         });
