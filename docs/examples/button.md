@@ -74,13 +74,14 @@ Button组件提供除了默认值以外，还有一种大尺寸按钮，可以�
 ```
 :::
 
-### 路由跳转
+### 设置跳转链接
 
-Button组件可以设置一个`to`属性，用于设置点击时跳转的路由路径。
+Button组件可以设置一个`to`属性，用于设置点击时的跳转链接。
 
-:::demo 设置`to`为你需要跳转的路由。
+:::demo 设置`to`为字符串跳转到对应的`url`，也可以设置为一个路由对象。
 ```html
-<d-button type="primary" :to="{ path: '/'}">按钮</d-button>
+<d-button type="primary" :to="{ path: '/'}">首页</d-button>
+<d-button type="primary" to="http://baidu.com">百度</d-button>
 ```
 :::
 

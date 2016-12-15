@@ -28,7 +28,7 @@ export default {
       default: ''
     },
     disabled: Boolean,
-    to: Object
+    to: [String, Object]
   },
 
   methods: {
@@ -36,8 +36,13 @@ export default {
       if (this.disabled) {
         return;
       }
-      if (this.to) {
-        this.$router.go(this.to);
+      let to = this.to;
+      if (to) {
+        if (typeof to === 'string') {
+          location.href = to;
+        } else {
+          this.$router.go(to);
+        }
         return;
       }
     }
