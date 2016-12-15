@@ -688,12 +688,22 @@ return /******/ (function(modules) { // webpackBootstrap
 	      type: String,
 	      default: ''
 	    },
-	    disabled: Boolean
+	    disabled: Boolean,
+	    to: [String, Object]
 	  },
 	
 	  methods: {
 	    clickHandle: function clickHandle(event) {
 	      if (this.disabled) {
+	        return;
+	      }
+	      var to = this.to;
+	      if (to) {
+	        if (typeof to === 'string') {
+	          location.href = to;
+	        } else {
+	          this.$router.go(to);
+	        }
 	        return;
 	      }
 	    }
@@ -13424,10 +13434,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	    var _this = this;
 	
 	    this.separator = this.$parent.separator;
-	    console.log(this.separator);
 	    if (this.to) {
 	      var link = this.$els.link;
-	      console.log(link);
 	      link.addEventListener('click', function (_) {
 	        _this.$router.go(_this.to);
 	      });
