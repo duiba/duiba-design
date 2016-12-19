@@ -1,5 +1,10 @@
 <script>
 export default {
+  data() {
+    return {
+      disabled: true
+    };
+  },
   methods: {
     handleClick: function(evt) {
       alert(evt);
@@ -32,7 +37,7 @@ export default {
 :::demo 你可以使用`disabled`属性来定义按钮是否可用，它接受一个`Boolean`值。
 
 ```html
-<d-button :disabled="true">默认按钮</d-button>
+<d-button :disabled="disabled">默认按钮</d-button>
 <d-button type="primary" :disabled="true">主要按钮</d-button>
 <d-button type="text" :disabled="true">文字按钮</d-button>
 <d-button icon="&#xe61d;" :disabled="true">批量删除</d-button>

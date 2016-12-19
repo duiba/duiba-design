@@ -27,7 +27,10 @@ export default {
       type: String,
       default: ''
     },
-    disabled: Boolean,
+    disabled: {
+      type: Boolean,
+      default: false
+    },
     to: [String, Object]
   },
 
@@ -41,7 +44,7 @@ export default {
         if (typeof to === 'string') {
           location.href = to;
         } else {
-          this.$router.go(to);
+          this.$router && this.$router.go(to);
         }
         return;
       }
