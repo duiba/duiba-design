@@ -3,10 +3,10 @@
     <ul>
       <li class="nav-item" v-for="item in data">
         <a v-if="!item.path">{{item.name}}</a>
-        <a v-else v-link="{ path: base + item.path, activeClass: 'active', exact: true}">{{item.title || item.name}}</a>
+        <a v-else >{{item.title || item.name}}</a>
         <ul class="pure-menu-list sub-nav" v-if="item.children">
           <li class="nav-item" v-for="navItem in item.children">
-            <a v-link="{ path: base + navItem.path, activeClass: 'active', exact: true}">{{navItem.title || navItem.name}}</a>
+            <router-link :to="base + navItem.path">{{navItem.title || navItem.name}}</router-link>
           </li>
         </ul>
         <template v-if="item.groups">
@@ -17,7 +17,7 @@
                 <li
                   class="nav-item"
                   v-if="!navItem.disabled">
-                  <a v-link="{ path: base + navItem.path, activeClass: 'active', exact: true}">{{navItem.title}}</a>
+                  <router-link :to="base + navItem.path">{{navItem.title}}</router-link>
                 </li>
               </template>
             </ul>

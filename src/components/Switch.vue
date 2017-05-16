@@ -34,12 +34,12 @@ export default {
 
   methods: {
     toggleSwitch: function() {
-      if (this.onChange) {
-        this.onChange(!this.status, this.params);
-        return;
-      }
+      // if (this.onChange) {
+      //   this.onChange(!this.status, this.params);
+      //   return;
+      // }
       if (!this.disabled) {
-        this.status = !this.status;
+        this.$emit('update:status', !this.status);
       }
     }
   }

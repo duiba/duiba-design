@@ -1,26 +1,26 @@
 <template>
-  <span v-el:trigger>
-    <slot>
-    </slot>
-  </span>
-  <div class="d-tooltip"
-    v-bind:class="{
-      'top':     placement === 'top',
-      'left':    placement === 'left',
-      'right':   placement === 'right',
-      'bottom':  placement === 'bottom',
-      'disable': type === 'disable',
-      'delete':  type === 'delete'
-    }"
-    v-el:popover
-    v-show="show"
-    role="tooltip">
-    <div class="d-tooltip-arrow"></div>
-    <div class="d-tooltip-inner">
-      <slot name="content">
-        {{{content}}}
+  <div style="position:relative;">
+    <span ref="trigger">
+      <slot>
       </slot>
-   </div>
+    </span>
+    <div class="d-tooltip"
+      v-bind:class="{
+        'top':     placement === 'top',
+        'left':    placement === 'left',
+        'right':   placement === 'right',
+        'bottom':  placement === 'bottom',
+        'disable': type === 'disable',
+        'delete':  type === 'delete',
+        'visible': show === true  
+      }"
+      ref="popover"
+      role="tooltip">
+      <div class="d-tooltip-arrow"></div>
+      <div class="d-tooltip-inner">
+        <slot name="content" v-html="content">{{content}}</slot>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -93,11 +93,14 @@ export default {
   word-wrap: normal;
   font-size: @font-size-small;
   opacity: @tooltip-opacity;
+  visibility: hidden;
 
   &.top    { margin-top:  -3px; padding: @tooltip-arrow-width 0; }
   &.right  { margin-left:  3px; padding: 0 @tooltip-arrow-width; }
   &.bottom { margin-top:   3px; padding: @tooltip-arrow-width 0; }
   &.left   { margin-left: -3px; padding: 0 @tooltip-arrow-width; }
+
+  &.visible { visibility: visible; }
 }
 
 // Wrapper for the tooltip content

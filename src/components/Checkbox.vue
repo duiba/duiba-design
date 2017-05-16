@@ -5,7 +5,7 @@
     }"
   >
     <i class="icon" v-bind:class="{'iconhandle': isChecked}" @click="handleClick">
-      <span>{{{isChecked ? '&#xe610;' : ''}}}</span>
+      <span>{{isChecked ? '&#xe610;' : ''}}</span>
     </i>
     <slot></slot>
   </label>
@@ -38,7 +38,7 @@ export default {
       },
       set(newValue) {
         if (!this.wrapInGroup) {
-          this.checked = newValue;
+          this.$emit('update:checked', newValue);
         } else {
           let index = this.$parent.value.indexOf(this.name);
           if (newValue && index === -1) {

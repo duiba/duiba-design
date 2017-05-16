@@ -1,9 +1,9 @@
 <template>
-  <div class="date-range" :error-show.sync="false">
-    <datepicker :value.sync="start" :rangeflag="true" :on-change="selectDate('start')" placeholder="起始时间" :disabled-date="disabledDate" :width="width">
+  <div class="date-range">
+    <datepicker :value.sync="myStart" :rangeflag="true" :on-change="selectDate('myStart')" placeholder="起始时间" :disabled-date="disabledDate" :width="width">
     </datepicker>
     <span class="range-split">-</span>
-    <datepicker :value.sync="end" :rangeflag="true" :on-change="selectDate('end')" placeholder="结束时间" :disabled-date="disabledDate" :width="width">
+    <datepicker :value.sync="myEnd" :rangeflag="true" :on-change="selectDate('myEnd')" placeholder="结束时间" :disabled-date="disabledDate" :width="width">
     </datepicker>
     <p class="date-range-error" v-show="errorTip">{{errorTip}}</p>
   </div>
@@ -49,25 +49,29 @@ export default {
   },
 
   watch: {
-    start() {
-      var startTime = new Date(this.start);
-      var endTime = new Date(this.end);
+    myStart() {
+      var startTime = new Date(this.myStart);
+      var endTime = new Date(this.myEnd);
       if (startTime.getTime() > endTime.getTime()) {
-        this.end = this.start;
+        this.myEnd = this.myStart;
       }
+      this.$emit('update:start', this.myStart);
     },
-    end() {
-      var startTime = new Date(this.start);
-      var endTime = new Date(this.end);
+    myEnd() {
+      var startTime = new Date(this.myStart);
+      var endTime = new Date(this.myEnd);
       if (endTime.getTime() < startTime.getTime()) {
-        this.start = this.end;
+        this.myStart = this.myEnd;
       }
+      this.$emit('update:end', this.myEnd);
     }
   },
 
   data() {
     return {
-      errorTip: ''
+      errorTip: '',
+      myStart: this.start,
+      myEnd: this.end
     };
   },
 
@@ -78,8 +82,8 @@ export default {
           return;
         }
         var oneDay = 24 * 60 * 60 * 1000;
-        var startTime = new Date(this.start);
-        var endTime = new Date(this.end);
+        var startTime = new Date(this.myStart);
+        var endTime = new Date(this.myEnd);
         var range;
         if (type === 'start') {
           range = Math.round(Math.abs((endTime.getTime() - date.getTime()) / (oneDay)));
@@ -93,10 +97,10 @@ export default {
           } else {
             if (type === 'start') {
               endTime.setDate(endTime.getDate() - (range - this.range));
-              this.end = formatDate(endTime);
+              this.myEnd = formatDate(endTime);
             } else {
               startTime.setDate(startTime.getDate() + (range - this.range));
-              this.start = formatDate(startTime);
+              this.myStart = formatDate(startTime);
             }
           }
         } else {

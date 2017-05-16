@@ -36,8 +36,9 @@ export default {
   watch: {
     show: function(val) {
       if (val) {
-        const popover = this.$els.popover;
-        const triger = this.$els.trigger.children[0];
+        const popover = this.$refs.popover;
+        const triger = this.$refs.trigger.children[0];
+
         switch (this.placement) {
           case 'top' :
             this.position.left = triger.offsetLeft - popover.offsetWidth / 2 + triger.offsetWidth / 2;
@@ -68,10 +69,11 @@ export default {
       this.show = !this.show;
     }
   },
-  ready() {
-    if (!this.$els.popover) return console.error("Couldn't find popover v-el in your component that uses popoverMixin.");
-    const popover = this.$els.popover;
-    const triger = this.$els.trigger.children[0];
+  mounted() {
+    if (!this.$refs.popover) return console.error("Couldn't find popover ref in your component that uses popoverMixin.");
+    const popover = this.$refs.popover;
+    const triger = this.$refs.trigger.children[0];
+
     if (this.trigger === 'hover') {
       this._mouseenterEvent = EventListener.listen(triger, 'mouseenter', () => {
         this.show = true;
@@ -112,7 +114,7 @@ export default {
     // }
     // popover.style.top = this.position.top + 'px';
     // popover.style.left = this.position.left + 'px';
-    popover.style.display = 'none';
+    popover.style.visibility = 'hidden';
     this.show = !this.show;
   },
   beforeDestroy() {

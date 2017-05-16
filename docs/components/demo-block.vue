@@ -142,6 +142,7 @@
         border: none;
         max-height: none;
         border-radius: 0;
+        padding: 20px;
 
         &::before {
           content: none;

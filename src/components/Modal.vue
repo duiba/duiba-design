@@ -31,7 +31,7 @@
               </p>
             </template>
             <template v-else>
-              <p>{{{description}}}</p>
+              <p v-html="description"></p>
             </template>
           </div>
         </slot>
@@ -110,7 +110,7 @@ export default {
       default: null
     }
   },
-  ready() {
+  mounted() {
     this.$watch('show', (val) => {
       const el = this.$el;
       const body = document.body;
@@ -150,7 +150,7 @@ export default {
                 this.onClose();
                 return;
               } else {
-                this.show = false;
+                this.$emit('update:show', false);
               }
             }
           });
@@ -184,7 +184,7 @@ export default {
         this.onClose();
         return;
       }
-      this.show = false;
+      this.$emit('update:show', false);
     }
   },
   destroyed() {

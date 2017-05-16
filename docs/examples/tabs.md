@@ -1,3 +1,13 @@
+<script>
+export default {
+  data() {
+    return {
+      aindex: 0
+    };
+  }
+};
+</script>
+
 ## Tabs 标签页
 
 分隔内容上有关联但属于不同类别的数据集合。
@@ -7,6 +17,7 @@
 基础的、简洁的标签页。
 
 :::demo Tabs 组件目前只有一种样式，后续如果有其他风格的tab，可以添加一个`type`属性。
+
 
 ```html
 <d-tabs>

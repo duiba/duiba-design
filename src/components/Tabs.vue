@@ -1,16 +1,18 @@
 <template>
-  <!-- Nav tabs -->
-  <ul class="d-tabs cf" role="tablist">
-    <template v-for="t in tabs">
-      <li @click.prevent="select(t)">
-        <a :class="{active: t.active}" href="javascript:void(0)">
-          {{{t.header}}}
-        </a>
-      </li>
-    </template>
-  </ul>
-  <div class="d-tab-content" v-el:tab-content>
-    <slot></slot>
+  <div>
+    <!-- Nav tabs -->
+    <ul class="d-tabs cf" role="tablist">
+      <template v-for="t in tabs">
+        <li @click.prevent="select(t)">
+          <a :class="{active: t.active}" href="javascript:void(0)">
+            {{t.header}}
+          </a>
+        </li>
+      </template>
+    </ul>
+    <div class="d-tab-content" ref="tab-content">
+      <slot></slot>
+    </div>
   </div>
 </template>
 
@@ -27,24 +29,25 @@ export default {
   data() {
     return {
       show: null,
-      tabs: []
+      tabs: [],
+      myActive: this.active
     };
   },
   created() {
     this._tabset = true;
   },
   watch: {
-    active(val) {
+    myActive(val) {
       this.show = this.tabs[val];
     }
   },
-  ready() {
-    this.show = this.tabs[this.active];
+  mounted() {
+    this.show = this.tabs[this.myActive];
   },
   methods: {
     select(tab) {
       if (!tab.disabled) {
-        this.active = tab.index;
+        this.myActive = tab.index;
       }
     }
   }

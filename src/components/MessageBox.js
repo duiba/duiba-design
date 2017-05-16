@@ -29,13 +29,13 @@ var MessageBox = function(options) {
       body.classList.remove('modal-open');
       body.style.paddingRight = '0';
       this.$nextTick(function() {
-        this.$remove();
+        body.removeChild(this.$el);
       });
     }, options.time || 1500);
   });
   setTimeout(function() {
     instance.show = true;
-    instance.$appendTo(body);
+    body.appendChild(instance.$el);
   }, 500);
 };
 

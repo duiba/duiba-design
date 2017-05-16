@@ -8,7 +8,7 @@
       }
     ]"
   >
-    <i class="iconhandle" v-if="icon">{{{icon}}}</i>
+    <i class="iconhandle" v-if="icon" v-html="icon"></i>
     <slot></slot>
   </button>
 </template>
@@ -36,6 +36,7 @@ export default {
 
   methods: {
     clickHandle: function(event) {
+      this.$emit('click', event);
       if (this.disabled) {
         return;
       }

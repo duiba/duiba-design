@@ -98,7 +98,7 @@ export default {
     'displayTime': 'fillValues'
   },
 
-  ready: function () {
+  mounted: function () {
     this.renderFormat();
   },
 
@@ -333,13 +333,13 @@ export default {
 
       this.fullValues = fullValues;
       this.updateTimeValue(fullValues);
-      this.$dispatch('vue-timepicker-update', fullValues);
+      this.$emit('vue-timepicker-update', fullValues);
     },
 
     updateTimeValue: function (fullValues) {
       if (!this.timeValue) {
         // return the `fullValues` if `timeValue` is not set
-        this.$dispatch('change', {data: fullValues});
+        this.$emit('change', {data: fullValues});
         return;
       }
 
@@ -352,7 +352,7 @@ export default {
 
       this.$nextTick(function () {
         self.muteWatch = false;
-        self.$dispatch('change', {data: self.timeValue});
+        self.$emit('change', {data: self.timeValue});
       });
     },
 

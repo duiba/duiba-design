@@ -1,9 +1,9 @@
 <template>
   <span class="d-breadcrumb__item">
-    <span class="d-breadcrumb__item__inner" v-el:link>
+    <span class="d-breadcrumb__item__inner" ref="link">
       <slot></slot>
     </span>
-    <span class="d-breadcrumb__separator">{{{separator}}}</span>
+    <span class="d-breadcrumb__separator">{{separator}}</span>
   </span>
 </template>
 <script>
@@ -23,7 +23,7 @@
     ready() {
       this.separator = this.$parent.separator;
       if (this.to) {
-        let link = this.$els.link;
+        let link = this.$refs.link;
         link.addEventListener('click', _ => {
           this.$router.go(this.to);
         });

@@ -1,7 +1,7 @@
 import navConfig from './nav.config.json';
 
 const registerRoute = (navConfig) => {
-  let route = {};
+  let route = [];
   let navs = navConfig['zh-CN'];
   navs.forEach(nav => {
     if (nav.groups) {
@@ -20,11 +20,12 @@ const registerRoute = (navConfig) => {
   });
 
   function addRoute(page) {
-    route['/component' + page.path] = {
+    route.push({
+      path: '/component' + page.path,
       component: function(resolve) {
         require([`./examples${page.path}.md`], resolve);
       }
-    };
+    });
   }
 
   return route;

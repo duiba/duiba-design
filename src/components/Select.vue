@@ -1,6 +1,6 @@
 <template>
-<div class="select-group" :class="{open: show}" v-el:container :disabled="disabled">
-  <a class="select-toggle" v-el:trigger>
+<div class="select-group" :class="{open: show}" ref="container" :disabled="disabled">
+  <a class="select-toggle" ref="trigger">
     {{selectItem && selectItem[labelName]}}
     <i class="iconhandle">&#xe618;</i>
   </a>
@@ -37,9 +37,7 @@ export default {
       type: String,
       default: 'label'
     },
-    value: {
-      twoWay: true
-    },
+    value: {},
     options: {
       type: Array,
       default() {
@@ -56,9 +54,9 @@ export default {
       show: false
     };
   },
-  ready() {
-    const triger = this.$els.trigger;
-    const container = this.$els.container;
+  mounted() {
+    const triger = this.$refs.trigger;
+    const container = this.$refs.container;
     if (this.trigger === 'hover') {
       this._mouseenterEvent = EventListener.listen(triger, 'mouseenter', (e) => {
         this.show = true;
@@ -82,7 +80,8 @@ export default {
         return item && item[0];
       } else {
         let first = this.options[0];
-        this.value = this.idName ? (first && first[this.idName]) : (first && first.id);
+        let val = this.idName ? (first && first[this.idName]) : (first && first.id);
+        this.$emit('update:value', val);
         return first;
       }
     }
@@ -92,7 +91,7 @@ export default {
      * 选中某个值
      */
     select(v) {
-      this.value = v;
+      this.$emit('update:value', v);
       this.toggleDropdown();
       this.$emit('select', v);
     },

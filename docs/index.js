@@ -19,18 +19,18 @@ for (let i in DuibaDesign) {
   }
 }
 
-const AppContainer = Vue.extend(App);
-const router = new VueRouter();
-
-router.map(routes);
-
-router.redirect({
-  '*': '/component/alert'
+const router = new VueRouter({
+  mode: 'hash',
+  routes
 });
 
-router.beforeEach(function(transition) {
+router.beforeEach((to, from, next) => {
   window.scrollTo(0, 0);
-  transition.next();
+  next();
 });
 
-router.start(AppContainer, '#app-container');
+new Vue({
+  el: '#app-container',
+  router,
+  render: h => h(App)
+});

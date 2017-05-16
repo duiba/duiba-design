@@ -1,5 +1,7 @@
 # duiba-design
 
+支持vue2.3+版本
+
 ## 安装
 
 ```
@@ -9,9 +11,8 @@ npm install --save duiba-design
 ## 使用
 
 ```js
-import { Alert } from 'duiba-design';
-
-Vue.component(Alert.name, Alert);
+import DuibaDesign from 'duiba-design'
+Vue.use(DuibaDesign)
 ```
 
 ## 开发

@@ -26,12 +26,18 @@ module.exports = {
   output: {
     path: './docs/build',
     publicPath: 'docs/build',
-    filename: '[name].js'
+    filename: '[name].js',
+    alias: {
+      vue: 'vue/dist/vue.js'
+    }
   },
   resolve: {
     root: path.resolve('./'),
     extensions: ['', '.js', '.vue'],
-    fallback: [path.join(__dirname, '../node_modules')]
+    fallback: [path.join(__dirname, '../node_modules')],
+    alias: {
+      'vue': 'vue/dist/vue.js'
+    }
   },
   module: {
     preLoaders: [

@@ -58,13 +58,13 @@
             </p>
           </div>
           <div class="datepicker-monthRange">
-            <template v-for="m in text.months">
+            <template v-for="(m, index) in text.months">
               <span
                 :class="{
-                  'datepicker-dateRange-item-active': (this.text.months[this.getTimeMonth(this.value)] === m) &&
-                  this.currDate.getFullYear() === this.getTimeYear(this.value)
+                  'datepicker-dateRange-item-active': (text.months[getTimeMonth(value)] === m) &&
+                  currDate.getFullYear() === getTimeYear(value)
                 }"
-                @click="monthSelect($index)">
+                @click="monthSelect(index)">
                 {{m.substr(0,3)}}
               </span>
             </template>
@@ -88,7 +88,7 @@
             <template v-for="decade in decadeRange">
               <span
                 :class="{
-                  'datepicker-dateRange-item-active': this.getTimeYear(this.value) === decade.text
+                  'datepicker-dateRange-item-active': getTimeYear(value) === decade.text
                 }"
                 @click.stop="yearSelect(decade.text)">
                 {{decade.text}}
@@ -153,8 +153,7 @@ export default {
   props: {
     value: {
       type: String,
-      default: '',
-      twoWay: true
+      default: ''
     },
     format: {
       default: 'yyyy-MM-dd'
@@ -195,8 +194,8 @@ export default {
       default: false
     }
   },
-  ready () {
-    this.$dispatch('child-created', this)
+  mounted () {
+    this.$emit('child-created', this)
     this.currDate = this.parse(this.value) || this.parse(new Date())
     this._closeEvent = EventListener.listen(window, 'click', (e) => {
               if (!this.$el.contains(e.target)) this.close()
@@ -348,7 +347,7 @@ export default {
         this.displayTimeView = true
       } else {
         this.currDate = date
-        this.value = this.stringify(this.currDate)
+        this.$emit('update:value', this.stringify(this.currDate))
         this.displayDayView = false
       }
       if (this.rangeflag) {
@@ -376,7 +375,7 @@ export default {
       this.tempDate.setHours(parseInt(time[0]))
       this.tempDate.setMinutes(0)
       this.currDate = this.tempDate
-      this.value = this.stringify(this.currDate)
+      this.$emit('update:value', this.stringify(this.currDate))
     },
 
     minuteSelect (time, event) {
@@ -389,7 +388,7 @@ export default {
       this.tempDate.setHours(parseInt(time[0]))
       this.tempDate.setMinutes(time[1])
       this.currDate = this.tempDate
-      this.value = this.stringify(this.currDate) + ':00'
+      this.$emit('update:value', this.stringify(this.currDate) + ':00')
     },
 
     /**
