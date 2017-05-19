@@ -1,6 +1,10 @@
 <template>
   <div class="pagination">
-    <div class="total-count">共{{total}}条</div>
+    <div class="batch-action" v-if="batch">
+      <slot name="batch-btns">
+      </slot>
+    </div>
+    <div class="total-count" v-else>共{{total}}条</div>
     <ul class="pagination-list" @click="onPagerClick">
       <li class="iconhandle number prev" v-if="currentPage !== 1">
         &#xe612;
@@ -35,8 +39,16 @@
 </template>
 
 <script>
+import DButton from './Button';
+import DCheckbox from './Checkbox';
+
 export default {
   name: 'd-pagination',
+
+  components: {
+    DButton,
+    DCheckbox
+  },
 
   props: {
     /**
@@ -59,6 +71,13 @@ export default {
     currentPage: {
       type: Number,
       default: 1
+    },
+    /**
+     * 批量操作
+     */
+    batch: {
+      type: Boolean,
+      default: false
     }
   },
 
@@ -201,5 +220,24 @@ export default {
     }
   }
 }
+.batch-action {
+  float: left;
+  font-size: 14px;
+  color: #888;
+  line-height: 34px;
+  .d-checkbox-control {
+    float: left;
+  }
+  .btn {
+    margin-left: 10px;
+  }
+  btn.disabled, .btn[disabled] {
+    cursor: not-allowed;
+    background: #f4f4f4;
+    border-color: #ececec;
+    color: #d8d8d8;
+  } 
+}
+
 </style>
 
